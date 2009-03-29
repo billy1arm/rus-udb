@@ -1,3 +1,12 @@
+-- phpMyAdmin SQL Dump
+-- version 3.1.3
+-- http://www.phpmyadmin.net
+--
+-- Хост: localhost:3306
+-- Время создания: Мар 29 2009 г., 17:37
+-- Версия сервера: 5.0.77
+-- Версия PHP: 5.2.6
+
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 
 
@@ -5,6 +14,16 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8 */;
+
+--
+-- База данных: `mangos`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `locales_creature`
+--
 
 DROP TABLE IF EXISTS `locales_creature`;
 CREATE TABLE IF NOT EXISTS `locales_creature` (
@@ -27,6 +46,10 @@ CREATE TABLE IF NOT EXISTS `locales_creature` (
   `subname_loc8` varchar(100) default NULL,
   PRIMARY KEY  (`entry`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `locales_creature`
+--
 
 INSERT INTO `locales_creature` (`entry`, `name_loc1`, `name_loc2`, `name_loc3`, `name_loc4`, `name_loc5`, `name_loc6`, `name_loc7`, `name_loc8`, `subname_loc1`, `subname_loc2`, `subname_loc3`, `subname_loc4`, `subname_loc5`, `subname_loc6`, `subname_loc7`, `subname_loc8`) VALUES
 (5757, '', '', '', '', '', '', '', 'Лилли', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Лавка зачаровывателя'),

@@ -1,3 +1,12 @@
+-- phpMyAdmin SQL Dump
+-- version 3.1.3
+-- http://www.phpmyadmin.net
+--
+-- Хост: localhost:3306
+-- Время создания: Мар 29 2009 г., 17:38
+-- Версия сервера: 5.0.77
+-- Версия PHP: 5.2.6
+
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 
 
@@ -5,6 +14,16 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8 */;
+
+--
+-- База данных: `mangos`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `locales_gameobject`
+--
 
 DROP TABLE IF EXISTS `locales_gameobject`;
 CREATE TABLE IF NOT EXISTS `locales_gameobject` (
@@ -27,6 +46,10 @@ CREATE TABLE IF NOT EXISTS `locales_gameobject` (
   `castbarcaption_loc8` varchar(100) NOT NULL default '',
   PRIMARY KEY  (`entry`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `locales_gameobject`
+--
 
 INSERT INTO `locales_gameobject` (`entry`, `name_loc1`, `name_loc2`, `name_loc3`, `name_loc4`, `name_loc5`, `name_loc6`, `name_loc7`, `name_loc8`, `castbarcaption_loc1`, `castbarcaption_loc2`, `castbarcaption_loc3`, `castbarcaption_loc4`, `castbarcaption_loc5`, `castbarcaption_loc6`, `castbarcaption_loc7`, `castbarcaption_loc8`) VALUES
 (1627, '', '', '', '', '', '', '', 'Ящик из Даларана', '', '', '', '', '', '', '', ''),

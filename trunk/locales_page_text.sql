@@ -1,3 +1,12 @@
+-- phpMyAdmin SQL Dump
+-- version 3.1.3
+-- http://www.phpmyadmin.net
+--
+-- Хост: localhost:3306
+-- Время создания: Мар 29 2009 г., 17:39
+-- Версия сервера: 5.0.77
+-- Версия PHP: 5.2.6
+
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 
 
@@ -5,6 +14,16 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8 */;
+
+--
+-- База данных: `mangos`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `locales_page_text`
+--
 
 DROP TABLE IF EXISTS `locales_page_text`;
 CREATE TABLE IF NOT EXISTS `locales_page_text` (
@@ -19,6 +38,10 @@ CREATE TABLE IF NOT EXISTS `locales_page_text` (
   `Text_loc8` longtext,
   PRIMARY KEY  (`entry`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `locales_page_text`
+--
 
 INSERT INTO `locales_page_text` (`entry`, `Text_loc1`, `Text_loc2`, `Text_loc3`, `Text_loc4`, `Text_loc5`, `Text_loc6`, `Text_loc7`, `Text_loc8`) VALUES
 (108, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'В тот день мы пошли на юг, двигаясь по свежим следам пантеры. Вскоре мы пришли к ущелью, через которое был перекинут длинный веревочный мостик. При виде этого чуда инженерной мысли мне сразу вспомнилось, как описывал этот район Бранн. Тролли, коренные жители этих мест, всегда считались примитивной расой, но мастерство, с которым они сконструировали этот мост через непреодолимую пропасть, было неоспоримо.'),

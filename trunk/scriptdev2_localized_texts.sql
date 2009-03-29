@@ -1,3 +1,12 @@
+-- phpMyAdmin SQL Dump
+-- version 3.1.3
+-- http://www.phpmyadmin.net
+--
+-- Хост: localhost:3306
+-- Время создания: Мар 29 2009 г., 16:58
+-- Версия сервера: 5.0.77
+-- Версия PHP: 5.2.6
+
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 
 
@@ -5,6 +14,16 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8 */;
+
+--
+-- База данных: `scriptdev2`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `localized_texts`
+--
 
 DROP TABLE IF EXISTS `localized_texts`;
 CREATE TABLE IF NOT EXISTS `localized_texts` (
@@ -17,10 +36,14 @@ CREATE TABLE IF NOT EXISTS `localized_texts` (
   `locale_5` varchar(255) NOT NULL default '',
   `locale_6` varchar(255) NOT NULL default '',
   `locale_7` varchar(255) NOT NULL default '',
-  `locale_8` varchar(255) NOT NULL default '',
+  `locale_8` varchar(255) NOT NULL,
   `comment` varchar(255) NOT NULL default '' COMMENT 'Text Comment',
   PRIMARY KEY  (`id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Localized Text' AUTO_INCREMENT=182 ;
+
+--
+-- Дамп данных таблицы `localized_texts`
+--
 
 INSERT INTO `localized_texts` (`id`, `locale_0`, `locale_1`, `locale_2`, `locale_3`, `locale_4`, `locale_5`, `locale_6`, `locale_7`, `locale_8`, `comment`) VALUES
 (1, 'I see those fools at the Abbey sent some fresh meat for us.', '', '', '', '', '', '', '', '', '103'),
