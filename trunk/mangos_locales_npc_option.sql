@@ -1,10 +1,3 @@
-SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
-
 DROP TABLE IF EXISTS `locales_npc_option`;
 CREATE TABLE IF NOT EXISTS `locales_npc_option` (
   `entry` mediumint(8) unsigned NOT NULL default '0',
@@ -27,52 +20,58 @@ CREATE TABLE IF NOT EXISTS `locales_npc_option` (
   PRIMARY KEY  (`entry`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
-INSERT INTO `locales_npc_option` (`entry`, `option_text_loc1`, `option_text_loc2`, `option_text_loc3`, `option_text_loc4`, `option_text_loc5`, `option_text_loc6`, `option_text_loc7`, `option_text_loc8`, `box_text_loc1`, `box_text_loc2`, `box_text_loc3`, `box_text_loc4`, `box_text_loc5`, `box_text_loc6`, `box_text_loc7`, `box_text_loc8`) VALUES
-(0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Что?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(2, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Выполнить задания', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(3, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Я хочу посмотреть твои товары', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(4, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Я хочу быстро путешествовать', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(5, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Обучи меня!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(6, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Верни меня к жизни', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(7, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Неизвестно', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(8, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Сделай эту таверну моим домом', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(9, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Покажи мне мой банк', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(10, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Как мне сформировать гильдию?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(11, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Я хочу создать герб гильдии.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(12, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Я хочу встыпить на поле боя.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(13, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Аукцион!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(14, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Стойла', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(15, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Броня', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(16, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Банк', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(17, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Укротитель ветрокрылов', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(18, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Регистратор гильдий', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(19, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Таверна', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(20, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Почтовый ящик', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(21, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Дом аукционов', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(22, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Учитель обращения с оружием', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(23, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Смотритель стойл', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(24, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Распорядитель боев', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(25, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Наставник класса', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(26, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Наставник профессии', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(27, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Воин', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(28, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Паладин', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(29, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Охотник', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(30, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Разбойник', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(31, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Жрец', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(33, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Шаман', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(34, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Маг', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(35, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Чернокнижник', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(37, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Друид', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(38, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Алхимия', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(39, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Кузнечное дело', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(40, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Кулинария', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(41, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Наложение чар', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(42, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Первая помощь', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(43, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Рыбная ловля', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(44, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Травничество', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(45, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Кожевничество', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(46, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Горное дело', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(47, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Свежевание', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(48, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Портняжное дело', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(49, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Я хочу убрать мои таланты', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(50, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Я хочу убрать умения у моего питомца', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `locales_npc_option` (`entry`, `option_text_loc1`, `option_text_loc8`, `box_text_loc1`, `box_text_loc8`) SELECT `id` AS `entry`, `option_text` AS `option_text_loc1`, `option_text` AS `option_text_loc8`, `box_text` AS `box_text_loc1`, `box_text` AS `box_text_loc8` FROM `npc_option`;
+
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Что?' WHERE `entry` =0;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Выполнить задания' WHERE `entry` =2;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Я хочу посмотреть твои товары' WHERE `entry` =3;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Я хочу быстро путешествовать' WHERE `entry` =4;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Обучи меня!' WHERE `entry` =5;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Верни меня к жизни' WHERE `entry` =6;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Неизвестно' WHERE `entry` =7;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Сделай эту таверну моим домом' WHERE `entry` =8;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Покажи мне мой банк' WHERE `entry` =9;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Как мне сформировать гильдию?' WHERE `entry` =10;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Я хочу создать герб гильдии.' WHERE `entry` =11;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Я хочу встыпить на поле боя.' WHERE `entry` =12;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Аукцион!' WHERE `entry` =13;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Стойла' WHERE `entry` =14;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Броня' WHERE `entry` =15;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Банк' WHERE `entry` =16;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Укротитель ветрокрылов' WHERE `entry` =17;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Регистратор гильдий' WHERE `entry` =18;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Таверна' WHERE `entry` =19;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Почтовый ящик' WHERE `entry` =20;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Дом аукционов' WHERE `entry` =21;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Учитель обращения с оружием' WHERE `entry` =22;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Смотритель стойл' WHERE `entry` =23;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Распорядитель боев' WHERE `entry` =24;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Наставник класса' WHERE `entry` =25;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Наставник профессии' WHERE `entry` =26;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Воин' WHERE `entry` =27;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Паладин' WHERE `entry` =28;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Охотник' WHERE `entry` =29;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Разбойник' WHERE `entry` =30;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Жрец' WHERE `entry` =31;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Шаман' WHERE `entry` =33;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Маг' WHERE `entry` =34;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Чернокнижник' WHERE `entry` =35;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Друид' WHERE `entry` =37;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Алхимия' WHERE `entry` =38;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Кузнечное дело' WHERE `entry` =39;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Кулинария' WHERE `entry` =40;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Наложение чар' WHERE `entry` =41;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Первая помощь' WHERE `entry` =42;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Рыбная ловля' WHERE `entry` =43;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Травничество' WHERE `entry` =44;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Кожевничество' WHERE `entry` =45;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Горное дело' WHERE `entry` =46;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Свежевание' WHERE `entry` =47;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Портняжное дело' WHERE `entry` =48;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Я хочу убрать мои таланты' WHERE `entry` =49;
+UPDATE `locales_npc_option` SET `option_text_loc8` = 'Я хочу убрать умения у моего питомца' WHERE `entry` =50;
+
+UPDATE `locales_npc_option` SET `box_text_loc1` = NULL WHERE `box_text_loc1` = '';
+UPDATE `locales_npc_option` SET `box_text_loc8` = NULL WHERE `box_text_loc8` = '';
+
+ALTER TABLE `locales_npc_option`  ORDER BY `entry`;
