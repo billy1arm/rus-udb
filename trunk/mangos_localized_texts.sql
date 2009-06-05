@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS `localized_texts2` (
   `locale_5` varchar(255) NOT NULL default '',
   `locale_6` varchar(255) NOT NULL default '',
   `locale_7` varchar(255) NOT NULL default '',
-  `locale_8` varchar(255) NOT NULL,
+  `locale_8` varchar(255) NOT NULL default '',
   `comment` varchar(255) NOT NULL default '' COMMENT 'Text Comment',
   PRIMARY KEY  (`id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Localized Text' AUTO_INCREMENT=182 ;
