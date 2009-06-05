@@ -21,7 +21,7 @@ RENAME TABLE `localized_texts2` TO `localized_texts`;
 
 UPDATE `localized_texts` SET `locale_8` = 'Ррррр... свежее мясо!' WHERE `id` =6;
 
-UPDATE `localized_texts` SET `locale_1` = NULL WHERE `locale_1` = '';
-UPDATE `localized_texts` SET `locale_8` = NULL WHERE `locale_8` = '';
+UPDATE `localized_texts` SET `locale_1` = '' WHERE `locale_1` = NULL;
+UPDATE `localized_texts` SET `locale_8` = '' WHERE `locale_8` = NULL;
 
 ALTER TABLE `localized_texts` ORDER BY `id`;
