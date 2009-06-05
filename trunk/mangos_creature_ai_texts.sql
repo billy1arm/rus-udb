@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS `creature_ai_texts2` (
   PRIMARY KEY  (`entry`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Script Texts';
 
-INSERT INTO `creature_ai_texts2` (`entry`, `content_default`, `content_loc1`, `content_loc8`, `sound`, `type`, `language`, `emote`, `comment`) SELECT `entry`, `content_default`, `content_default` AS `content_loc1`, `content_default` AS `content_loc8`, `sound`, `type`, `language`, `emote`, `comment` FROM `eventai_texts`;
+INSERT INTO `creature_ai_texts2` (`entry`, `content_default`, `content_loc1`, `content_loc8`, `sound`, `type`, `language`, `emote`, `comment`) SELECT `entry`, `content_default`, `content_default` AS `content_loc1`, `content_default` AS `content_loc8`, `sound`, `type`, `language`, `emote`, `comment` FROM `creature_ai_texts`;
 
 DROP TABLE IF EXISTS `creature_ai_texts`;
 RENAME TABLE `creature_ai_texts2` TO `creature_ai_texts`;
