@@ -5907,7 +5907,7 @@ UPDATE `locales_creature` SET `name_loc8` = 'Портал легиона Изр�
 UPDATE `locales_creature` SET `name_loc8` = 'Пылающий бес' WHERE `entry` =9708;
 UPDATE `locales_creature` SET `name_loc8` = 'Солдат-наемник из легиона Кровавого Топора', `subname_loc8` = 'Легион Кровавого Топора' WHERE `entry` =9716;
 UPDATE `locales_creature` SET `name_loc8` = 'Призыватель из легиона Кровавого Топора', `subname_loc8` = 'Легион Кровавого Топора' WHERE `entry` =9717;
-UPDATE `locales_creature` SET `name_loc8` = 'Гок Крепкобив' WHERE `entry` =9718;
+UPDATE `locales_creature` SET `name_loc8` = 'Гок Крепкобив' WHERE `entry`, `subname_loc8` = 'Герой легиона Кровавого Топора' =9718;
 UPDATE `locales_creature` SET `name_loc8` = 'Интендант Зигрис', `subname_loc8` = 'Легион Кровавого Топора' WHERE `entry` =9736;
 UPDATE `locales_creature` SET `name_loc8` = 'Огненный злопыхатель' WHERE `entry` =9776;
 UPDATE `locales_creature` SET `name_loc8` = 'Огненный грелль' WHERE `entry` =9777;
@@ -14912,7 +14912,7 @@ UPDATE `locales_creature` SET `name_loc8` = 'Бореан - аномалия у�
 UPDATE `locales_creature` SET `name_loc8` = 'Ружейник из крепости Отваги' WHERE `entry` =25311;
 UPDATE `locales_creature` SET `name_loc8` = 'Пехотинец Крепости Отваги' WHERE `entry` =25313;
 UPDATE `locales_creature` SET `name_loc8` = 'Верховный маг Беринард', `subname_loc8` = 'Булавы и посохи' WHERE `entry` =25314;
-UPDATE `locales_creature` SET `name_loc8` = 'Кил''джеден' WHERE `entry` =25315;
+UPDATE `locales_creature` SET `name_loc8` = 'Кил''джеден', `subname_loc8` = 'Искуситель' WHERE `entry` =25315;
 UPDATE `locales_creature` SET `name_loc8` = 'Берилловый колдун' WHERE `entry` =25316;
 UPDATE `locales_creature` SET `name_loc8` = 'Призывник' WHERE `entry` =25317;
 UPDATE `locales_creature` SET `name_loc8` = 'Заколдованный пленник' WHERE `entry` =25318;
@@ -18688,7 +18688,7 @@ UPDATE `locales_creature` SET `name_loc8` = 'Верховный лорд Тир�
 UPDATE `locales_creature` SET `name_loc8` = 'Мирадор' WHERE `entry` =31045;
 UPDATE `locales_creature` SET `name_loc8` = 'Пылающий скелет' WHERE `entry` =31048;
 UPDATE `locales_creature` SET `name_loc8` = 'Сафирдранг' WHERE `entry` =31050;
-UPDATE `locales_creature` SET `name_loc8` = 'Колдунья Кайлана' WHERE `entry` =31051;
+UPDATE `locales_creature` SET `name_loc8` = 'Колдунья Кайлана', `subname_loc8` = 'Чародейка' WHERE `entry` =31051;
 UPDATE `locales_creature` SET `name_loc8` = 'Лучник Рандольф' WHERE `entry` =31052;
 UPDATE `locales_creature` SET `name_loc8` = 'Шаман стихий Мулфорт' WHERE `entry` =31053;
 UPDATE `locales_creature` SET `name_loc8` = 'Анахорет Тесса' WHERE `entry` =31054;
@@ -18716,7 +18716,7 @@ UPDATE `locales_creature` SET `name_loc8` = 'Валь''кира-воительн
 UPDATE `locales_creature` SET `name_loc8` = 'Некромант Плети' WHERE `entry` =31096;
 UPDATE `locales_creature` SET `name_loc8` = 'Ужасающее поганище' WHERE `entry` =31098;
 UPDATE `locales_creature` SET `name_loc8` = 'Лоскутик' WHERE `entry` =31099;
-UPDATE `locales_creature` SET `name_loc8` = 'Мастер худу Фу''джин' WHERE `entry` =31101;
+UPDATE `locales_creature` SET `name_loc8` = 'Мастер худу Фу''джин', `subname_loc8` = 'Мастер проклятий' WHERE `entry` =31101;
 UPDATE `locales_creature` SET `name_loc8` = 'Виерон Огненное Перо' WHERE `entry` =31102;
 UPDATE `locales_creature` SET `name_loc8` = 'Наблюдатель Ан''кахара' WHERE `entry` =31104;
 UPDATE `locales_creature` SET `name_loc8` = 'Осадный кузнец Могучее Копыто' WHERE `entry` =31106;
