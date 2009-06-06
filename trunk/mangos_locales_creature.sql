@@ -5907,7 +5907,7 @@ UPDATE `locales_creature` SET `name_loc8` = 'Портал легиона Изр�
 UPDATE `locales_creature` SET `name_loc8` = 'Пылающий бес' WHERE `entry` =9708;
 UPDATE `locales_creature` SET `name_loc8` = 'Солдат-наемник из легиона Кровавого Топора', `subname_loc8` = 'Легион Кровавого Топора' WHERE `entry` =9716;
 UPDATE `locales_creature` SET `name_loc8` = 'Призыватель из легиона Кровавого Топора', `subname_loc8` = 'Легион Кровавого Топора' WHERE `entry` =9717;
-UPDATE `locales_creature` SET `name_loc8` = 'Гок Крепкобив' WHERE `entry`, `subname_loc8` = 'Герой легиона Кровавого Топора' =9718;
+UPDATE `locales_creature` SET `name_loc8` = 'Гок Крепкобив', `subname_loc8` = 'Герой легиона Кровавого Топора' WHERE `entry` =9718;
 UPDATE `locales_creature` SET `name_loc8` = 'Интендант Зигрис', `subname_loc8` = 'Легион Кровавого Топора' WHERE `entry` =9736;
 UPDATE `locales_creature` SET `name_loc8` = 'Огненный злопыхатель' WHERE `entry` =9776;
 UPDATE `locales_creature` SET `name_loc8` = 'Огненный грелль' WHERE `entry` =9777;
