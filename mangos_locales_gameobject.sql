@@ -1474,9 +1474,9 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Красный Камень Ду�
 UPDATE `locales_gameobject` SET `name_loc8` = 'Круг Заточения' WHERE `entry` =19901;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Горн' WHERE `entry` =19902;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Индарилиевая жила' WHERE `entry` =19903;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Понюшка Мок''Морокка' WHERE `entry` =19904;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Понюшка Мок''Морокка', `castbarcaption_loc8` = 'Получение' WHERE `entry` =19904;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Грог Мок''Морокка' WHERE `entry` =19905;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Сейф Мок''Морокка' WHERE `entry` =19906;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Сейф Мок''Морокка', `castbarcaption_loc8` = 'Получение' WHERE `entry` =19906;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Синий Камень Духа' WHERE `entry` =20351;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Круг Заточения' WHERE `entry` =20352;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` =20356;
@@ -11671,7 +11671,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Пласт апекситовых
 UPDATE `locales_gameobject` SET `name_loc8` = 'Груда черепов' WHERE `entry` =185913;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Бочонок очень крепкого огрского кофе', `castbarcaption_loc8` = 'Выпивка!' WHERE `entry` =185914;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Яйцо дракона из стаи Крыльев Пустоты', `castbarcaption_loc8` = 'Сбор' WHERE `entry` =185915;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Хрустальная кузница Скверны' WHERE `entry` =185919;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Хрустальная кузница Скверны', `castbarcaption_loc8` = 'Использует' WHERE `entry` =185919;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Хрустальная кузница Скверны', `castbarcaption_loc8` = 'Использует' WHERE `entry` =185920;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Хрустальная кузница Баш''ира', `castbarcaption_loc8` = 'Использует' WHERE `entry` =185921;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Управляющее устройство Хрустальной кузницы' WHERE `entry` =185922;
@@ -11684,7 +11684,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Гнездо драконида 2
 UPDATE `locales_gameobject` SET `name_loc8` = 'Гнездо драконида 3' WHERE `entry` =185931;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Яйцо Обсидиии', `castbarcaption_loc8` = 'Открытие.' WHERE `entry` =185932;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Аура драконьего яйца' WHERE `entry` =185935;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Яйцо чернокрыла' WHERE `entry` =185936;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Яйцо чернокрыла', `castbarcaption_loc8` = 'Открытие.' WHERE `entry` =185936;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Яйцо Ярокрыла', `castbarcaption_loc8` = 'Открытие.' WHERE `entry` =185937;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Яйцо Инсидиона', `castbarcaption_loc8` = 'Открытие.' WHERE `entry` =185938;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Груз Копей Пустоты', `castbarcaption_loc8` = 'Сбор' WHERE `entry` =185939;
