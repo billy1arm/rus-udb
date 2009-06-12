@@ -19551,6 +19551,8 @@ UPDATE `locales_creature` SET `name_loc8` = 'Великолепный ковер
 UPDATE `locales_creature` SET `name_loc8` = 'Себастиан Бауер' WHERE `entry` =33031;
 UPDATE `locales_creature` SET `name_loc8` = 'Виззли', `subname_loc8` = 'Телепорт мастер' WHERE `entry` =91200;
 
+UPDATE `locales_creature` SET `name_loc1` = '' WHERE `name_loc1` = NULL;
+UPDATE `locales_creature` SET `name_loc8` = '' WHERE `name_loc8` = NULL;
 UPDATE `locales_creature` SET `subname_loc1` = NULL WHERE `subname_loc1` = '';
 UPDATE `locales_creature` SET `subname_loc8` = NULL WHERE `subname_loc8` = '';
 

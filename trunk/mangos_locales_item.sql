@@ -31742,6 +31742,8 @@ UPDATE `locales_item` SET `name_loc8` = 'Большой символ глади�
 UPDATE `locales_item` SET `name_loc8` = 'Эфириальное масло' WHERE `entry` =44958;
 UPDATE `locales_item` SET `name_loc8` = 'Земляные накладки для поножей' WHERE `entry` =44963;
 
+UPDATE `locales_item` SET `name_loc1` = NULL WHERE `name_loc1` = '';
+UPDATE `locales_item` SET `name_loc8` = NULL WHERE `name_loc8` = '';
 UPDATE `locales_item` SET `description_loc1` = NULL WHERE `description_loc1` = '';
 UPDATE `locales_item` SET `description_loc8` = NULL WHERE `description_loc8` = '';
 
