@@ -15140,6 +15140,8 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Алтарь Теней' WHERE `e
 UPDATE `locales_gameobject` SET `name_loc8` = 'Сага о син''дорай' WHERE `entry` =1806439;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Каменная скамья' WHERE `entry` =16777215;
 
+UPDATE `locales_gameobject` SET `name_loc1` = '' WHERE `name_loc1` = NULL;
+UPDATE `locales_gameobject` SET `name_loc8` = '' WHERE `name_loc8` = NULL;
 UPDATE `locales_gameobject` SET `castbarcaption_loc1` = '' WHERE `castbarcaption_loc1` = NULL;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = '' WHERE `castbarcaption_loc8` = NULL;
 

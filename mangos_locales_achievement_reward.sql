@@ -22,6 +22,8 @@ CREATE TABLE IF NOT EXISTS `locales_achievement_reward` (
 
 INSERT INTO `locales_achievement_reward` (`entry`, `subject_loc1`, `subject_loc8`, `text_loc1`, `text_loc8`) SELECT `entry`, `subject` AS `subject_loc1`, `subject` AS `subject_loc8`, `text` AS `text_loc1`, `text` AS `text_loc8` FROM `achievement_reward`;
 
+UPDATE `locales_achievement_reward` SET `subject_loc1` = '' WHERE `subject_loc1` = NULL;
+UPDATE `locales_achievement_reward` SET `subject_loc8` = '' WHERE `subject_loc8` = NULL;
 UPDATE `locales_achievement_reward` SET `text_loc1` = NULL WHERE `text_loc1` = '';
 UPDATE `locales_achievement_reward` SET `text_loc8` = NULL WHERE `text_loc8` = '';
 

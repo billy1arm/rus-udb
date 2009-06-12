@@ -71,6 +71,8 @@ UPDATE `locales_npc_option` SET `option_text_loc8` = 'Портняжное де�
 UPDATE `locales_npc_option` SET `option_text_loc8` = 'Я хочу убрать мои таланты' WHERE `entry` =49;
 UPDATE `locales_npc_option` SET `option_text_loc8` = 'Я хочу убрать умения у моего питомца' WHERE `entry` =50;
 
+UPDATE `locales_npc_option` SET `option_text_loc1` = NULL WHERE `option_text_loc1` = '';
+UPDATE `locales_npc_option` SET `option_text_loc8` = NULL WHERE `option_text_loc8` = '';
 UPDATE `locales_npc_option` SET `box_text_loc1` = NULL WHERE `box_text_loc1` = '';
 UPDATE `locales_npc_option` SET `box_text_loc8` = NULL WHERE `box_text_loc8` = '';
 
