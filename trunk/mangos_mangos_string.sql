@@ -1,6 +1,6 @@
 -- Date: 2009-06-22
--- Time: 06:04:57
--- Rev.: 23
+-- Time: 19:36:52
+-- Rev.: 24
 
 DROP TABLE IF EXISTS `mangos_string2`;
 CREATE TABLE IF NOT EXISTS `mangos_string2` (
@@ -147,11 +147,11 @@ UPDATE `mangos_string` SET `content_loc8` = 'Слишком длинное им�
 UPDATE `mangos_string` SET `content_loc8` = 'Ошибка, имя может содержать только знаки алфавита.' WHERE `entry` = 203;
 UPDATE `mangos_string` SET `content_loc8` = 'Слишком длинное подимя из %i знаков.' WHERE `entry` = 204;
 UPDATE `mangos_string` SET `content_loc8` = 'Пока не реализовано' WHERE `entry` = 205;
-UPDATE `mangos_string` SET `content_loc8` = 'Предмет '%i' '%s' добавлен в список с максколичеством '%i' и инкрвременем '%i' и допценой '%i'' WHERE `entry` = 206;
-UPDATE `mangos_string` SET `content_loc8` = 'Предмет '%i' не найден в базе.' WHERE `entry` = 207;
-UPDATE `mangos_string` SET `content_loc8` = 'Предмет '%i' '%s' удален из списка торговца' WHERE `entry` = 208;
-UPDATE `mangos_string` SET `content_loc8` = 'Предмет '%i' не нейден в списке торговца.' WHERE `entry` = 209;
-UPDATE `mangos_string` SET `content_loc8` = 'Предмет '%i' уже в списке торговца.' WHERE `entry` = 210;
+UPDATE `mangos_string` SET `content_loc8` = 'Предмет ''%i'' ''%s'' добавлен в список с максколичеством ''%i'' и инкрвременем ''%i'' и допценой ''%i''' WHERE `entry` = 206;
+UPDATE `mangos_string` SET `content_loc8` = 'Предмет ''%i'' не найден в базе.' WHERE `entry` = 207;
+UPDATE `mangos_string` SET `content_loc8` = 'Предмет ''%i'' ''%s'' удален из списка торговца' WHERE `entry` = 208;
+UPDATE `mangos_string` SET `content_loc8` = 'Предмет ''%i'' не нейден в списке торговца.' WHERE `entry` = 209;
+UPDATE `mangos_string` SET `content_loc8` = 'Предмет ''%i'' уже в списке торговца.' WHERE `entry` = 210;
 UPDATE `mangos_string` SET `content_loc8` = 'Сброс заклинаний у %s.' WHERE `entry` = 211;
 UPDATE `mangos_string` SET `content_loc8` = 'Сброс заклинаний у %s при следующем входе.' WHERE `entry` = 212;
 UPDATE `mangos_string` SET `content_loc8` = 'Сброс талантов у %s.' WHERE `entry` = 213;
@@ -162,7 +162,7 @@ UPDATE `mangos_string` SET `content_loc8` = 'Сброс заклинаний д�
 UPDATE `mangos_string` SET `content_loc8` = 'Сброс талантов для всех игроков при входе. Настоятельно рекомендуем перезайти!' WHERE `entry` = 219;
 UPDATE `mangos_string` SET `content_loc8` = 'Существо (GUID: %u) Не найдено точек пути.' WHERE `entry` = 220;
 UPDATE `mangos_string` SET `content_loc8` = 'Существо (GUID: %u) Последняя точка пути не найдена.' WHERE `entry` = 221;
-UPDATE `mangos_string` SET `content_loc8` = 'Существо (GUID: %u) Не найдено точек пути - использовано 'wpguid'. Сейчас пробую найти ее по ее позицие...' WHERE `entry` = 222;
+UPDATE `mangos_string` SET `content_loc8` = 'Существо (GUID: %u) Не найдено точек пути - использовано ''wpguid''. Сейчас пробую найти ее по ее позицие...' WHERE `entry` = 222;
 UPDATE `mangos_string` SET `content_loc8` = 'Существо (GUID: %u) Не найдено точек пути - Это проблема базы MaNGOS (одиночный float).' WHERE `entry` = 223;
 UPDATE `mangos_string` SET `content_loc8` = 'Выбронное существо проигнорировано -  использован предоставленный GUID' WHERE `entry` = 224;
 UPDATE `mangos_string` SET `content_loc8` = 'Существо (GUID: %u) не найдено' WHERE `entry` = 225;
@@ -173,7 +173,7 @@ UPDATE `mangos_string` SET `content_loc8` = 'Все визуальные точ�
 UPDATE `mangos_string` SET `content_loc8` = 'Невозможно создать точкупути-существо с ИН: %d' WHERE `entry` = 230;
 UPDATE `mangos_string` SET `content_loc8` = 'Не предоставлено GUID.' WHERE `entry` = 231;
 UPDATE `mangos_string` SET `content_loc8` = 'Не предоставлен номер точки пути.' WHERE `entry` = 232;
-UPDATE `mangos_string` SET `content_loc8` = 'Требуеться аргумент для '%s'.' WHERE `entry` = 233;
+UPDATE `mangos_string` SET `content_loc8` = 'Требуеться аргумент для ''%s''.' WHERE `entry` = 233;
 UPDATE `mangos_string` SET `content_loc8` = 'Точка пути %i добавлена к GUID: %d' WHERE `entry` = 234;
 UPDATE `mangos_string` SET `content_loc8` = 'Точка пути %d добавлена.' WHERE `entry` = 235;
 UPDATE `mangos_string` SET `content_loc8` = 'Точка пути изменена.' WHERE `entry` = 236;
@@ -305,4 +305,4 @@ CREATE TABLE IF NOT EXISTS `rus_udb_rev` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 DELETE FROM `rus_udb_rev` WHERE `name` = 'mangos_string';
-INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('mangos_string', '23');
+INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('mangos_string', '24');

@@ -1,18 +1,18 @@
 -- Date: 2009-06-22
--- Time: 06:00:13
--- Rev.: 23
+-- Time: 19:36:07
+-- Rev.: 24
 
 DROP TABLE IF EXISTS `locales_achievement_reward`;
 CREATE TABLE IF NOT EXISTS `locales_achievement_reward` (
   `entry` mediumint(8) unsigned NOT NULL DEFAULT '0',
-  `subject_loc1` varchar(100) NOT NULL DEFAULT ',
-  `subject_loc2` varchar(100) NOT NULL DEFAULT ',
-  `subject_loc3` varchar(100) NOT NULL DEFAULT ',
-  `subject_loc4` varchar(100) NOT NULL DEFAULT ',
-  `subject_loc5` varchar(100) NOT NULL DEFAULT ',
-  `subject_loc6` varchar(100) NOT NULL DEFAULT ',
-  `subject_loc7` varchar(100) NOT NULL DEFAULT ',
-  `subject_loc8` varchar(100) NOT NULL DEFAULT ',
+  `subject_loc1` varchar(100) NOT NULL DEFAULT '',
+  `subject_loc2` varchar(100) NOT NULL DEFAULT '',
+  `subject_loc3` varchar(100) NOT NULL DEFAULT '',
+  `subject_loc4` varchar(100) NOT NULL DEFAULT '',
+  `subject_loc5` varchar(100) NOT NULL DEFAULT '',
+  `subject_loc6` varchar(100) NOT NULL DEFAULT '',
+  `subject_loc7` varchar(100) NOT NULL DEFAULT '',
+  `subject_loc8` varchar(100) NOT NULL DEFAULT '',
   `text_loc1` text,
   `text_loc2` text,
   `text_loc3` text,
@@ -40,4 +40,4 @@ CREATE TABLE IF NOT EXISTS `rus_udb_rev` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 DELETE FROM `rus_udb_rev` WHERE `name` = 'locales_achievement_reward';
-INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('locales_achievement_reward', '23');
+INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('locales_achievement_reward', '24');
