@@ -1,6 +1,6 @@
 -- Date: 2009-06-22
--- Time: 06:04:00
--- Rev.: 23
+-- Time: 19:36:32
+-- Rev.: 24
 
 DROP TABLE IF EXISTS `locales_npc_option`;
 CREATE TABLE IF NOT EXISTS `locales_npc_option` (
@@ -89,4 +89,4 @@ CREATE TABLE IF NOT EXISTS `rus_udb_rev` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 DELETE FROM `rus_udb_rev` WHERE `name` = 'locales_npc_option';
-INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('locales_npc_option', '23');
+INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('locales_npc_option', '24');

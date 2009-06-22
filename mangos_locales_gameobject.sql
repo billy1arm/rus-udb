@@ -1,26 +1,26 @@
 -- Date: 2009-06-22
--- Time: 06:02:19
--- Rev.: 23
+-- Time: 19:36:17
+-- Rev.: 24
 
 DROP TABLE IF EXISTS `locales_gameobject`;
 CREATE TABLE IF NOT EXISTS `locales_gameobject` (
   `entry` mediumint(8) unsigned NOT NULL DEFAULT '0',
-  `name_loc1` varchar(100) NOT NULL DEFAULT ',
-  `name_loc2` varchar(100) NOT NULL DEFAULT ',
-  `name_loc3` varchar(100) NOT NULL DEFAULT ',
-  `name_loc4` varchar(100) NOT NULL DEFAULT ',
-  `name_loc5` varchar(100) NOT NULL DEFAULT ',
-  `name_loc6` varchar(100) NOT NULL DEFAULT ',
-  `name_loc7` varchar(100) NOT NULL DEFAULT ',
-  `name_loc8` varchar(100) NOT NULL DEFAULT ',
-  `castbarcaption_loc1` varchar(100) NOT NULL DEFAULT ',
-  `castbarcaption_loc2` varchar(100) NOT NULL DEFAULT ',
-  `castbarcaption_loc3` varchar(100) NOT NULL DEFAULT ',
-  `castbarcaption_loc4` varchar(100) NOT NULL DEFAULT ',
-  `castbarcaption_loc5` varchar(100) NOT NULL DEFAULT ',
-  `castbarcaption_loc6` varchar(100) NOT NULL DEFAULT ',
-  `castbarcaption_loc7` varchar(100) NOT NULL DEFAULT ',
-  `castbarcaption_loc8` varchar(100) NOT NULL DEFAULT ',
+  `name_loc1` varchar(100) NOT NULL DEFAULT '',
+  `name_loc2` varchar(100) NOT NULL DEFAULT '',
+  `name_loc3` varchar(100) NOT NULL DEFAULT '',
+  `name_loc4` varchar(100) NOT NULL DEFAULT '',
+  `name_loc5` varchar(100) NOT NULL DEFAULT '',
+  `name_loc6` varchar(100) NOT NULL DEFAULT '',
+  `name_loc7` varchar(100) NOT NULL DEFAULT '',
+  `name_loc8` varchar(100) NOT NULL DEFAULT '',
+  `castbarcaption_loc1` varchar(100) NOT NULL DEFAULT '',
+  `castbarcaption_loc2` varchar(100) NOT NULL DEFAULT '',
+  `castbarcaption_loc3` varchar(100) NOT NULL DEFAULT '',
+  `castbarcaption_loc4` varchar(100) NOT NULL DEFAULT '',
+  `castbarcaption_loc5` varchar(100) NOT NULL DEFAULT '',
+  `castbarcaption_loc6` varchar(100) NOT NULL DEFAULT '',
+  `castbarcaption_loc7` varchar(100) NOT NULL DEFAULT '',
+  `castbarcaption_loc8` varchar(100) NOT NULL DEFAULT '',
   PRIMARY KEY (`entry`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
@@ -40,9 +40,9 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Гробница императо
 UPDATE `locales_gameobject` SET `name_loc8` = 'Обглоданный труп' WHERE `entry` = 55;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Труп Рольфа' WHERE `entry` = 56;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Луна над долиной' WHERE `entry` = 57;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Гри'лек Странник' WHERE `entry` = 58;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Гри''лек Странник' WHERE `entry` = 58;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Куча рыхлой земли' WHERE `entry` = 59;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Разыскивается: Гат'Илзогг' WHERE `entry` = 60;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Разыскивается: Гат''Илзогг' WHERE `entry` = 60;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Обветшавшая могила' WHERE `entry` = 61;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Плакат "Розыск"' WHERE `entry` = 68;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Пустой кувшин' WHERE `entry` = 76;
@@ -748,8 +748,8 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Желтая аура, очень
 UPDATE `locales_gameobject` SET `name_loc8` = 'Алтарь, источенный морем' WHERE `entry` = 2871;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Рассыпающийся дворфийский скелет' WHERE `entry` = 2875;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Спелая тыква' WHERE `entry` = 2883;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Трофейные черепа Балиа'ма' WHERE `entry` = 2891;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Зиата'джайские трофейные черепа' WHERE `entry` = 2892;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Трофейные черепа Балиа''ма' WHERE `entry` = 2891;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Зиата''джайские трофейные черепа' WHERE `entry` = 2892;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Трофейные черепа Зулмамбве' WHERE `entry` = 2893;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Аура очищения водяного источника' WHERE `entry` = 2904;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Кувшин с водой' WHERE `entry` = 2907;
@@ -778,7 +778,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 308
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 3089;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Наковальня' WHERE `entry` = 3187;
 UPDATE `locales_gameobject` SET `name_loc8` = 'План нападения на Долину Испытаний' WHERE `entry` = 3189;
-UPDATE `locales_gameobject` SET `name_loc8` = 'План нападения на деревню Сен'джин' WHERE `entry` = 3190;
+UPDATE `locales_gameobject` SET `name_loc8` = 'План нападения на деревню Сен''джин' WHERE `entry` = 3190;
 UPDATE `locales_gameobject` SET `name_loc8` = 'План нападения на Оргриммар' WHERE `entry` = 3192;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Кровавого Копыта' WHERE `entry` = 3194;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Громовой Утес' WHERE `entry` = 3195;
@@ -788,20 +788,20 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Кровавого
 UPDATE `locales_gameobject` SET `name_loc8` = 'Степи' WHERE `entry` = 3199;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 3200;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 3201;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Гром'гол' WHERE `entry` = 3202;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Гром''гол' WHERE `entry` = 3202;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Арена' WHERE `entry` = 3203;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Пиратская бухта' WHERE `entry` = 3204;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Арена' WHERE `entry` = 3205;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Пиратская бухта' WHERE `entry` = 3206;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Сумеречный лес' WHERE `entry` = 3207;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Пиратская бухта' WHERE `entry` = 3208;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Гром'гол' WHERE `entry` = 3209;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Гром''гол' WHERE `entry` = 3209;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Арена' WHERE `entry` = 3210;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Сумеречный лес' WHERE `entry` = 3211;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Пиратская бухта' WHERE `entry` = 3212;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Арена' WHERE `entry` = 3213;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Арена' WHERE `entry` = 3214;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Гром'гол' WHERE `entry` = 3215;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Гром''гол' WHERE `entry` = 3215;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Арена' WHERE `entry` = 3216;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Сумеречный лес' WHERE `entry` = 3217;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 3220;
@@ -837,7 +837,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 326
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 3264;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Котел' WHERE `entry` = 3266;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 3270;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Сен'джин' WHERE `entry` = 3276;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Сен''джин' WHERE `entry` = 3276;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Ревущий огонь' WHERE `entry` = 3286;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Украденный мешок с припасами' WHERE `entry` = 3290;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Палящий огонь' WHERE `entry` = 3296;
@@ -1163,20 +1163,20 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Реликвия Матистры
 UPDATE `locales_gameobject` SET `name_loc8` = 'Кухонный стол' WHERE `entry` = 12665;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Сумеречный фолиант' WHERE `entry` = 12666;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Роща Древних' WHERE `entry` = 12893;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Амет'Аран' WHERE `entry` = 12894;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Амет''Аран' WHERE `entry` = 12894;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Ясеневый лес' WHERE `entry` = 12895;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Аубердин' WHERE `entry` = 12896;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Амет'Аран' WHERE `entry` = 12897;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Амет''Аран' WHERE `entry` = 12897;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Роща Древних' WHERE `entry` = 12898;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Ясеневый лес' WHERE `entry` = 12899;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Башал'Аран' WHERE `entry` = 12900;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Башал''Аран' WHERE `entry` = 12900;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Аубердин' WHERE `entry` = 12901;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Башал'Аран' WHERE `entry` = 12902;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Башал''Аран' WHERE `entry` = 12902;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Матистра' WHERE `entry` = 12903;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Ясеневый лес' WHERE `entry` = 12904;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Матистра' WHERE `entry` = 12907;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Аубердин' WHERE `entry` = 12908;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Башал'Аран' WHERE `entry` = 12909;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Башал''Аран' WHERE `entry` = 12909;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Темные берега' WHERE `entry` = 13348;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Астранаар' WHERE `entry` = 13349;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Астранаар' WHERE `entry` = 13350;
@@ -1226,8 +1226,8 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Жужжалка 827' WHERE `entr
 UPDATE `locales_gameobject` SET `name_loc8` = 'Жужжалка 411' WHERE `entry` = 17183;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Жужжалка 323' WHERE `entry` = 17184;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Жужжалка 525' WHERE `entry` = 17185;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Песнь об Амет'Аране' WHERE `entry` = 17188;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Падение Амет'Арана' WHERE `entry` = 17189;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Песнь об Амет''Аране' WHERE `entry` = 17188;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Падение Амет''Арана' WHERE `entry` = 17189;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Горн' WHERE `entry` = 17190;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Наковальня' WHERE `entry` = 17191;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Деревянный стул' WHERE `entry` = 17249;
@@ -1330,7 +1330,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Подержанный сунду
 UPDATE `locales_gameobject` SET `name_loc8` = 'Потаенное святилище' WHERE `entry` = 19024;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Древняя надпись' WHERE `entry` = 19025;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Ворота 1' WHERE `entry` = 19026;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Фолиант Мел'Тандриса' WHERE `entry` = 19027;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Фолиант Мел''Тандриса' WHERE `entry` = 19027;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Сторожевой пост Алого ордена' WHERE `entry` = 19028;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Куча грязи' WHERE `entry` = 19030;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Степи' WHERE `entry` = 19033;
@@ -1374,7 +1374,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Змеецвет' WHERE `entry` =
 UPDATE `locales_gameobject` SET `name_loc8` = 'Потрескивающий костер' WHERE `entry` = 19536;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Яйца мохового паука' WHERE `entry` = 19541;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Яйца мохового паука' WHERE `entry` = 19542;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Дым Джин'Зила' WHERE `entry` = 19544;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Дым Джин''Зила' WHERE `entry` = 19544;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Поляна Оракула' WHERE `entry` = 19545;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Доланаар' WHERE `entry` = 19546;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Брандваген торговой компании' WHERE `entry` = 19547;
@@ -1468,9 +1468,9 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Красный Камень Ду�
 UPDATE `locales_gameobject` SET `name_loc8` = 'Круг Заточения' WHERE `entry` = 19901;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Горн' WHERE `entry` = 19902;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Индарилиевая жила' WHERE `entry` = 19903;
-UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Получение', `name_loc8` = 'Понюшка Мок'Морокка' WHERE `entry` = 19904;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Грог Мок'Морокка' WHERE `entry` = 19905;
-UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Получение', `name_loc8` = 'Сейф Мок'Морокка' WHERE `entry` = 19906;
+UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Получение', `name_loc8` = 'Понюшка Мок''Морокка' WHERE `entry` = 19904;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Грог Мок''Морокка' WHERE `entry` = 19905;
+UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Получение', `name_loc8` = 'Сейф Мок''Морокка' WHERE `entry` = 19906;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Синий Камень Духа' WHERE `entry` = 20351;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Круг Заточения' WHERE `entry` = 20352;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 20356;
@@ -1602,11 +1602,11 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Каменный Молот' WHER
 UPDATE `locales_gameobject` SET `name_loc8` = 'БЕРЕГИСЬ!' WHERE `entry` = 21088;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Вы входите в Землю Драконов.' WHERE `entry` = 21089;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Охрана' WHERE `entry` = 21099;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Портал Аку'май' WHERE `entry` = 21117;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Пламя Аку'май' WHERE `entry` = 21118;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Пламя Аку'май' WHERE `entry` = 21119;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Пламя Аку'май' WHERE `entry` = 21120;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Пламя Аку'май' WHERE `entry` = 21121;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Портал Аку''май' WHERE `entry` = 21117;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Пламя Аку''май' WHERE `entry` = 21118;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Пламя Аку''май' WHERE `entry` = 21119;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Пламя Аку''май' WHERE `entry` = 21120;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Пламя Аку''май' WHERE `entry` = 21121;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 21127;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Отчет орочьего шпиона' WHERE `entry` = 21128;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Ящик с дырками' WHERE `entry` = 21277;
@@ -2376,9 +2376,9 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Деревянный стул' WH
 UPDATE `locales_gameobject` SET `name_loc8` = 'Деревянный стул' WHERE `entry` = 29782;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Деревянный стул' WHERE `entry` = 29783;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 29784;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Артефакт Атал'ай' WHERE `entry` = 30854;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Артефакт Атал'ай' WHERE `entry` = 30855;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Артефакт Атал'ай' WHERE `entry` = 30856;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Артефакт Атал''ай' WHERE `entry` = 30854;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Артефакт Атал''ай' WHERE `entry` = 30855;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Артефакт Атал''ай' WHERE `entry` = 30856;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Ревущий большой костер' WHERE `entry` = 31407;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 31408;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Бушующее пламя' WHERE `entry` = 31409;
@@ -2658,7 +2658,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Раскаленная жаров
 UPDATE `locales_gameobject` SET `name_loc8` = 'Раскаленная жаровня' WHERE `entry` = 37096;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Круг Призыва' WHERE `entry` = 37097;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Сундук Перрина' WHERE `entry` = 37098;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Табличка Атал'ай' WHERE `entry` = 37099;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Табличка Атал''ай' WHERE `entry` = 37099;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Клетка Галена' WHERE `entry` = 37118;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Деревянный стул' WHERE `entry` = 37473;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Дворфийский стул с высокой спинкой' WHERE `entry` = 37474;
@@ -3777,7 +3777,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Дверь храма' WHERE `ent
 UPDATE `locales_gameobject` SET `name_loc8` = 'Древнее подземелье' WHERE `entry` = 124369;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Дверь пещеры Эхомок' WHERE `entry` = 124370;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Ключ-камень' WHERE `entry` = 124371;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Печать Хаз'Мула' WHERE `entry` = 124372;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Печать Хаз''Мула' WHERE `entry` = 124372;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Доктор Горацио Монтгомери' WHERE `entry` = 124374;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Сундук семейства Гарретт' WHERE `entry` = 124388;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Сундук Крома Крепкорука' WHERE `entry` = 124389;
@@ -3929,7 +3929,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Стул' WHERE `entry` = 140439;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Почтовый ящик' WHERE `entry` = 140908;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Катушка светлого зеленовато-желтого шелка' WHERE `entry` = 140911;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 140931;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Газ'рилийский орнамент' WHERE `entry` = 140971;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Газ''рилийский орнамент' WHERE `entry` = 140971;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 141069;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Тролльская клетка' WHERE `entry` = 141070;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Тролльская клетка' WHERE `entry` = 141071;
@@ -3945,7 +3945,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHER
 UPDATE `locales_gameobject` SET `name_loc8` = 'Бранд-бочка Вигли' WHERE `entry` = 141612;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Камень Обета' WHERE `entry` = 141812;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 141813;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Гонг Зул'Фаррака' WHERE `entry` = 141832;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Гонг Зул''Фаррака' WHERE `entry` = 141832;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Горн' WHERE `entry` = 141838;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Наковальня' WHERE `entry` = 141839;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Наковальня' WHERE `entry` = 141840;
@@ -3978,7 +3978,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 142
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 142019;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 142020;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 142021;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Клетка Рин'джи' WHERE `entry` = 142036;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Клетка Рин''джи' WHERE `entry` = 142036;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Яйц-О-Матик' WHERE `entry` = 142071;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 142073;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Почтовый ящик' WHERE `entry` = 142075;
@@ -4006,7 +4006,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 142
 UPDATE `locales_gameobject` SET `name_loc8` = 'Плакат "Розыск"' WHERE `entry` = 142122;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 142123;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 142124;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Секрет Рин'джи' WHERE `entry` = 142127;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Секрет Рин''джи' WHERE `entry` = 142127;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 142131;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Потрескивающий костер' WHERE `entry` = 142139;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Лиловый лотос' WHERE `entry` = 142140;
@@ -4325,10 +4325,10 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Подозрительное на
 UPDATE `locales_gameobject` SET `name_loc8` = 'Сумеречный Артефакт' WHERE `entry` = 148506;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Котел' WHERE `entry` = 148511;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Купель сущности' WHERE `entry` = 148512;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Табличка Джин'яэль' WHERE `entry` = 148513;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Табличка Джин''яэль' WHERE `entry` = 148513;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Табличка Маркри' WHERE `entry` = 148514;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Табличка Саэль'Хай' WHERE `entry` = 148515;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Табличка Бет'Амары' WHERE `entry` = 148516;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Табличка Саэль''Хай' WHERE `entry` = 148515;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Табличка Бет''Амары' WHERE `entry` = 148516;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Деревянный стул' WHERE `entry` = 148540;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Деревянный стул' WHERE `entry` = 148544;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Деревянный стул' WHERE `entry` = 148547;
@@ -4530,7 +4530,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Огонь в башне' WHERE `
 UPDATE `locales_gameobject` SET `name_loc8` = 'Огонь в башне' WHERE `entry` = 149020;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Дым из башни' WHERE `entry` = 149021;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Дым из башни' WHERE `entry` = 149022;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Карьер Гол'Болар' WHERE `entry` = 149024;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Карьер Гол''Болар' WHERE `entry` = 149024;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Жаровня в караулке' WHERE `entry` = 149025;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 149026;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Балка для подвешиванья туш' WHERE `entry` = 149027;
@@ -4559,10 +4559,10 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Деревянный стул' WH
 UPDATE `locales_gameobject` SET `name_loc8` = 'Силовое поле' WHERE `entry` = 149431;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Дверь1' WHERE `entry` = 149432;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Дверь2' WHERE `entry` = 149433;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Руна Джин'яэль' WHERE `entry` = 149480;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Руна Бет'Амары' WHERE `entry` = 149481;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Руна Джин''яэль' WHERE `entry` = 149480;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Руна Бет''Амары' WHERE `entry` = 149481;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Руна Маркри' WHERE `entry` = 149482;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Руна Саэл'Хаи' WHERE `entry` = 149483;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Руна Саэл''Хаи' WHERE `entry` = 149483;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Сокровищница Черного дракона' WHERE `entry` = 149502;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Плакат "Розыск"' WHERE `entry` = 150075;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Мифриловые залежи' WHERE `entry` = 150079;
@@ -4661,7 +4661,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Отложение азшарит
 UPDATE `locales_gameobject` SET `name_loc8` = 'Отложение азшарита' WHERE `entry` = 152621;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Отложение азшарита' WHERE `entry` = 152622;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Отложение азшарита' WHERE `entry` = 152631;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Оборудование Ким'джаеля' WHERE `entry` = 153123;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Оборудование Ким''джаеля' WHERE `entry` = 153123;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Котел' WHERE `entry` = 153124;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Котел' WHERE `entry` = 153125;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 153126;
@@ -4723,7 +4723,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Кутузка' WHERE `entry` = 1
 UPDATE `locales_gameobject` SET `name_loc8` = 'Кутузка' WHERE `entry` = 157819;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Кутузка' WHERE `entry` = 157820;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Гигантские двери' WHERE `entry` = 157923;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Куча грязи из Ун'Горо' WHERE `entry` = 157936;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Куча грязи из Ун''Горо' WHERE `entry` = 157936;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 157968;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Котел' WHERE `entry` = 157969;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Скамья' WHERE `entry` = 158545;
@@ -4789,7 +4789,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Деревянный стул' WH
 UPDATE `locales_gameobject` SET `name_loc8` = 'Деревянный стул' WHERE `entry` = 160442;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Деревянный стул' WHERE `entry` = 160443;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Деревянный стул' WHERE `entry` = 160444;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Останки Ша'ни Гордый Клык' WHERE `entry` = 160445;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Останки Ша''ни Гордый Клык' WHERE `entry` = 160445;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Скамья' WHERE `entry` = 160468;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Скамья' WHERE `entry` = 160469;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Котел' WHERE `entry` = 160470;
@@ -4852,7 +4852,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Желтый Кристалл С�
 UPDATE `locales_gameobject` SET `name_loc8` = 'Ящики для оборудования' WHERE `entry` = 164662;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Железный Друг' WHERE `entry` = 164688;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Монумент Франклорну Искуснику' WHERE `entry` = 164689;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Знамя Кром'зара' WHERE `entry` = 164690;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Знамя Кром''зара' WHERE `entry` = 164690;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Ревущий огонь' WHERE `entry` = 164699;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Ревущий огонь' WHERE `entry` = 164700;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Ревущий огонь' WHERE `entry` = 164701;
@@ -4974,7 +4974,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHER
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 167290;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 167291;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Высохший труп жесткозуба' WHERE `entry` = 169216;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Плоская скала Ун'Горо' WHERE `entry` = 169217;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Плоская скала Ун''Горо' WHERE `entry` = 169217;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Сундук Семерых' WHERE `entry` = 169243;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Деревянный стул' WHERE `entry` = 169264;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Деревянный стул' WHERE `entry` = 169265;
@@ -6342,7 +6342,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Гора Хиджал и Дар �
 UPDATE `locales_gameobject` SET `name_loc8` = 'Древо Жизни и Изумрудный сон' WHERE `entry` = 175730;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Изгнание Высших эльфов' WHERE `entry` = 175731;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Часовые и долгое бдение' WHERE `entry` = 175732;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Основание Кель'Таласа' WHERE `entry` = 175733;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Основание Кель''Таласа' WHERE `entry` = 175733;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Аратор и Тролльские Войны' WHERE `entry` = 175734;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Хранители Тирисфаля' WHERE `entry` = 175735;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Стальгорн - Пробуждение дворфов' WHERE `entry` = 175736;
@@ -6350,7 +6350,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Семь королевств' WH
 UPDATE `locales_gameobject` SET `name_loc8` = 'Эгвин и Драконья Охота' WHERE `entry` = 175738;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Война Трех Кланов' WHERE `entry` = 175739;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Последний хранитель' WHERE `entry` = 175740;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Кил'джеден и Пакт Тьмы' WHERE `entry` = 175741;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Кил''джеден и Пакт Тьмы' WHERE `entry` = 175741;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Возвышение Орды' WHERE `entry` = 175742;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Наковальня' WHERE `entry` = 175743;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Наковальня' WHERE `entry` = 175744;
@@ -6363,9 +6363,9 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Битва при Грим Бат
 UPDATE `locales_gameobject` SET `name_loc8` = 'Долгий сон Орков' WHERE `entry` = 175751;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Новая Орда' WHERE `entry` = 175752;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Война Паука' WHERE `entry` = 175753;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Кел'Тузад и создание Плети' WHERE `entry` = 175754;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Кел''Тузад и создание Плети' WHERE `entry` = 175754;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Падение Лордерона' WHERE `entry` = 175756;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Солнечный Колодец - Падение Кель'Таласа' WHERE `entry` = 175757;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Солнечный Колодец - Падение Кель''Таласа' WHERE `entry` = 175757;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Возвращение Архимонда и побег в Калимдор' WHERE `entry` = 175758;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Восход Предателя' WHERE `entry` = 175759;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Возвышение эльфов крови' WHERE `entry` = 175760;
@@ -6602,7 +6602,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Груда пушечных яд�
 UPDATE `locales_gameobject` SET `name_loc8` = 'Пушка Алых' WHERE `entry` = 176216;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Пушка Алых' WHERE `entry` = 176217;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Ящик с припасами' WHERE `entry` = 176224;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Сундук Арко'нирана' WHERE `entry` = 176225;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Сундук Арко''нирана' WHERE `entry` = 176225;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 176226;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 176227;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 176228;
@@ -7020,12 +7020,12 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Опускная решетка' 
 UPDATE `locales_gameobject` SET `name_loc8` = 'Опускная решетка' WHERE `entry` = 176966;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Стратхольм' WHERE `entry` = 176967;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Долина Ужаса' WHERE `entry` = 176968;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Кель'Талас' WHERE `entry` = 176969;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Кель''Талас' WHERE `entry` = 176969;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Перекресток Корина' WHERE `entry` = 176970;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Кель'Талас' WHERE `entry` = 176971;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Кель''Талас' WHERE `entry` = 176971;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Стратхольм' WHERE `entry` = 176972;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Длань Тира' WHERE `entry` = 176973;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Кель'Талас' WHERE `entry` = 176978;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Кель''Талас' WHERE `entry` = 176978;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Стратхольм' WHERE `entry` = 176979;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Длань Тира' WHERE `entry` = 176980;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Дарроушир' WHERE `entry` = 176981;
@@ -7101,28 +7101,28 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Ночная Гавань' WHERE 
 UPDATE `locales_gameobject` SET `name_loc8` = 'Оскверненный лес' WHERE `entry` = 177128;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Святилище Ремулоса' WHERE `entry` = 177129;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Кельи Малфуриона' WHERE `entry` = 177130;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Кел'Терил' WHERE `entry` = 177131;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Кел''Терил' WHERE `entry` = 177131;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Звездопада' WHERE `entry` = 177132;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Круговзор' WHERE `entry` = 177133;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Лунная поляна' WHERE `entry` = 177134;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Оскверненный лес' WHERE `entry` = 177135;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Звездопада' WHERE `entry` = 177136;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Круговзор' WHERE `entry` = 177137;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Кел'Терил' WHERE `entry` = 177138;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Кел''Терил' WHERE `entry` = 177138;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Звездопада' WHERE `entry` = 177139;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Уступ Ледопардов' WHERE `entry` = 177140;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Кел'Терил' WHERE `entry` = 177141;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Кел''Терил' WHERE `entry` = 177141;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Лунная поляна' WHERE `entry` = 177142;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Оскверненный лес' WHERE `entry` = 177143;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Круговзор' WHERE `entry` = 177144;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Гора Хиджал' WHERE `entry` = 177145;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Круговзор' WHERE `entry` = 177146;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Кел'Терил' WHERE `entry` = 177147;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Кел''Терил' WHERE `entry` = 177147;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Уступ Ледопардов' WHERE `entry` = 177148;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Звездопада' WHERE `entry` = 177149;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Гора Хиджал' WHERE `entry` = 177150;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Звездопада' WHERE `entry` = 177151;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Кел'Терил' WHERE `entry` = 177152;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Кел''Терил' WHERE `entry` = 177152;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Круговзор' WHERE `entry` = 177153;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Лунная поляна' WHERE `entry` = 177154;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Оскверненный лес' WHERE `entry` = 177155;
@@ -7304,7 +7304,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Алхимическое обор
 UPDATE `locales_gameobject` SET `name_loc8` = 'Ведро с инструментами' WHERE `entry` = 177726;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Кузница Дредана' WHERE `entry` = 177727;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Призрачный Магнит' WHERE `entry` = 177746;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Реестр Кель'Таласа' WHERE `entry` = 177747;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Реестр Кель''Таласа' WHERE `entry` = 177747;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Аура Призрачного Магнита' WHERE `entry` = 177749;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Лунный Плеснецвет' WHERE `entry` = 177750;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Инфернал' WHERE `entry` = 177764;
@@ -7349,9 +7349,9 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Резонитовый ящик' 
 UPDATE `locales_gameobject` SET `name_loc8` = 'Резак Гурды' WHERE `entry` = 178146;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Клетка Руула Снежное Копыто' WHERE `entry` = 178147;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Горячий уголь' WHERE `entry` = 178164;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Сапфир Аку'май' WHERE `entry` = 178184;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Сапфир Аку'май' WHERE `entry` = 178185;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Сапфир Аку'май' WHERE `entry` = 178186;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Сапфир Аку''май' WHERE `entry` = 178184;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Сапфир Аку''май' WHERE `entry` = 178185;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Сапфир Аку''май' WHERE `entry` = 178186;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Круг Огненных Недр СУЛЬФУРОН' WHERE `entry` = 178187;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Круг Огненных Недр ШАЗЗРАХ' WHERE `entry` = 178189;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Круг Огненных Недр ГОЛЕМАГГ' WHERE `entry` = 178190;
@@ -7400,7 +7400,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Рождественский но
 UPDATE `locales_gameobject` SET `name_loc8` = 'Венок' WHERE `entry` = 178437;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Огни' WHERE `entry` = 178438;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Ящик Орды с припасами' WHERE `entry` = 178442;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Святилище Ша'гри' WHERE `entry` = 178444;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Святилище Ша''гри' WHERE `entry` = 178444;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Сундук темного священника Салема' WHERE `entry` = 178464;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Алтарь Призыва' WHERE `entry` = 178465;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Провал в пустоте' WHERE `entry` = 178484;
@@ -7484,8 +7484,8 @@ UPDATE `locales_gameobject` SET `name_loc8` = '[PH] Орда H4 Башня - у�
 UPDATE `locales_gameobject` SET `name_loc8` = 'Синяя аура Келебраса' WHERE `entry` = 178964;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Заклинание Келебраса' WHERE `entry` = 178965;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Аура блесны' WHERE `entry` = 178984;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Свитки Дрек'Тара' WHERE `entry` = 179004;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Свитки Дрек'Тара' WHERE `entry` = 179005;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Свитки Дрек''Тара' WHERE `entry` = 179004;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Свитки Дрек''Тара' WHERE `entry` = 179005;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Документы Вандара' WHERE `entry` = 179006;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Документы Вандара' WHERE `entry` = 179007;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Документы Вандара' WHERE `entry` = 179008;
@@ -7552,7 +7552,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Наковальня' WHERE `entr
 UPDATE `locales_gameobject` SET `name_loc8` = 'Жаровня' WHERE `entry` = 179419;
 UPDATE `locales_gameobject` SET `name_loc8` = '[PH] Альянс - кладбище - середина - предварительный указатель - БОЛЬШОЙ' WHERE `entry` = 179424;
 UPDATE `locales_gameobject` SET `name_loc8` = '[PH] Орда Кладбище - середина - предварительный указатель - БОЛЬШОЙ' WHERE `entry` = 179425;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Гри'лек Странник' WHERE `entry` = 179426;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Гри''лек Странник' WHERE `entry` = 179426;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Оспариваемое знамя' WHERE `entry` = 179435;
 UPDATE `locales_gameobject` SET `name_loc8` = '[PH] Орда A1 Башня - предварительный указатель - БОЛЬШОЙ' WHERE `entry` = 179436;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Розыск: ОРКИ!' WHERE `entry` = 179437;
@@ -7612,7 +7612,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Шар и цепь Уззла' WH
 UPDATE `locales_gameobject` SET `name_loc8` = 'Стационарная ловушка' WHERE `entry` = 179512;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Факел' WHERE `entry` = 179513;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Сундук Фенгуса' WHERE `entry` = 179516;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Сокровище Шен'дралар' WHERE `entry` = 179517;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Сокровище Шен''дралар' WHERE `entry` = 179517;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Стручок Кривого дерева' WHERE `entry` = 179526;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Стручок Кривого дерева' WHERE `entry` = 179528;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Стручок Кривого дерева' WHERE `entry` = 179532;
@@ -7870,7 +7870,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Молния тролля-гер�
 UPDATE `locales_gameobject` SET `name_loc8` = 'ДВЕРЬ АЛЬЯНСА' WHERE `entry` = 180255;
 UPDATE `locales_gameobject` SET `name_loc8` = 'ДВЕРЬ ОРДЫ' WHERE `entry` = 180256;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Призрачные Ворота' WHERE `entry` = 180322;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Врата Зул'Гуруба' WHERE `entry` = 180323;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Врата Зул''Гуруба' WHERE `entry` = 180323;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Дворфийский резной стол 1' WHERE `entry` = 180324;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Стул' WHERE `entry` = 180325;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Орочья скамья 1' WHERE `entry` = 180326;
@@ -7897,9 +7897,9 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Орочий кувшин 1' WHER
 UPDATE `locales_gameobject` SET `name_loc8` = 'Орочий кувшин 2' WHERE `entry` = 180351;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Обычный факел 1' WHERE `entry` = 180352;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Факел 1' WHERE `entry` = 180353;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Гри'лек, с Железной Кровью' WHERE `entry` = 180358;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Гри''лек, с Железной Кровью' WHERE `entry` = 180358;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Эффект еды' WHERE `entry` = 180362;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Хазза'рах, ткач Снов' WHERE `entry` = 180364;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Хазза''рах, ткач Снов' WHERE `entry` = 180364;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Ренетаки из клана Тысячи Клинков' WHERE `entry` = 180365;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Побитый ящик для рыболовной снасти' WHERE `entry` = 180366;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Алтарь Занзы' WHERE `entry` = 180367;
@@ -7974,7 +7974,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Свиток магии Плет�
 UPDATE `locales_gameobject` SET `name_loc8` = 'Дневник Соланиана' WHERE `entry` = 180512;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Покрытая письменами хрустальная призма' WHERE `entry` = 180514;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Ультрапушка 5000 Покрышкинс' WHERE `entry` = 180515;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Святилище Дат'Ремара' WHERE `entry` = 180516;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Святилище Дат''Ремара' WHERE `entry` = 180516;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Меньший камень Ветров' WHERE `entry` = 180518;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Панель управления маленького парового танка' WHERE `entry` = 180524;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Гонг Бетекка' WHERE `entry` = 180526;
@@ -8005,7 +8005,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Дверь' WHERE `entry` = 18063
 UPDATE `locales_gameobject` SET `name_loc8` = 'Дверь' WHERE `entry` = 180636;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Синяя аура, короткая колонна' WHERE `entry` = 180640;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Не вызывающий подозрений сундук' WHERE `entry` = 180642;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Сага о син'дорай' WHERE `entry` = 180643;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Сага о син''дорай' WHERE `entry` = 180643;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Песчаная ловушка' WHERE `entry` = 180647;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Только что выброшенная земля' WHERE `entry` = 180652;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Плотный сугроб' WHERE `entry` = 180654;
@@ -8075,7 +8075,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Фейерверк, показ, �
 UPDATE `locales_gameobject` SET `name_loc8` = 'Фейерверк, показ, тип 1 лиловый БОЛЬШОЙ' WHERE `entry` = 180741;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Выпас Метцена' WHERE `entry` = 180742;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Открывание', `name_loc8` = 'Тщательно упакованный подарок' WHERE `entry` = 180743;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Хватка К'Туна' WHERE `entry` = 180745;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Хватка К''Туна' WHERE `entry` = 180745;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Открывание', `name_loc8` = 'Слегка помятый подарок' WHERE `entry` = 180746;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Открывание', `name_loc8` = 'Подарок в яркой упаковке' WHERE `entry` = 180747;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Открывание', `name_loc8` = 'Тикающий подарочек' WHERE `entry` = 180748;
@@ -8291,7 +8291,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Дверь Таддиуса' WHER
 UPDATE `locales_gameobject` SET `name_loc8` = 'Лоскутные работы - выход' WHERE `entry` = 181123;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Вакуум - входные ворота' WHERE `entry` = 181124;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Вакуум - выход' WHERE `entry` = 181125;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Дверь Ануб'Рекана' WHERE `entry` = 181126;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Дверь Ануб''Рекана' WHERE `entry` = 181126;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Горн' WHERE `entry` = 181130;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Наковальня' WHERE `entry` = 181131;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Припасы Ратиса Могильщика' WHERE `entry` = 181133;
@@ -8308,7 +8308,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Иссохшие останки �
 UPDATE `locales_gameobject` SET `name_loc8` = 'Пыльный дневник' WHERE `entry` = 181150;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Переливчатая грязь' WHERE `entry` = 181151;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Клетка' WHERE `entry` = 181152;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Плакат: "Розыск": Кел'гаш Коварный' WHERE `entry` = 181153;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Плакат: "Розыск": Кел''гаш Коварный' WHERE `entry` = 181153;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Некрополь' WHERE `entry` = 181154;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Алтарь Укрощения Приливов' WHERE `entry` = 181157;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Колодец Света' WHERE `entry` = 181165;
@@ -8338,7 +8338,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Груда черепов 1' WHER
 UPDATE `locales_gameobject` SET `name_loc8` = 'Груда черепов 2' WHERE `entry` = 181192;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Груда черепов 3' WHERE `entry` = 181193;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Груда черепов 4' WHERE `entry` = 181194;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Ворота Ануб'рекана' WHERE `entry` = 181195;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Ворота Ануб''рекана' WHERE `entry` = 181195;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Мексна - дверь внутренней паутины' WHERE `entry` = 181197;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Нот - Вход' WHERE `entry` = 181200;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Нот - Выход' WHERE `entry` = 181201;
@@ -8358,7 +8358,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Пузатая печка' WHERE 
 UPDATE `locales_gameobject` SET `name_loc8` = 'Дверь' WHERE `entry` = 181221;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Дверь водопада Ледяного Змея' WHERE `entry` = 181225;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Круг' WHERE `entry` = 181227;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Дверь Кел'Тузада' WHERE `entry` = 181228;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Дверь Кел''Тузада' WHERE `entry` = 181228;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Портал' WHERE `entry` = 181229;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Монстр портала Ока Крыла Рыцарей Смерти' WHERE `entry` = 181230;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Монстр портала Ока Чумного Крыла' WHERE `entry` = 181231;
@@ -8432,7 +8432,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Пламя Силитуса' WHER
 UPDATE `locales_gameobject` SET `name_loc8` = 'Пламя Зимних Ключей' WHERE `entry` = 181340;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Пламя Выжженой теснины' WHERE `entry` = 181341;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Пламя Азшары' WHERE `entry` = 181342;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Пламя Ун'Горо' WHERE `entry` = 181343;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Пламя Ун''Горо' WHERE `entry` = 181343;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Пламя Выжженных земель' WHERE `entry` = 181344;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Пламя Внутренних земель' WHERE `entry` = 181345;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Пламя Забытого Города' WHERE `entry` = 181346;
@@ -8463,7 +8463,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Огрская огненная �
 UPDATE `locales_gameobject` SET `name_loc8` = 'Коврик' WHERE `entry` = 181396;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Огрская огненная яма' WHERE `entry` = 181427;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Радиоактивный кристалл Силы' WHERE `entry` = 181433;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Инициатор Кел'Тузада' WHERE `entry` = 181444;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Инициатор Кел''Тузада' WHERE `entry` = 181444;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Котел' WHERE `entry` = 181445;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 181446;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Сигнальный самоцвет' WHERE `entry` = 181447;
@@ -8575,7 +8575,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Курган силитиста' 
 UPDATE `locales_gameobject` SET `name_loc8` = 'Гейзер силитиста' WHERE `entry` = 181598;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Руна' WHERE `entry` = 181600;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Местоположение флага Силитуса, Альянс' WHERE `entry` = 181603;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Алтарь Хаал'еши' WHERE `entry` = 181606;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Алтарь Хаал''еши' WHERE `entry` = 181606;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 181608;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Косяк красного луциана' WHERE `entry` = 181616;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Местоположение флага Силитуса, Орда' WHERE `entry` = 181617;
@@ -8595,7 +8595,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHER
 UPDATE `locales_gameobject` SET `name_loc8` = 'Жаровня' WHERE `entry` = 181634;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 181635;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Алтарь Найаса' WHERE `entry` = 181636;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Реликвия Ша'Наара' WHERE `entry` = 181637;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Реликвия Ша''Наара' WHERE `entry` = 181637;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Плакат "Розыск"' WHERE `entry` = 181638;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Почтовый ящик' WHERE `entry` = 181639;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Останки Пероборода' WHERE `entry` = 181643;
@@ -8962,7 +8962,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Яркий костер' WHERE `e
 UPDATE `locales_gameobject` SET `name_loc8` = 'Яркий костер' WHERE `entry` = 182162;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Клетка с мурлоками' WHERE `entry` = 182164;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Плакат "Розыск"' WHERE `entry` = 182165;
-UPDATE `locales_gameobject` SET `name_loc8` = 'План нападения клана Анго'рош' WHERE `entry` = 182166;
+UPDATE `locales_gameobject` SET `name_loc8` = 'План нападения клана Анго''рош' WHERE `entry` = 182166;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Зажигательная бомба' WHERE `entry` = 182167;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Полуостров Адского Пламени' WHERE `entry` = 182168;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Зангартопь' WHERE `entry` = 182169;
@@ -9012,9 +9012,9 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Кристальный зал' WH
 UPDATE `locales_gameobject` SET `name_loc8` = 'Чертог Света' WHERE `entry` = 182252;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Ряд Лавочников' WHERE `entry` = 182253;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Сбор', `name_loc8` = 'Выброшенный корм' WHERE `entry` = 182256;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Коврик маг'харов' WHERE `entry` = 182257;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Осколок кристалла Ошу'гуна' WHERE `entry` = 182258;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Боевой штандарт маг'харов' WHERE `entry` = 182259;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Коврик маг''харов' WHERE `entry` = 182257;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Осколок кристалла Ошу''гуна' WHERE `entry` = 182258;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Боевой штандарт маг''харов' WHERE `entry` = 182259;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Ревущее пламя' WHERE `entry` = 182260;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Первый погребальный костер Пылающего Клинка' WHERE `entry` = 182261;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Третий погребальный костер Пылающего Клинка' WHERE `entry` = 182262;
@@ -9042,13 +9042,13 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Лес Тероккар' WHERE `e
 UPDATE `locales_gameobject` SET `name_loc8` = 'Шаттрат' WHERE `entry` = 182285;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Горы Лезвия Клинка' WHERE `entry` = 182286;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Телредор' WHERE `entry` = 182287;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Забра'джин' WHERE `entry` = 182288;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Забра''джин' WHERE `entry` = 182288;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Награнд' WHERE `entry` = 182289;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Лес Тероккар' WHERE `entry` = 182290;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Шаттрат' WHERE `entry` = 182291;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Острогорье' WHERE `entry` = 182292;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Телредор' WHERE `entry` = 182293;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Забра'джин' WHERE `entry` = 182294;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Забра''джин' WHERE `entry` = 182294;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Полуостров Адского Пламени' WHERE `entry` = 182295;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Полуостров Адского Пламени' WHERE `entry` = 182296;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Разрушенный насест виверны' WHERE `entry` = 182297;
@@ -9065,7 +9065,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Брандваген' WHERE `entr
 UPDATE `locales_gameobject` SET `name_loc8` = 'Брандваген' WHERE `entry` = 182308;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Полуостров Адского Пламени' WHERE `entry` = 182309;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Лес Тероккар' WHERE `entry` = 182310;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Забра'джин' WHERE `entry` = 182311;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Забра''джин' WHERE `entry` = 182311;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Телредор' WHERE `entry` = 182312;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Острогорье' WHERE `entry` = 182313;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Застава Болотной Крысы' WHERE `entry` = 182314;
@@ -9124,12 +9124,12 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Ценарионский опло
 UPDATE `locales_gameobject` SET `name_loc8` = 'Полуостров Адского Пламени' WHERE `entry` = 182372;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Горы Лезвия Клинка' WHERE `entry` = 182373;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Телредор' WHERE `entry` = 182374;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Забра'джин' WHERE `entry` = 182375;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Забра''джин' WHERE `entry` = 182375;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 182376;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 182377;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 182378;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Горы Лезвия Клинка' WHERE `entry` = 182379;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Забра'джин' WHERE `entry` = 182380;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Забра''джин' WHERE `entry` = 182380;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Насосная станция Кривого Клыка' WHERE `entry` = 182381;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Телредор' WHERE `entry` = 182382;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Награнд' WHERE `entry` = 182383;
@@ -9153,7 +9153,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Шаттрат' WHERE `entry` = 1
 UPDATE `locales_gameobject` SET `name_loc8` = 'Полуостров Адского Пламени' WHERE `entry` = 182409;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Телредор' WHERE `entry` = 182410;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Горы Лезвия Клинка' WHERE `entry` = 182411;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Забра'джин' WHERE `entry` = 182412;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Забра''джин' WHERE `entry` = 182412;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Стул' WHERE `entry` = 182413;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Стул' WHERE `entry` = 182414;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Стул' WHERE `entry` = 182415;
@@ -9217,7 +9217,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Тюрьма Боевого Мо�
 UPDATE `locales_gameobject` SET `name_loc8` = 'Тюрьма Боевого Молота' WHERE `entry` = 182504;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Око Гнездовья Ресск' WHERE `entry` = 182507;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Награнд' WHERE `entry` = 182511;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Забра'джин' WHERE `entry` = 182512;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Забра''джин' WHERE `entry` = 182512;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Прибежище Оребор' WHERE `entry` = 182513;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Горы Лезвия Клинка' WHERE `entry` = 182514;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Насосная станция Кривого Клыка' WHERE `entry` = 182515;
@@ -9252,7 +9252,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Шар Транслокации' 
 UPDATE `locales_gameobject` SET `name_loc8` = 'Планы орка Скверны' WHERE `entry` = 182549;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Эта надпись неразборчива' WHERE `entry` = 182552;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Награнд' WHERE `entry` = 182553;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Забра'джин' WHERE `entry` = 182554;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Забра''джин' WHERE `entry` = 182554;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Прибежище Оребор' WHERE `entry` = 182555;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Телредор' WHERE `entry` = 182556;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Горы Лезвия Клинка' WHERE `entry` = 182557;
@@ -9859,7 +9859,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Круг Крови' WHERE `entry
 UPDATE `locales_gameobject` SET `name_loc8` = 'Круг Крови' WHERE `entry` = 183473;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Громоборцев' WHERE `entry` = 183474;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Сильванаар' WHERE `entry` = 183475;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Мок'Натал' WHERE `entry` = 183476;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Мок''Натал' WHERE `entry` = 183476;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Зангартопь' WHERE `entry` = 183477;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Форт Камнерогов' WHERE `entry` = 183478;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Зангартопь' WHERE `entry` = 183479;
@@ -10091,7 +10091,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Горн' WHERE `entry` = 183760;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Наковальня' WHERE `entry` = 183761;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Сбор', `name_loc8` = 'Астраллитиевый матричный кристалл' WHERE `entry` = 183767;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Астраллитиевый матричный кристалл' WHERE `entry` = 183768;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Панель управления Б'наара' WHERE `entry` = 183770;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Панель управления Б''наара' WHERE `entry` = 183770;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Дренейская машина' WHERE `entry` = 183771;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Стул' WHERE `entry` = 183773;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Стул' WHERE `entry` = 183774;
@@ -10236,11 +10236,11 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Огрская кузница' WH
 UPDATE `locales_gameobject` SET `name_loc8` = 'Огрская кузница' WHERE `entry` = 183944;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Энергоизоляционный куб' WHERE `entry` = 183945;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 183946;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Руна Кирин'Вар' WHERE `entry` = 183947;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Руна Кирин''Вар' WHERE `entry` = 183947;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Охранный эффект' WHERE `entry` = 183948;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 183949;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 183950;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Кутузка Кирин'Вар' WHERE `entry` = 183955;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Кутузка Кирин''Вар' WHERE `entry` = 183955;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Панель управления Коруу' WHERE `entry` = 183956;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Змеиная ловушка' WHERE `entry` = 183957;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Капсула стазиса Альфа' WHERE `entry` = 183961;
@@ -10384,11 +10384,11 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Острогорье' WHERE `entr
 UPDATE `locales_gameobject` SET `name_loc8` = 'Зона 52' WHERE `entry` = 184151;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Горящая жаровня' WHERE `entry` = 184152;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Зона 52' WHERE `entry` = 184153;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Манагорн Б'Наар' WHERE `entry` = 184154;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Манагорн Б''Наар' WHERE `entry` = 184154;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Зона 52' WHERE `entry` = 184155;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Крепость Бурь' WHERE `entry` = 184156;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Кирин'Вар' WHERE `entry` = 184157;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Кирин'Вар' WHERE `entry` = 184158;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Кирин''Вар' WHERE `entry` = 184157;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Кирин''Вар' WHERE `entry` = 184158;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Зона 52' WHERE `entry` = 184159;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Арклон' WHERE `entry` = 184160;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 184161;
@@ -10453,27 +10453,27 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Жаровня' WHERE `entry` = 1
 UPDATE `locales_gameobject` SET `name_loc8` = 'Жаровня' WHERE `entry` = 184244;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Канцелярия Луносвета' WHERE `entry` = 184245;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Тяжелая железная опускная решетка' WHERE `entry` = 184246;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Кирин'Вар' WHERE `entry` = 184248;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Кирин''Вар' WHERE `entry` = 184248;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Арклон' WHERE `entry` = 184249;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Зона 52' WHERE `entry` = 184250;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Горящая жаровня' WHERE `entry` = 184252;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Горящая жаровня' WHERE `entry` = 184253;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Волшебная жаровня' WHERE `entry` = 184254;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Спектровый анализатор Длинношеего' WHERE `entry` = 184255;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Кирин'Вар' WHERE `entry` = 184256;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Кирин''Вар' WHERE `entry` = 184256;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Зона 52' WHERE `entry` = 184257;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Манагорн Коруу' WHERE `entry` = 184258;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Манагорн Коруу' WHERE `entry` = 184259;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Зона 52' WHERE `entry` = 184260;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Кирин'Вар' WHERE `entry` = 184261;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Кирин''Вар' WHERE `entry` = 184261;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Крепость Бурь' WHERE `entry` = 184262;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Кирин'Вар' WHERE `entry` = 184263;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Кирин''Вар' WHERE `entry` = 184263;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Зона 52' WHERE `entry` = 184264;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Запасные части телепорта' WHERE `entry` = 184265;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Форт Ярости Солнца' WHERE `entry` = 184266;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Кирин'Вар' WHERE `entry` = 184267;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Кирин''Вар' WHERE `entry` = 184267;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Зона 52' WHERE `entry` = 184268;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Кирин'Вар' WHERE `entry` = 184269;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Кирин''Вар' WHERE `entry` = 184269;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Форт Ярости Солнца' WHERE `entry` = 184270;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Манагорн Коруу' WHERE `entry` = 184271;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Зона 52' WHERE `entry` = 184272;
@@ -10515,7 +10515,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHER
 UPDATE `locales_gameobject` SET `name_loc8` = 'Защитное поле Герметичного Ядра Альфа' WHERE `entry` = 184318;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Защитное поле Герметичного Ядра Бета' WHERE `entry` = 184319;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Аркатрац' WHERE `entry` = 184320;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Дверь мо'арга 2' WHERE `entry` = 184322;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Дверь мо''арга 2' WHERE `entry` = 184322;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Гадальный фолиант' WHERE `entry` = 184332;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 184339;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 184340;
@@ -10578,12 +10578,12 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Вход в шахту Зеон' 
 UPDATE `locales_gameobject` SET `name_loc8` = 'Манагорн Ультрис' WHERE `entry` = 184403;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Крепость Бурь' WHERE `entry` = 184404;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Фаралон' WHERE `entry` = 184405;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Кирин'Вар' WHERE `entry` = 184406;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Кирин''Вар' WHERE `entry` = 184406;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Штормовая Вершина' WHERE `entry` = 184407;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Небесный гребень' WHERE `entry` = 184408;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Крепость Бурь' WHERE `entry` = 184409;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Фаралон' WHERE `entry` = 184410;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Кирин'Вар' WHERE `entry` = 184411;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Кирин''Вар' WHERE `entry` = 184411;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Штормовая Вершина' WHERE `entry` = 184412;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Портал Грим' WHERE `entry` = 184414;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Портал Каалез' WHERE `entry` = 184415;
@@ -10649,7 +10649,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Дверь частной биб�
 UPDATE `locales_gameobject` SET `name_loc8` = 'Фаралон' WHERE `entry` = 184518;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Штормовая Вершина' WHERE `entry` = 184519;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Крепость Бурь' WHERE `entry` = 184520;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Кирин'Вар' WHERE `entry` = 184521;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Кирин''Вар' WHERE `entry` = 184521;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Манагорн Ультрис' WHERE `entry` = 184522;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Зона 52' WHERE `entry` = 184523;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Стул' WHERE `entry` = 184530;
@@ -10658,24 +10658,24 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Стул' WHERE `entry` = 184532;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Зона 52' WHERE `entry` = 184533;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Манагорн Ультрис' WHERE `entry` = 184534;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Космоворот' WHERE `entry` = 184535;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Кирин'Вар' WHERE `entry` = 184536;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Кирин''Вар' WHERE `entry` = 184536;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Штормовая Вершина' WHERE `entry` = 184537;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Зона 52' WHERE `entry` = 184538;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Штормовая Вершина' WHERE `entry` = 184539;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Космоворот' WHERE `entry` = 184540;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Крепость Бурь' WHERE `entry` = 184541;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Манагорн Даро' WHERE `entry` = 184542;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Кирин'Вар' WHERE `entry` = 184543;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Кирин''Вар' WHERE `entry` = 184543;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Крепость Бурь' WHERE `entry` = 184544;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Манагорн Даро' WHERE `entry` = 184545;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Зона 52' WHERE `entry` = 184546;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Штормовая Вершина' WHERE `entry` = 184547;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Кирин'Вар' WHERE `entry` = 184548;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Кирин''Вар' WHERE `entry` = 184548;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Крепость Бурь' WHERE `entry` = 184549;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Крепость Бурь' WHERE `entry` = 184550;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Зона 52' WHERE `entry` = 184551;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Штормовая Вершина' WHERE `entry` = 184552;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Кирин'Вар' WHERE `entry` = 184553;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Кирин''Вар' WHERE `entry` = 184553;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Расплавленный металл' WHERE `entry` = 184554;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Банк Провидцев' WHERE `entry` = 184555;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Банк Алдоров' WHERE `entry` = 184556;
@@ -10718,7 +10718,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Конденсаторий зеф
 UPDATE `locales_gameobject` SET `name_loc8` = 'Турбо-тесла -турель Тошли' WHERE `entry` = 184629;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Турбо-тесла -турель Тошли' WHERE `entry` = 184630;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Сеянец рощи' WHERE `entry` = 184631;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Дверь мо'арга 1' WHERE `entry` = 184632;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Дверь мо''арга 1' WHERE `entry` = 184632;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Колонна Магтеридона 3' WHERE `entry` = 184634;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Колонна Магтеридона 2' WHERE `entry` = 184635;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Колонна Магтеридона 4' WHERE `entry` = 184636;
@@ -10812,7 +10812,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Проломленный сунд
 UPDATE `locales_gameobject` SET `name_loc8` = 'Могила Тчали' WHERE `entry` = 184742;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Всепожирающее пламя' WHERE `entry` = 184743;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Сбор', `name_loc8` = 'Кальян Тчали' WHERE `entry` = 184744;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Череп Т'чали' WHERE `entry` = 184745;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Череп Т''чали' WHERE `entry` = 184745;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Туман Живодера' WHERE `entry` = 184747;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Путеводное видение: огонь' WHERE `entry` = 184752;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Вино Светлой Песни' WHERE `entry` = 184753;
@@ -10863,9 +10863,9 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Энергетический се
 UPDATE `locales_gameobject` SET `name_loc8` = 'Пластинчатый доспех сквернобота' WHERE `entry` = 184860;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Бочка A' WHERE `entry` = 184863;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Яйцо дракона Пустоты' WHERE `entry` = 184867;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Аура таблички Баа'ри' WHERE `entry` = 184868;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Фрагмент таблички Баа'ри' WHERE `entry` = 184869;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Фрагмент таблички Баа'ри' WHERE `entry` = 184870;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Аура таблички Баа''ри' WHERE `entry` = 184868;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Фрагмент таблички Баа''ри' WHERE `entry` = 184869;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Фрагмент таблички Баа''ри' WHERE `entry` = 184870;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Аура деталей сквернобота' WHERE `entry` = 184871;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Аура деталей сквернобота' WHERE `entry` = 184872;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Трансформатор' WHERE `entry` = 184906;
@@ -10998,13 +10998,13 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Призрачно
 UPDATE `locales_gameobject` SET `name_loc8` = 'Лагерь Змеиных Колец' WHERE `entry` = 185072;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Лагерь Змеиных Колец' WHERE `entry` = 185073;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Призрачной Луны' WHERE `entry` = 185074;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Алтарь Ша'тар' WHERE `entry` = 185075;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Алтарь Ша'тар' WHERE `entry` = 185076;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Алтарь Ша''тар' WHERE `entry` = 185075;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Алтарь Ша''тар' WHERE `entry` = 185076;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Святилище Звезд' WHERE `entry` = 185077;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Руины Баа'ри' WHERE `entry` = 185078;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Руины Баа''ри' WHERE `entry` = 185078;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Черный храм' WHERE `entry` = 185079;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Святилище Звезд' WHERE `entry` = 185080;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Алтарь Ша'тар' WHERE `entry` = 185081;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Алтарь Ша''тар' WHERE `entry` = 185081;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Святилище Звезд' WHERE `entry` = 185082;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Цитадель Громового Молота' WHERE `entry` = 185083;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Черный храм' WHERE `entry` = 185084;
@@ -11018,7 +11018,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Аванпост Иллидари
 UPDATE `locales_gameobject` SET `name_loc8` = 'Лес Тероккар' WHERE `entry` = 185092;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Цитадель Громового Молота' WHERE `entry` = 185093;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Кузница Смерти' WHERE `entry` = 185094;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Руины Баа'ри' WHERE `entry` = 185095;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Руины Баа''ри' WHERE `entry` = 185095;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Черный храм' WHERE `entry` = 185096;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Призрачной Луны' WHERE `entry` = 185097;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Призрачной Луны' WHERE `entry` = 185098;
@@ -11043,7 +11043,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Пульт святилища З�
 UPDATE `locales_gameobject` SET `name_loc8` = 'Пульт святилища Змея' WHERE `entry` = 185117;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Пульт святилища Змея' WHERE `entry` = 185118;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Пыльный сундук' WHERE `entry` = 185119;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Инструмент О'Малли' WHERE `entry` = 185120;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Инструмент О''Малли' WHERE `entry` = 185120;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Рычаг' WHERE `entry` = 185123;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Плодородная вулканическая почва' WHERE `entry` = 185124;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Сердце Ярости' WHERE `entry` = 185125;
@@ -11051,7 +11051,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Хрустальная тюрьм
 UPDATE `locales_gameobject` SET `name_loc8` = 'Круг Призыва' WHERE `entry` = 185127;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Сейф Лиантэ' WHERE `entry` = 185128;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 185129;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Перо Скет'лона' WHERE `entry` = 185130;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Перо Скет''лона' WHERE `entry` = 185130;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 185131;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 185132;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Пламя Скверны' WHERE `entry` = 185133;
@@ -11081,7 +11081,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Плакат "Розыск"' WHER
 UPDATE `locales_gameobject` SET `name_loc8` = 'Груда тролльих черепов' WHERE `entry` = 185167;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Укрепленный сундук из оскверненного железа' WHERE `entry` = 185168;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Укрепленный сундук из оскверненного железа' WHERE `entry` = 185169;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Знак Кель'таса' WHERE `entry` = 185170;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Знак Кель''таса' WHERE `entry` = 185170;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Лезвие Клинка - Задание - Дерево с Гари 1' WHERE `entry` = 185172;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Лезвие Клинка - Задание - Дерево с Гари 2 (Большое)' WHERE `entry` = 185173;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Лезвие Клинка - Задание - Дерево с Гари 3' WHERE `entry` = 185174;
@@ -11187,7 +11187,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHER
 UPDATE `locales_gameobject` SET `name_loc8` = 'Котел' WHERE `entry` = 185289;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 185290;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Темница Скартиса' WHERE `entry` = 185292;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Голова огра из Камен'мока на шесте' WHERE `entry` = 185294;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Голова огра из Камен''мока на шесте' WHERE `entry` = 185294;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Ветхая клетка' WHERE `entry` = 185296;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Реликвия анахорета' WHERE `entry` = 185298;
 UPDATE `locales_gameobject` SET `name_loc8` = '[DND] Основание клетки' WHERE `entry` = 185301;
@@ -11610,7 +11610,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Батарея желтых фе�
 UPDATE `locales_gameobject` SET `name_loc8` = 'Батарея синих фейерверков' WHERE `entry` = 185853;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Батарея красных фейерверков' WHERE `entry` = 185854;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Батарея зеленых фейерверков' WHERE `entry` = 185855;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Фетиш Сар'тиса' WHERE `entry` = 185856;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Фетиш Сар''тиса' WHERE `entry` = 185856;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Груда пушечных ядер Скверны' WHERE `entry` = 185861;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Святилище Араккоа' WHERE `entry` = 185863;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Светофорчик - аура - синяя' WHERE `entry` = 185872;
@@ -11643,7 +11643,7 @@ UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Выпивка!', `name
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Сбор', `name_loc8` = 'Яйцо дракона из стаи Крыльев Пустоты' WHERE `entry` = 185915;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Использует', `name_loc8` = 'Хрустальная кузница Скверны' WHERE `entry` = 185919;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Использует', `name_loc8` = 'Хрустальная кузница Скверны' WHERE `entry` = 185920;
-UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Использует', `name_loc8` = 'Хрустальная кузница Баш'ира' WHERE `entry` = 185921;
+UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Использует', `name_loc8` = 'Хрустальная кузница Баш''ира' WHERE `entry` = 185921;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Управляющее устройство Хрустальной кузницы' WHERE `entry` = 185922;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Управляющее устройство Хрустальной кузницы' WHERE `entry` = 185923;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Управляющее устройство Хрустальной кузницы' WHERE `entry` = 185924;
@@ -11867,7 +11867,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Праздничный бочон
 UPDATE `locales_gameobject` SET `name_loc8` = 'Праздничный бочонок грозоварева' WHERE `entry` = 186184;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Гордокский праздничный бочонок' WHERE `entry` = 186185;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Праздничный бочонок с винокурни Дрона' WHERE `entry` = 186186;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Праздничный бочонок вудуистского пива Т'чали' WHERE `entry` = 186187;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Праздничный бочонок вудуистского пива Т''чали' WHERE `entry` = 186187;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Бесплатное пиво на пробу с Фестиваля пива' WHERE `entry` = 186189;
 UPDATE `locales_gameobject` SET `name_loc8` = 'ПРАЗДНИК ПИВА - Скоро!' WHERE `entry` = 186217;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Лунный колодец' WHERE `entry` = 186218;
@@ -11906,9 +11906,9 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Поврежденное снар
 UPDATE `locales_gameobject` SET `name_loc8` = 'Горящие обломки' WHERE `entry` = 186278;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Орочий грог' WHERE `entry` = 186280;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Обломки кораблекрушения' WHERE `entry` = 186283;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Зул'Аманские трупные мухи' WHERE `entry` = 186284;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Зул'Аманский огонь, средний' WHERE `entry` = 186285;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Зул'Аманский огонь, большой' WHERE `entry` = 186286;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Зул''Аманские трупные мухи' WHERE `entry` = 186284;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Зул''Аманский огонь, средний' WHERE `entry` = 186285;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Зул''Аманский огонь, большой' WHERE `entry` = 186286;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Открывание', `name_loc8` = 'Клетка Черного Копыта' WHERE `entry` = 186287;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Приманка на ящера' WHERE `entry` = 186288;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Оружие Черного Копыта' WHERE `entry` = 186301;
@@ -11917,7 +11917,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Выход из Храма Рыс
 UPDATE `locales_gameobject` SET `name_loc8` = 'Вход в Храм Рыси' WHERE `entry` = 186304;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Вход Верховного Ведуна' WHERE `entry` = 186305;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Деревянная дверь' WHERE `entry` = 186306;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Зул'Аман - внешний сундук B' WHERE `entry` = 186307;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Зул''Аман - внешний сундук B' WHERE `entry` = 186307;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Музыкальная декорация L70ETC' WHERE `entry` = 186312;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Рыхлая вывороченная почва' WHERE `entry` = 186314;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Венок' WHERE `entry` = 186315;
@@ -11930,7 +11930,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Яблоки - ловушка' WH
 UPDATE `locales_gameobject` SET `name_loc8` = 'Останки огра' WHERE `entry` = 186332;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Останки огра' WHERE `entry` = 186334;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Знамя Каменного Молота' WHERE `entry` = 186335;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Зул'Аман - ложная клетка' WHERE `entry` = 186338;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Зул''Аман - ложная клетка' WHERE `entry` = 186338;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Пушка лагеря Возмездия' WHERE `entry` = 186370;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Дирижабль' WHERE `entry` = 186371;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Сбор', `name_loc8` = 'Контейнер с чумой' WHERE `entry` = 186390;
@@ -11983,7 +11983,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Огромная пивная к�
 UPDATE `locales_gameobject` SET `name_loc8` = 'Камагуа' WHERE `entry` = 186479;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Крепость Западной Стражи' WHERE `entry` = 186480;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Новый Агамонд' WHERE `entry` = 186481;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Зул'Аман - ложная клетка - открыта' WHERE `entry` = 186482;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Зул''Аман - ложная клетка - открыта' WHERE `entry` = 186482;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Наковальня' WHERE `entry` = 186485;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Горн' WHERE `entry` = 186486;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большая гьялербронская клетка' WHERE `entry` = 186490;
@@ -12095,8 +12095,8 @@ UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Сбор', `name_loc8` 
 UPDATE `locales_gameobject` SET `name_loc8` = 'Пружинная ловушка' WHERE `entry` = 186617;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Сбор', `name_loc8` = 'Военные планы клана Потрошителей Драконов' WHERE `entry` = 186618;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Сбор', `name_loc8` = 'Пружинная ловушка' WHERE `entry` = 186619;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Зул'Аман - Шкатулка с трофеями - дворф' WHERE `entry` = 186622;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Зул'Аман - Дворфийский молот' WHERE `entry` = 186623;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Зул''Аман - Шкатулка с трофеями - дворф' WHERE `entry` = 186622;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Зул''Аман - Дворфийский молот' WHERE `entry` = 186623;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Почтовый ящик' WHERE `entry` = 186629;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Горн' WHERE `entry` = 186630;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Наковальня' WHERE `entry` = 186631;
@@ -12169,7 +12169,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Массивные ворота' 
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Сбор', `name_loc8` = 'Манаягодник' WHERE `entry` = 186729;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Декорация_ET_Голографический_Стенд1' WHERE `entry` = 186730;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Декорация_ET_Голографический_Стенд2' WHERE `entry` = 186731;
-UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Сбор', `name_loc8` = 'Карта Зул'Амана' WHERE `entry` = 186733;
+UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Сбор', `name_loc8` = 'Карта Зул''Амана' WHERE `entry` = 186733;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Волшебный ларец Амани' WHERE `entry` = 186734;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Денежный мешок' WHERE `entry` = 186736;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Нагруженный фургон Фестиваля пива' WHERE `entry` = 186737;
@@ -12209,7 +12209,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Стул' WHERE `entry` = 186841;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Стул' WHERE `entry` = 186842;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Стул' WHERE `entry` = 186843;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Стул' WHERE `entry` = 186844;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Зул'Аман - Алтарный факел - Бог-Медведь' WHERE `entry` = 186860;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Зул''Аман - Алтарный факел - Бог-Медведь' WHERE `entry` = 186860;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Древко флага Альянса' WHERE `entry` = 186861;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Флаг Альянса' WHERE `entry` = 186862;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер Гибльхейма' WHERE `entry` = 186863;
@@ -12283,13 +12283,13 @@ UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Поиск', `name_loc8
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Поиск', `name_loc8` = 'Пушечное ядро' WHERE `entry` = 187027;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Сбор', `name_loc8` = 'Ледяное сердце Исулдофа' WHERE `entry` = 187032;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Сбор', `name_loc8` = 'Посох Ярости Бури' WHERE `entry` = 187033;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Зул'Аман - Алтарный факел - Бог-Орел' WHERE `entry` = 187035;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Зул'Аман - Алтарный факел - Бог-Дракондор' WHERE `entry` = 187036;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Зул'Аман - Алтарный факел - Бог-Рысь' WHERE `entry` = 187037;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Зул''Аман - Алтарный факел - Бог-Орел' WHERE `entry` = 187035;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Зул''Аман - Алтарный факел - Бог-Дракондор' WHERE `entry` = 187036;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Зул''Аман - Алтарный факел - Бог-Рысь' WHERE `entry` = 187037;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Сестренка милосердия' WHERE `entry` = 187038;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Сбор', `name_loc8` = 'Контрабандный контейнер с маной' WHERE `entry` = 187039;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Переход в Призрачный мир' WHERE `entry` = 187055;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Портал из Шаттрата в Кель'Данас' WHERE `entry` = 187056;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Портал из Шаттрата в Кель''Данас' WHERE `entry` = 187056;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Контейнер с маной 3x3' WHERE `entry` = 187057;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Контейнер с маной' WHERE `entry` = 187058;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Корень острого шипа' WHERE `entry` = 187072;
@@ -12375,7 +12375,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Крепость Песни Во�
 UPDATE `locales_gameobject` SET `name_loc8` = 'Каскала' WHERE `entry` = 187278;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Крепость Песни Войны' WHERE `entry` = 187279;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Взлетная полоса Выкрутеня' WHERE `entry` = 187280;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Таунка'ле' WHERE `entry` = 187281;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Таунка''ле' WHERE `entry` = 187281;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Каскала' WHERE `entry` = 187282;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Руины Терзающего Бича' WHERE `entry` = 187283;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Руины Терзающего Бича' WHERE `entry` = 187284;
@@ -12392,13 +12392,13 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Взлетная полоса В�
 UPDATE `locales_gameobject` SET `name_loc8` = 'Крепость Песни Войны' WHERE `entry` = 187298;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Хранилище гильдии' WHERE `entry` = 187299;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Каскала' WHERE `entry` = 187300;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Таунка'ле' WHERE `entry` = 187301;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Таунка''ле' WHERE `entry` = 187301;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Крепость Песни Войны' WHERE `entry` = 187302;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Драконий Погост' WHERE `entry` = 187303;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Каскала' WHERE `entry` = 187304;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Крепость Песни Войны' WHERE `entry` = 187305;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Взлетная полоса Выкрутеня' WHERE `entry` = 187306;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Таунка'ле' WHERE `entry` = 187307;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Таунка''ле' WHERE `entry` = 187307;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Выкрутень' WHERE `entry` = 187312;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Крепость Песни Войны' WHERE `entry` = 187313;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 187314;
@@ -12413,7 +12413,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Почтовый ящик' WHERE 
 UPDATE `locales_gameobject` SET `name_loc8` = 'Янтарная гряда' WHERE `entry` = 187324;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Янтарная гряда' WHERE `entry` = 187325;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Драконий Погост' WHERE `entry` = 187326;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Таунка'ле' WHERE `entry` = 187327;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Таунка''ле' WHERE `entry` = 187327;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Каскала' WHERE `entry` = 187328;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Хранилище гильдии' WHERE `entry` = 187329;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Собирание', `name_loc8` = 'Куст Кровяники' WHERE `entry` = 187333;
@@ -12428,10 +12428,10 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Плато Солнечного �
 UPDATE `locales_gameobject` SET `name_loc8` = 'Крепость Отваги' WHERE `entry` = 187346;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Крепость Отваги' WHERE `entry` = 187348;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Янтарная гряда' WHERE `entry` = 187349;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Застава Бор'горок' WHERE `entry` = 187350;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Застава Бор''горок' WHERE `entry` = 187350;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Долина Шолазар' WHERE `entry` = 187351;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Крепость Отваги' WHERE `entry` = 187352;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Застава Бор'горока' WHERE `entry` = 187353;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Застава Бор''горока' WHERE `entry` = 187353;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Залив Зеленожабрых' WHERE `entry` = 187354;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Терраса Магистров' WHERE `entry` = 187355;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Знамя Расколотого Солнца (шест Дренеев)' WHERE `entry` = 187356;
@@ -12548,7 +12548,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Торговый ряд' WHERE `e
 UPDATE `locales_gameobject` SET `name_loc8` = 'Главные ворота' WHERE `entry` = 187599;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Торговый ряд' WHERE `entry` = 187600;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Площадь Старейшин' WHERE `entry` = 187601;
-UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Уничтожение', `name_loc8` = 'Неруб'арская кладка' WHERE `entry` = 187655;
+UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Уничтожение', `name_loc8` = 'Неруб''арская кладка' WHERE `entry` = 187655;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 187658;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Извлечение', `name_loc8` = 'Ящик с боеприпасами Песни Войны' WHERE `entry` = 187659;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Извлечение', `name_loc8` = 'Ящик с боеприпасами Песни Войны' WHERE `entry` = 187660;
@@ -12572,7 +12572,7 @@ UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Сбор', `name_loc8` 
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Сбор', `name_loc8` = 'Сверхпрочная металлическая пластина' WHERE `entry` = 187686;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Сбор', `name_loc8` = 'Сверхпрочная металлическая пластина' WHERE `entry` = 187687;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Сбор', `name_loc8` = 'Вещи Умейки' WHERE `entry` = 187689;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Котел Эн'кила' WHERE `entry` = 187690;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Котел Эн''кила' WHERE `entry` = 187690;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Маркер Плети' WHERE `entry` = 187693;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Маркер Альянса' WHERE `entry` = 187694;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Маркер Орды' WHERE `entry` = 187695;
@@ -12765,7 +12765,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Деревянный стул' WH
 UPDATE `locales_gameobject` SET `name_loc8` = 'Деревянный стул' WHERE `entry` = 188170;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Камень Встреч' WHERE `entry` = 188171;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Камень Встреч' WHERE `entry` = 188172;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Побег на остров Кель'Данас' WHERE `entry` = 188173;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Побег на остров Кель''Данас' WHERE `entry` = 188173;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Мгновенный_Портал_03_Сложность_1' WHERE `entry` = 188177;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Мгновенный_Портал_01_Сложность_1' WHERE `entry` = 188178;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Рука голема' WHERE `entry` = 188186;
@@ -12804,7 +12804,7 @@ UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Изучение', `nam
 UPDATE `locales_gameobject` SET `name_loc8` = 'Бухта торговцев' WHERE `entry` = 188265;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Крепость Завоевателей' WHERE `entry` = 188266;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Приют Янтарной Сосны' WHERE `entry` = 188267;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Зул'Драк' WHERE `entry` = 188268;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Зул''Драк' WHERE `entry` = 188268;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Драконий Погост' WHERE `entry` = 188269;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Приют Янтарной Сосны' WHERE `entry` = 188270;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Крепость Завоевателей' WHERE `entry` = 188271;
@@ -12815,11 +12815,11 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Седая Пасть' WHERE `ent
 UPDATE `locales_gameobject` SET `name_loc8` = 'Седая Пасть' WHERE `entry` = 188276;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Лесозаготовки Синего Неба' WHERE `entry` = 188277;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Солнцестояния' WHERE `entry` = 188278;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Драк'Тарон' WHERE `entry` = 188279;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Драк''Тарон' WHERE `entry` = 188279;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Крепость Завоевателей' WHERE `entry` = 188280;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Драк'Тарон' WHERE `entry` = 188281;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Драк''Тарон' WHERE `entry` = 188281;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Лесозаготовки Синего Неба' WHERE `entry` = 188282;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Зул'Драк' WHERE `entry` = 188283;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Зул''Драк' WHERE `entry` = 188283;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Солнцестояния' WHERE `entry` = 188284;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Лагерь дружины Западного Края' WHERE `entry` = 188285;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Тор Модан' WHERE `entry` = 188286;
@@ -12842,7 +12842,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Крепость Завоеват
 UPDATE `locales_gameobject` SET `name_loc8` = 'Лагерь дружины Западного Края' WHERE `entry` = 188303;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Солнцестояния' WHERE `entry` = 188304;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Тор Модан' WHERE `entry` = 188305;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Драк'Тарон' WHERE `entry` = 188306;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Драк''Тарон' WHERE `entry` = 188306;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Лагерь дружины Западного Края' WHERE `entry` = 188307;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Лесозаготовки Синего Неба' WHERE `entry` = 188308;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Седая Пасть' WHERE `entry` = 188309;
@@ -12852,14 +12852,14 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Седая Пасть' WHERE `ent
 UPDATE `locales_gameobject` SET `name_loc8` = 'Приют Янтарной Сосны' WHERE `entry` = 188313;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Крепость Завоевателей' WHERE `entry` = 188314;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Тор Модан' WHERE `entry` = 188315;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Драк'Тарон' WHERE `entry` = 188316;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Драк''Тарон' WHERE `entry` = 188316;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Крепость Завоевателей' WHERE `entry` = 188317;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Драк'Тарон' WHERE `entry` = 188318;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Зул'Драк' WHERE `entry` = 188319;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Драк''Тарон' WHERE `entry` = 188318;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Зул''Драк' WHERE `entry` = 188319;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Приют Янтарной Сосны' WHERE `entry` = 188320;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Седая Пасть' WHERE `entry` = 188321;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Лагерь Уанква' WHERE `entry` = 188322;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Зул'Драк' WHERE `entry` = 188323;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Зул''Драк' WHERE `entry` = 188323;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Ревущий фьорд' WHERE `entry` = 188324;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Солнцестояния' WHERE `entry` = 188325;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Драконий Погост' WHERE `entry` = 188326;
@@ -12873,7 +12873,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Тор Модан' WHERE `entry` 
 UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Солнцестояния' WHERE `entry` = 188334;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Дун Аргол' WHERE `entry` = 188335;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Драконий Погост' WHERE `entry` = 188336;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Зул'Драк' WHERE `entry` = 188337;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Зул''Драк' WHERE `entry` = 188337;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Солнцестояния' WHERE `entry` = 188338;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Тор Модан' WHERE `entry` = 188339;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Руна верховного мага Похитителя Солнца' WHERE `entry` = 188342;
@@ -12888,15 +12888,15 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Горн' WHERE `entry` = 188354;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Почтовый ящик' WHERE `entry` = 188355;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Горн' WHERE `entry` = 188356;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Наковальня' WHERE `entry` = 188357;
-UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Сбор', `name_loc8` = 'Крабовая ловушка Туа'кеа' WHERE `entry` = 188359;
+UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Сбор', `name_loc8` = 'Крабовая ловушка Туа''кеа' WHERE `entry` = 188359;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Клетка аптекаря' WHERE `entry` = 188362;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Клетка аптекаря (низ)' WHERE `entry` = 188363;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Изучение', `name_loc8` = 'Разрушенная ловушка на крабов' WHERE `entry` = 188364;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Сердце Древних' WHERE `entry` = 188365;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Мумия тролля' WHERE `entry` = 188366;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Извлечение', `name_loc8` = 'Портативный сейсмограф' WHERE `entry` = 188367;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Огонь Зул'Амана - слабый' WHERE `entry` = 188368;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Рыболовный крючок Туа'кеа' WHERE `entry` = 188370;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Огонь Зул''Амана - слабый' WHERE `entry` = 188368;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Рыболовный крючок Туа''кеа' WHERE `entry` = 188370;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Ледяной Пыли' WHERE `entry` = 188371;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Храм Драконьего Покоя' WHERE `entry` = 188372;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Крепость Фордрагона' WHERE `entry` = 188373;
@@ -12908,8 +12908,8 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Борейская тундра' 
 UPDATE `locales_gameobject` SET `name_loc8` = 'Покой Звезд' WHERE `entry` = 188380;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Ледяной Пыли' WHERE `entry` = 188381;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Молот Агмара' WHERE `entry` = 188382;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Отряд Кор'крона' WHERE `entry` = 188383;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Наживка Ту'у'гвара' WHERE `entry` = 188386;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Отряд Кор''крона' WHERE `entry` = 188383;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Наживка Ту''у''гвара' WHERE `entry` = 188386;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Седые холмы' WHERE `entry` = 188387;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Храм Драконьего Покоя' WHERE `entry` = 188388;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Опора Света' WHERE `entry` = 188389;
@@ -12929,8 +12929,8 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Крепость Стражей �
 UPDATE `locales_gameobject` SET `name_loc8` = 'Храм Драконьего Покоя' WHERE `entry` = 188403;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Ядозлобь' WHERE `entry` = 188404;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Крепость Стражей Зимы' WHERE `entry` = 188405;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Зул'Драк' WHERE `entry` = 188406;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Зул'Драк' WHERE `entry` = 188407;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Зул''Драк' WHERE `entry` = 188406;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Зул''Драк' WHERE `entry` = 188407;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Крепость Стражей Зимы' WHERE `entry` = 188408;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Седые холмы' WHERE `entry` = 188409;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Лес Хрустальной Песни' WHERE `entry` = 188410;
@@ -12939,9 +12939,9 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Крепость Стражей �
 UPDATE `locales_gameobject` SET `name_loc8` = 'Седые холмы' WHERE `entry` = 188413;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Седые холмы' WHERE `entry` = 188414;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Шар Синих Драконов' WHERE `entry` = 188415;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Жаровня Тоалу'у' WHERE `entry` = 188416;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Жаровня Тоалу''у' WHERE `entry` = 188416;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Розыск!' WHERE `entry` = 188418;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Старейшина Мана'лоа' WHERE `entry` = 188419;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Старейшина Мана''лоа' WHERE `entry` = 188419;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Призыв', `name_loc8` = 'Жемчужина Бездны' WHERE `entry` = 188422;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Горящая жаровня' WHERE `entry` = 188423;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Письмо от Саурфанга' WHERE `entry` = 188424;
@@ -12962,11 +12962,11 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Наковальня' WHERE `entr
 UPDATE `locales_gameobject` SET `name_loc8` = 'Телепортатор парашютиста со станции Выкрутеня' WHERE `entry` = 188454;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 188455;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Яйцо дракона Нексуса' WHERE `entry` = 188457;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Провидец Зеб'Халака' WHERE `entry` = 188458;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Провидец Зеб''Халака' WHERE `entry` = 188458;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Машина-крот Тор Модана' WHERE `entry` = 188460;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Сбор', `name_loc8` = 'Таблички Драккари' WHERE `entry` = 188461;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Панцирь Ануб'ет'кана' WHERE `entry` = 188462;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Ануб'арский механизм' WHERE `entry` = 188463;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Панцирь Ануб''ет''кана' WHERE `entry` = 188462;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Ануб''арский механизм' WHERE `entry` = 188463;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Мумия древнего тролля' WHERE `entry` = 188464;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Клетка Харрисона' WHERE `entry` = 188465;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Древний каменный указатель' WHERE `entry` = 188469;
@@ -13003,7 +13003,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Направленная руна
 UPDATE `locales_gameobject` SET `name_loc8` = 'Направленная руна 4' WHERE `entry` = 188507;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Буровой комбайн Черной стали (младший Призыватель)' WHERE `entry` = 188508;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Черепаха (Зеленый остров)' WHERE `entry` = 188511;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Сундук Ган'джо' WHERE `entry` = 188518;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Сундук Ган''джо' WHERE `entry` = 188518;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Подъемник' WHERE `entry` = 188521;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Волшебная ловушка' WHERE `entry` = 188522;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Крупицы духов Драккари' WHERE `entry` = 188525;
@@ -13215,7 +13215,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHER
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 190124;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 190125;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 190126;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Филактерия Тель'зана' WHERE `entry` = 190127;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Филактерия Тель''зана' WHERE `entry` = 190127;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 190128;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 190129;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 190130;
@@ -13234,7 +13234,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Жаровня' WHERE `entry` = 1
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 190151;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 190152;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 190153;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Обелиск призыва Тел'зан' WHERE `entry` = 190156;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Обелиск призыва Тел''зан' WHERE `entry` = 190156;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Жаровня' WHERE `entry` = 190159;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 190160;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Жаровня' WHERE `entry` = 190165;
@@ -13399,7 +13399,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHER
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 190527;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Собирание', `name_loc8` = 'Песчаный папоротник' WHERE `entry` = 190533;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Распустившийся водяной мак' WHERE `entry` = 190534;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Зим'Абва' WHERE `entry` = 190535;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Зим''Абва' WHERE `entry` = 190535;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Корабль, ледокол (Гордость Штормграда)' WHERE `entry` = 190536;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Сбор', `name_loc8` = 'Рухнувший сеятель чумы' WHERE `entry` = 190537;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Знамя Серебряного Авангарда' WHERE `entry` = 190538;
@@ -13428,7 +13428,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Башня Заставы Све�
 UPDATE `locales_gameobject` SET `name_loc8` = 'Молния Акеруса' WHERE `entry` = 190569;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Сияющее пламя' WHERE `entry` = 190570;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Строительные леса Штормграда' WHERE `entry` = 190571;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Клетка Зул'Драка' WHERE `entry` = 190572;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Клетка Зул''Драка' WHERE `entry` = 190572;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Сокровище Шепота Тумана' WHERE `entry` = 190578;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 190579;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 190580;
@@ -13445,11 +13445,11 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Жаровня' WHERE `entry` = 1
 UPDATE `locales_gameobject` SET `name_loc8` = 'Жаровня' WHERE `entry` = 190599;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Жаровня' WHERE `entry` = 190600;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Череп праматери Сливины' WHERE `entry` = 190601;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Зим'Торга' WHERE `entry` = 190602;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Зим''Торга' WHERE `entry` = 190602;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Обжигающая ловушка Хеминга' WHERE `entry` = 190603;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Извлечение', `name_loc8` = 'Сокровище Чуло Безумного' WHERE `entry` = 190612;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Извлечение', `name_loc8` = 'Сокровище Гаванила' WHERE `entry` = 190613;
-UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Извлечение', `name_loc8` = 'Сокровище Кутубе'сы' WHERE `entry` = 190614;
+UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Извлечение', `name_loc8` = 'Сокровище Кутубе''сы' WHERE `entry` = 190614;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 190616;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Возмутитель спокойствия', `name_loc8` = 'Синий котел' WHERE `entry` = 190618;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Возмутитель спокойствия', `name_loc8` = 'Фиолетовый котел' WHERE `entry` = 190619;
@@ -13461,7 +13461,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Апельсин' WHERE `entry` =
 UPDATE `locales_gameobject` SET `name_loc8` = 'Гроздь бананов' WHERE `entry` = 190625;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Жаровня Дракуру' WHERE `entry` = 190629;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Возмутитель спокойствия', `name_loc8` = 'Зеленый котел' WHERE `entry` = 190630;
-UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Сбор', `name_loc8` = 'Хар'коанская реликвия' WHERE `entry` = 190633;
+UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Сбор', `name_loc8` = 'Хар''коанская реликвия' WHERE `entry` = 190633;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Открывание', `name_loc8` = 'Клапан давления' WHERE `entry` = 190635;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Поджигание', `name_loc8` = 'Жаровня' WHERE `entry` = 190636;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Бочка апельсинов' WHERE `entry` = 190637;
@@ -13471,7 +13471,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Пунш "Зов джунглей
 UPDATE `locales_gameobject` SET `name_loc8` = 'Бананы (Display)' WHERE `entry` = 190645;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Трупы' WHERE `entry` = 190647;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Мозги и кишки' WHERE `entry` = 190656;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Зим'Рук' WHERE `entry` = 190657;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Зим''Рук' WHERE `entry` = 190657;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Яйцо руха' WHERE `entry` = 190660;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Гнездо руха' WHERE `entry` = 190661;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Крепость Западной Стражи' WHERE `entry` = 190662;
@@ -13502,7 +13502,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Саронитовая стрел
 UPDATE `locales_gameobject` SET `name_loc8` = 'Аптекарская свеча-череп' WHERE `entry` = 190692;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Аптекарский книжный шкаф' WHERE `entry` = 190693;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Аптекарская скамейка' WHERE `entry` = 190694;
-UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Использует', `name_loc8` = 'Барабан Хеб'Джина' WHERE `entry` = 190695;
+UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Использует', `name_loc8` = 'Барабан Хеб''Джина' WHERE `entry` = 190695;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Владения мохобродов' WHERE `entry` = 190696;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Кресло' WHERE `entry` = 190697;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Кресло' WHERE `entry` = 190698;
@@ -13549,7 +13549,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Дар урожая' WHERE `entry
 UPDATE `locales_gameobject` SET `name_loc8` = 'Талисман Артруиса' WHERE `entry` = 190777;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Восставшая грязь' WHERE `entry` = 190778;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Выделяющаяся грязь' WHERE `entry` = 190779;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Ворота Зол'Маза' WHERE `entry` = 190784;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Ворота Зол''Маза' WHERE `entry` = 190784;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Угли' WHERE `entry` = 190785;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Средний огонь' WHERE `entry` = 190795;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Маленький костер' WHERE `entry` = 190796;
@@ -13557,7 +13557,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Большой огонь' WHERE 
 UPDATE `locales_gameobject` SET `name_loc8` = 'Клетка Плети' WHERE `entry` = 190803;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Использует', `name_loc8` = 'Рычаг подъема ворот' WHERE `entry` = 190834;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Земляная руна' WHERE `entry` = 190835;
-UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Открывание', `name_loc8` = 'Трофей из крепости Зол'Маза' WHERE `entry` = 190836;
+UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Открывание', `name_loc8` = 'Трофей из крепости Зол''Маза' WHERE `entry` = 190836;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 190837;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 190838;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 190839;
@@ -13565,7 +13565,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHER
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 190841;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 190842;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 190843;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Зул'Драк - Ловушка тайника крепости Зол'Маза' WHERE `entry` = 190857;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Зул''Драк - Ловушка тайника крепости Зол''Маза' WHERE `entry` = 190857;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Забытые письма' WHERE `entry` = 190917;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Чумной котел' WHERE `entry` = 190936;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Похищение', `name_loc8` = 'Пустой котел' WHERE `entry` = 190937;
@@ -13738,7 +13738,7 @@ UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Извлечение', 
 UPDATE `locales_gameobject` SET `name_loc8` = 'Жаровня' WHERE `entry` = 191217;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Жаровня' WHERE `entry` = 191219;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Большой костер' WHERE `entry` = 191222;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Таунка'ле' WHERE `entry` = 191223;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Деревня Таунка''ле' WHERE `entry` = 191223;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Драконий Погост' WHERE `entry` = 191224;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Жаровня' WHERE `entry` = 191225;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Костер' WHERE `entry` = 191226;
@@ -13943,7 +13943,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Механизм управлен
 UPDATE `locales_gameobject` SET `name_loc8` = 'Око Акеруса (вкус)' WHERE `entry` = 191612;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Око Акеруса (ловушка вкуса)' WHERE `entry` = 191613;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Знамя Серебряной заставы' WHERE `entry` = 191614;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Линия кольев Зул'Драка' WHERE `entry` = 191615;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Линия кольев Зул''Драка' WHERE `entry` = 191615;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Прикосновение банши' WHERE `entry` = 191616;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Перечень павших героев' WHERE `entry` = 191617;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Отчеты с передовой: Западный Нордскол' WHERE `entry` = 191618;
@@ -14572,7 +14572,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Фонарь' WHERE `entry` = 192
 UPDATE `locales_gameobject` SET `name_loc8` = 'Озеро Ледяных Оков - знамя Альянса' WHERE `entry` = 192501;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Озеро Ледяных Оков - знамя Орды' WHERE `entry` = 192502;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Мамонт подъемника' WHERE `entry` = 192517;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Алтарь Слад'рана' WHERE `entry` = 192518;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Алтарь Слад''рана' WHERE `entry` = 192518;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Алтарь Мураби' WHERE `entry` = 192519;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Алтарь колосса Драккари' WHERE `entry` = 192520;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Лазарет Оплота' WHERE `entry` = 192522;
@@ -14599,7 +14599,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Камень встреч' WHERE 
 UPDATE `locales_gameobject` SET `name_loc8` = 'Меч Бетода' WHERE `entry` = 192558;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Факел' WHERE `entry` = 192562;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Факел' WHERE `entry` = 192563;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Дверь Гал'дары' WHERE `entry` = 192568;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Дверь Гал''дары' WHERE `entry` = 192568;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Подводная темница Эка' WHERE `entry` = 192569;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Горн' WHERE `entry` = 192572;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Горн' WHERE `entry` = 192573;
@@ -14801,7 +14801,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Портал в Оргримма�
 UPDATE `locales_gameobject` SET `name_loc8` = 'Портал в Штормград' WHERE `entry` = 193053;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Пир для великанов' WHERE `entry` = 193055;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Пир для карликов' WHERE `entry` = 193056;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Жаровня Ан'кахета' WHERE `entry` = 193057;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Жаровня Ан''кахета' WHERE `entry` = 193057;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Глаз власти' WHERE `entry` = 193058;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Оружие врайкулов' WHERE `entry` = 193059;
 UPDATE `locales_gameobject` SET `castbarcaption_loc8` = 'Изучение', `name_loc8` = 'Цепкая рука' WHERE `entry` = 193060;
@@ -14919,7 +14919,7 @@ UPDATE `locales_gameobject` SET `name_loc8` = 'Тронный зал - вход 
 UPDATE `locales_gameobject` SET `name_loc8` = 'Кристалл Ужаса' WHERE `entry` = 193767;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Тотем Чуло Безумного' WHERE `entry` = 193768;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Тотем Гаванила' WHERE `entry` = 193769;
-UPDATE `locales_gameobject` SET `name_loc8` = 'Тотем Кутубе'сы' WHERE `entry` = 193770;
+UPDATE `locales_gameobject` SET `name_loc8` = 'Тотем Кутубе''сы' WHERE `entry` = 193770;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Замораживающая стрела I' WHERE `entry` = 193771;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Портал к Озеру Ледяных Оков' WHERE `entry` = 193772;
 UPDATE `locales_gameobject` SET `name_loc8` = 'Кухонный стол' WHERE `entry` = 193781;
@@ -15067,4 +15067,4 @@ CREATE TABLE IF NOT EXISTS `rus_udb_rev` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 DELETE FROM `rus_udb_rev` WHERE `name` = 'locales_gameobject';
-INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('locales_gameobject', '23');
+INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('locales_gameobject', '24');
