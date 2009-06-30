@@ -1,6 +1,6 @@
--- Date: 2009-06-22
--- Time: 19:36:00
--- Rev.: 24
+-- Date: 2009-07-01
+-- Time: 00:31:25
+-- Rev.: 25
 
 DROP TABLE IF EXISTS `creature_ai_texts2`;
 CREATE TABLE IF NOT EXISTS `creature_ai_texts2` (
@@ -42,4 +42,4 @@ CREATE TABLE IF NOT EXISTS `rus_udb_rev` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 DELETE FROM `rus_udb_rev` WHERE `name` = 'creature_ai_texts';
-INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('creature_ai_texts', '24');
+INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('creature_ai_texts', '25');

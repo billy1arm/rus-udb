@@ -1,6 +1,6 @@
--- Date: 2009-06-22
--- Time: 19:36:43
--- Rev.: 24
+-- Date: 2009-07-01
+-- Time: 00:32:57
+-- Rev.: 25
 
 DROP TABLE IF EXISTS `locales_points_of_interest`;
 CREATE TABLE IF NOT EXISTS `locales_points_of_interest` (
@@ -30,4 +30,4 @@ CREATE TABLE IF NOT EXISTS `rus_udb_rev` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 DELETE FROM `rus_udb_rev` WHERE `name` = 'locales_points_of_interest';
-INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('locales_points_of_interest', '24');
+INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('locales_points_of_interest', '25');
