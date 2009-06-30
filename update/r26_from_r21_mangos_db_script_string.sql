@@ -1,6 +1,6 @@
 -- Date: 2009-07-01
 -- Time: 00:31:28
--- Rev.: From 21 to 25
+-- Rev.: From 21 to 26
 
 
 UPDATE `db_script_string` SET `content_default` = '' WHERE `content_default` = NULL;
@@ -16,4 +16,4 @@ CREATE TABLE IF NOT EXISTS `rus_udb_rev` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 DELETE FROM `rus_udb_rev` WHERE `name` = 'db_script_string';
-INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('db_script_string', '25');
+INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('db_script_string', '26');

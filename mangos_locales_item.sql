@@ -1,6 +1,6 @@
 -- Date: 2009-07-01
 -- Time: 00:32:08
--- Rev.: 25
+-- Rev.: 26
 
 DROP TABLE IF EXISTS `locales_item`;
 CREATE TABLE IF NOT EXISTS `locales_item` (
@@ -31298,4 +31298,4 @@ CREATE TABLE IF NOT EXISTS `rus_udb_rev` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 DELETE FROM `rus_udb_rev` WHERE `name` = 'locales_item';
-INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('locales_item', '25');
+INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('locales_item', '26');

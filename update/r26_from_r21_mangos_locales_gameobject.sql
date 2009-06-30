@@ -1,6 +1,6 @@
 -- Date: 2009-07-01
 -- Time: 00:31:55
--- Rev.: From 21 to 25
+-- Rev.: From 21 to 26
 
 
 UPDATE `locales_gameobject` SET `castbarcaption_loc1` = '' WHERE `castbarcaption_loc1` = NULL;
@@ -17,4 +17,4 @@ CREATE TABLE IF NOT EXISTS `rus_udb_rev` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 DELETE FROM `rus_udb_rev` WHERE `name` = 'locales_gameobject';
-INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('locales_gameobject', '25');
+INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('locales_gameobject', '26');
