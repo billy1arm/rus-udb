@@ -1,6 +1,6 @@
 -- Date: 2009-07-01
 -- Time: 00:31:31
--- Rev.: 25
+-- Rev.: 26
 
 DROP TABLE IF EXISTS `locales_achievement_reward`;
 CREATE TABLE IF NOT EXISTS `locales_achievement_reward` (
@@ -93,4 +93,4 @@ CREATE TABLE IF NOT EXISTS `rus_udb_rev` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 DELETE FROM `rus_udb_rev` WHERE `name` = 'locales_achievement_reward';
-INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('locales_achievement_reward', '25');
+INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('locales_achievement_reward', '26');

@@ -1,6 +1,6 @@
 -- Date: 2009-07-01
 -- Time: 00:32:57
--- Rev.: From 21 to 25
+-- Rev.: From 21 to 26
 
 
 UPDATE `locales_points_of_interest` SET `icon_name_loc1` = NULL WHERE `icon_name_loc1` = '';
@@ -15,4 +15,4 @@ CREATE TABLE IF NOT EXISTS `rus_udb_rev` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 DELETE FROM `rus_udb_rev` WHERE `name` = 'locales_points_of_interest';
-INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('locales_points_of_interest', '25');
+INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('locales_points_of_interest', '26');

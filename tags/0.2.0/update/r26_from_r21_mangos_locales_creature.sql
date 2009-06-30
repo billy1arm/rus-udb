@@ -1,6 +1,6 @@
 -- Date: 2009-07-01
 -- Time: 00:31:34
--- Rev.: From 21 to 25
+-- Rev.: From 21 to 26
 
 UPDATE `locales_creature` SET `name_loc8` = 'Точка пути (Видят только GM)' WHERE `entry` = 1;
 UPDATE `locales_creature` SET `subname_loc8` = 'Визуальная' WHERE `entry` = 1;
@@ -37,4 +37,4 @@ CREATE TABLE IF NOT EXISTS `rus_udb_rev` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 DELETE FROM `rus_udb_rev` WHERE `name` = 'locales_creature';
-INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('locales_creature', '25');
+INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('locales_creature', '26');

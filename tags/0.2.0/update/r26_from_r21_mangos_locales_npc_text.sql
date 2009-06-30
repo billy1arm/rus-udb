@@ -1,6 +1,6 @@
 -- Date: 2009-07-01
 -- Time: 00:32:46
--- Rev.: From 21 to 25
+-- Rev.: From 21 to 26
 
 UPDATE `locales_npc_text` SET `Text0_1_loc8` = 'Отправляйтесь в столицу орков, Оргриммар, там вы найдете его в Аллее Чести у магазина "Легендарное оружие".' WHERE `entry` = 1620;
 UPDATE `locales_npc_text` SET `Text0_1_loc8` = 'Ты делаешь хорошие мечи, $N. Они режут камень и остаются достаточно острыми, чтобы перерезать горло. Тем не менее я видел кое-что получше. Орк по имени Кергул Кровавый Топор делает превосходные мечи. Иди и научись у него всему, что он умеет.' WHERE `entry` = 1621;
@@ -130,4 +130,4 @@ CREATE TABLE IF NOT EXISTS `rus_udb_rev` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 DELETE FROM `rus_udb_rev` WHERE `name` = 'locales_npc_text';
-INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('locales_npc_text', '25');
+INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('locales_npc_text', '26');

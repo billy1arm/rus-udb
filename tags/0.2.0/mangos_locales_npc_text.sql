@@ -1,6 +1,6 @@
 -- Date: 2009-07-01
 -- Time: 00:32:46
--- Rev.: 25
+-- Rev.: 26
 
 DROP TABLE IF EXISTS `locales_npc_text`;
 CREATE TABLE IF NOT EXISTS `locales_npc_text` (
@@ -136,7 +136,7 @@ CREATE TABLE IF NOT EXISTS `locales_npc_text` (
   PRIMARY KEY (`entry`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
-INSERT INTO `locales_npc_text` (`entry`, `Text0_0_loc1`, `Text0_0_loc8`, `Text0_1_loc1`, `Text0_1_loc8`, `Text1_0_loc1`, `Text1_0_loc8`, `Text1_1_loc1`, `Text1_1_loc8`, `Text2_0_loc1`, `Text2_0_loc8`, `Text2_1_loc1`, `Text2_1_loc8`, `Text3_0_loc1`, `Text3_0_loc8`, `Text3_1_loc1`, `Text3_1_loc8`, `Text4_0_loc1`, `Text4_0_loc8`, `Text4_1_loc1`, `Text4_1_loc8`, `Text5_0_loc1`, `Text5_0_loc8`, `Text5_1_loc1`, `Text5_1_loc8`, `Text6_0_loc1`, `Text6_0_loc8`, `Text6_1_loc1`, `Text6_1_loc8`, `Text7_0_loc1`, `Text7_0_loc8`, `Text7_1_loc1`, `Text7_1_loc8`) SELECT `entry`, `text0_0` AS `Text0_0_loc1`, `text0_0` AS `Text0_0_loc8`, `text0_1` AS `Text0_1_loc1`, `text0_1` AS `Text0_1_loc8`, `text1_0` AS `Text1_0_loc1`, `text1_0` AS `Text1_0_loc8`, `text1_1` AS `Text1_1_loc1`, `text1_1` AS `Text1_1_loc8`, `text2_0` AS `Text2_0_loc1`, `text2_0` AS `Text2_0_loc8`, `text2_1` AS `Text2_1_loc1`, `text2_1` AS `Text2_1_loc8`, `text3_0` AS `Text3_0_loc1`, `text3_0` AS `Text3_0_loc8`, `text3_1` AS `Text3_1_loc1`, `text3_1` AS `Text3_1_loc8`, `text4_0` AS `Text4_0_loc1`, `text4_0` AS `Text4_0_loc8`, `text4_1` AS `Text4_1_loc1`, `text4_1` AS `Text4_1_loc8`, `text5_0` AS `Text5_0_loc1`, `text5_0` AS `Text5_0_loc8`, `text5_1` AS `Text5_1_loc1`, `text5_1` AS `Text5_1_loc8`, `text6_0` AS `Text6_0_loc1`, `text6_0` AS `Text6_0_loc8`, `text6_1` AS `Text6_1_loc1`, `text6_1` AS `Text6_1_loc8`, `text7_0` AS `Text7_0_loc1`, `text7_0` AS `Text7_0_loc8`, `text7_1` AS `Text7_1_loc1`, `text7_1` AS `Text7_1_loc8` FROM `npc_text`;
+INSERT INTO `locales_npc_text` (`entry`, `Text0_0_loc1`, `Text0_0_loc8`, `Text0_1_loc1`, `Text0_1_loc8`, `Text1_0_loc1`, `Text1_0_loc8`, `Text1_1_loc1`, `Text1_1_loc8`, `Text2_0_loc1`, `Text2_0_loc8`, `Text2_1_loc1`, `Text2_1_loc8`, `Text3_0_loc1`, `Text3_0_loc8`, `Text3_1_loc1`, `Text3_1_loc8`, `Text4_0_loc1`, `Text4_0_loc8`, `Text4_1_loc1`, `Text4_1_loc8`, `Text5_0_loc1`, `Text5_0_loc8`, `Text5_1_loc1`, `Text5_1_loc8`, `Text6_0_loc1`, `Text6_0_loc8`, `Text6_1_loc1`, `Text6_1_loc8`, `Text7_0_loc1`, `Text7_0_loc8`, `Text7_1_loc1`, `Text7_1_loc8`) SELECT `ID` AS `entry`, `text0_0` AS `Text0_0_loc1`, `text0_0` AS `Text0_0_loc8`, `text0_1` AS `Text0_1_loc1`, `text0_1` AS `Text0_1_loc8`, `text1_0` AS `Text1_0_loc1`, `text1_0` AS `Text1_0_loc8`, `text1_1` AS `Text1_1_loc1`, `text1_1` AS `Text1_1_loc8`, `text2_0` AS `Text2_0_loc1`, `text2_0` AS `Text2_0_loc8`, `text2_1` AS `Text2_1_loc1`, `text2_1` AS `Text2_1_loc8`, `text3_0` AS `Text3_0_loc1`, `text3_0` AS `Text3_0_loc8`, `text3_1` AS `Text3_1_loc1`, `text3_1` AS `Text3_1_loc8`, `text4_0` AS `Text4_0_loc1`, `text4_0` AS `Text4_0_loc8`, `text4_1` AS `Text4_1_loc1`, `text4_1` AS `Text4_1_loc8`, `text5_0` AS `Text5_0_loc1`, `text5_0` AS `Text5_0_loc8`, `text5_1` AS `Text5_1_loc1`, `text5_1` AS `Text5_1_loc8`, `text6_0` AS `Text6_0_loc1`, `text6_0` AS `Text6_0_loc8`, `text6_1` AS `Text6_1_loc1`, `text6_1` AS `Text6_1_loc8`, `text7_0` AS `Text7_0_loc1`, `text7_0` AS `Text7_0_loc8`, `text7_1` AS `Text7_1_loc1`, `text7_1` AS `Text7_1_loc8` FROM `npc_text`;
 
 UPDATE `locales_npc_text` SET `Text0_0_loc8` = 'Приветствую $N', `Text0_1_loc8` = 'Приветствую $N' WHERE `entry` = 68;
 UPDATE `locales_npc_text` SET `Text0_0_loc8` = 'Еще столько всего надо сделать! Союз установил нам жесткие сроки – и лучше бы их не срывать!' WHERE `entry` = 518;
@@ -3836,4 +3836,4 @@ CREATE TABLE IF NOT EXISTS `rus_udb_rev` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 DELETE FROM `rus_udb_rev` WHERE `name` = 'locales_npc_text';
-INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('locales_npc_text', '25');
+INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('locales_npc_text', '26');

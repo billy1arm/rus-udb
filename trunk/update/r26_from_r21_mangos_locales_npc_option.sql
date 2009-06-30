@@ -1,6 +1,6 @@
 -- Date: 2009-07-01
 -- Time: 00:32:42
--- Rev.: From 21 to 25
+-- Rev.: From 21 to 26
 
 
 UPDATE `locales_npc_option` SET `box_text_loc1` = NULL WHERE `box_text_loc1` = '';
@@ -17,4 +17,4 @@ CREATE TABLE IF NOT EXISTS `rus_udb_rev` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 DELETE FROM `rus_udb_rev` WHERE `name` = 'locales_npc_option';
-INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('locales_npc_option', '25');
+INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('locales_npc_option', '26');

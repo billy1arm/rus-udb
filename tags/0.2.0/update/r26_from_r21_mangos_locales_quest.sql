@@ -1,6 +1,6 @@
 -- Date: 2009-07-01
 -- Time: 00:33:00
--- Rev.: From 21 to 25
+-- Rev.: From 21 to 26
 
 UPDATE `locales_quest` SET `RequestItemsText_loc8` = 'Ах, груз от моего брата? Отлично! Фортуна улыбается мне сегодня!' WHERE `entry` = 5;
 UPDATE `locales_quest` SET `RequestItemsText_loc8` = 'Вы нашли Гаррика в хижине? Мы, наконец, свободны от этого злодея?' WHERE `entry` = 6;
@@ -62,4 +62,4 @@ CREATE TABLE IF NOT EXISTS `rus_udb_rev` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 DELETE FROM `rus_udb_rev` WHERE `name` = 'locales_quest';
-INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('locales_quest', '25');
+INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('locales_quest', '26');

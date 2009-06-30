@@ -1,6 +1,6 @@
 -- Date: 2009-07-01
 -- Time: 00:32:42
--- Rev.: 25
+-- Rev.: 26
 
 DROP TABLE IF EXISTS `locales_npc_option`;
 CREATE TABLE IF NOT EXISTS `locales_npc_option` (
@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS `locales_npc_option` (
   PRIMARY KEY (`entry`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
-INSERT INTO `locales_npc_option` (`entry`, `box_text_loc1`, `box_text_loc8`, `option_text_loc1`, `option_text_loc8`) SELECT `entry`, `box_text` AS `box_text_loc1`, `box_text` AS `box_text_loc8`, `option_text` AS `option_text_loc1`, `option_text` AS `option_text_loc8` FROM `npc_option`;
+INSERT INTO `locales_npc_option` (`entry`, `box_text_loc1`, `box_text_loc8`, `option_text_loc1`, `option_text_loc8`) SELECT `id` AS `entry`, `box_text` AS `box_text_loc1`, `box_text` AS `box_text_loc8`, `option_text` AS `option_text_loc1`, `option_text` AS `option_text_loc8` FROM `npc_option`;
 
 UPDATE `locales_npc_option` SET `option_text_loc8` = 'Что?' WHERE `entry` = 0;
 UPDATE `locales_npc_option` SET `option_text_loc8` = 'Выполнить задания' WHERE `entry` = 2;
@@ -89,4 +89,4 @@ CREATE TABLE IF NOT EXISTS `rus_udb_rev` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 DELETE FROM `rus_udb_rev` WHERE `name` = 'locales_npc_option';
-INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('locales_npc_option', '25');
+INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('locales_npc_option', '26');
