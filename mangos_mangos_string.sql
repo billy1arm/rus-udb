@@ -1,6 +1,6 @@
 -- Date: 2009-07-01
 -- Time: 00:33:10
--- Rev.: 25
+-- Rev.: 26
 
 DROP TABLE IF EXISTS `mangos_string2`;
 CREATE TABLE IF NOT EXISTS `mangos_string2` (
@@ -305,4 +305,4 @@ CREATE TABLE IF NOT EXISTS `rus_udb_rev` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 DELETE FROM `rus_udb_rev` WHERE `name` = 'mangos_string';
-INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('mangos_string', '25');
+INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('mangos_string', '26');
