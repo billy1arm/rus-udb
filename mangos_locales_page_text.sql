@@ -1,6 +1,6 @@
 -- Date: 2009-07-01
--- Time: 08:44:01
--- Rev.: 27
+-- Time: 14:47:21
+-- Rev.: 28
 
 DROP TABLE IF EXISTS `locales_page_text`;
 CREATE TABLE IF NOT EXISTS `locales_page_text` (
@@ -1295,7 +1295,7 @@ UPDATE `locales_page_text` SET `Text_loc8` = 'Джин''Зил,
 UPDATE `locales_page_text` SET `Text_loc8` = 'Хорошо, у тебя должны быть заряды и детонаторы NG-5. Я их пометил для тебя... Синий – для лесопилки. Красный – для Рудника Ветрорезов.
 
 Я кое-что разведал и выяснил, что на Утесе Ветрорезов достаточно взрывчатки, чтобы тебе не было сложно зайти туда, установить детонаторы и выйти оттуда, перед тем как взрывать.
-\Помни, это отвлекающий маневр. Отойди далеко от вагонов перед тем, как гоблины доберутся туда, чтобы проверить, что случилось, затем проскользни за ними.' WHERE `entry` = 417;
+Помни, это отвлекающий маневр. Отойди далеко от вагонов перед тем, как гоблины доберутся туда, чтобы проверить, что случилось, затем проскользни за ними.' WHERE `entry` = 417;
 UPDATE `locales_page_text` SET `Text_loc8` = 'Кстати, будь осторожен с ними. Один нитромирглицероний сам по себе может разнести тебя в пыль. Я поместил часть жидкости в медные пробирки, которые должны защитить от сотрясений и обеспечить безопасность.
 
 Свиток, который ты получил от Коллина, я использовал в коробках с детонаторами. Теперь они пошлют бесшумное сообщение зарядам NG-5 когда ты их включишь. Я использовал простой сталтваргонский механизм, чтобы обеспечить оптимальную проводимость проводов и скорость потока нитромирглицерония между разностными жидкостями лучше среднего.' WHERE `entry` = 418;
@@ -3175,7 +3175,7 @@ UPDATE `locales_page_text` SET `Text_loc8` = '<HTML>
 <H1 align="center">НАСТАВЛЕНИЕ ПО ВОИНСКИМ ЗВАНИЯМ</H1>
 <BR/>
 <BR/>
-<IMG src="Interface\PvPRankBadges\PvPRankAlliance.blp" align="left"/>
+<IMG src="InterfacePvPRankBadgesPvPRankAlliance.blp" align="left"/>
 <BR/>
 <P align="right">Ниже перечислены</P>
 <P align="right">воинские звания</P>
@@ -3192,15 +3192,15 @@ UPDATE `locales_page_text` SET `Text_loc8` = '<HTML>
 <BODY>
 <H1 align="center">ОФИЦЕРСКИЕ ЗВАНИЯ АЛЬЯНСА</H1><BR/>
 <P align="center">Раздел 1</P>
-<IMG src="Interface\PvPRankBadges\PvPRank14.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank14.blp" align="left"/><BR/>
 <P align="right">Главнокомандующий</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank13.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank13.blp" align="left"/><BR/>
 <P align="right">Фельдмаршал</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank12.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank12.blp" align="left"/><BR/>
 <P align="right">Маршал</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank11.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank11.blp" align="left"/><BR/>
 <P align="right">Командир</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank10.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank10.blp" align="left"/><BR/>
 <P align="right">Лейтенант-командор</P><BR/><BR/>
 </BODY>
 </HTML>' WHERE `entry` = 2655;
@@ -3208,28 +3208,28 @@ UPDATE `locales_page_text` SET `Text_loc8` = '<HTML>
 <BODY>
 <H1 align="center">ОФИЦЕРСКИЕ ЗВАНИЯ АЛЬЯНСА</H1><BR/>
 <P align="center">Раздел 2</P>
-<IMG src="Interface\PvPRankBadges\PvPRank09.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank09.blp" align="left"/><BR/>
 <P align="right">Рыцарь-защитник</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank08.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank08.blp" align="left"/><BR/>
 <P align="right">Рыцарь-капитан</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank07.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank07.blp" align="left"/><BR/>
 <P align="right">Рыцарь-лейтенант</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank06.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank06.blp" align="left"/><BR/>
 <P align="right">Рыцарь</P><BR/><BR/>
 </BODY>
 </HTML>' WHERE `entry` = 2656;
 UPDATE `locales_page_text` SET `Text_loc8` = '<HTML>
 <BODY>
 <H1 align="center">РЯДОВЫЕ И СЕРЖАНТСКИЕ ЗВАНИЯ АЛЬЯНСА</H1><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank05.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank05.blp" align="left"/><BR/>
 <P align="right">Старший Сержант</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank04.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank04.blp" align="left"/><BR/>
 <P align="right">Сержант</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank03.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank03.blp" align="left"/><BR/>
 <P align="right">Младший Сержант</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank02.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank02.blp" align="left"/><BR/>
 <P align="right">Капрал</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank01.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank01.blp" align="left"/><BR/>
 <P align="right">Рядовой</P><BR/><BR/>
 </BODY>
 </HTML>' WHERE `entry` = 2657;
@@ -3237,15 +3237,15 @@ UPDATE `locales_page_text` SET `Text_loc8` = '<HTML>
 <BODY>
 <H1 align="center">ОФИЦЕРСКИЕ ЗВАНИЯ ОРДЫ</H1><BR/>
 <P align="center">Раздел 1</P>
-<IMG src="Interface\PvPRankBadges\PvPRank14.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank14.blp" align="left"/><BR/>
 <P align="right">Верховный Вождь</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank13.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank13.blp" align="left"/><BR/>
 <P align="right">Вождь</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank12.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank12.blp" align="left"/><BR/>
 <P align="right">Генерал</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\InterfacePvPRankBadgesPvPRank11.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesInterfacePvPRankBadgesPvPRank11.blp" align="left"/><BR/>
 <P align="right">Лейтенант-генерал</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank10.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank10.blp" align="left"/><BR/>
 <P align="right">Защитник</P><BR/><BR/>
 </BODY>
 </HTML>' WHERE `entry` = 2658;
@@ -3261,7 +3261,7 @@ UPDATE `locales_page_text` SET `Text_loc8` = '<HTML>
 <H1 align="center">ВОИНСКИЕ ЗВАНИЯ ОРДЫ И АЛЬЯНСА</H1>
 <BR/>
 <BR/>
-<IMG src="Interface\PvPRankBadges\PvPRankHorde.blp" align="left"/>
+<IMG src="InterfacePvPRankBadgesPvPRankHorde.blp" align="left"/>
 <BR/>
 <P align="right">Тром''ка! В этой</P>
 <P align="right">книге ты найдешь</P>
@@ -3278,15 +3278,15 @@ UPDATE `locales_page_text` SET `Text_loc8` = '<HTML>
 <BODY>
 <H1 align="center">ОФИЦЕРСКИЕ ЗВАНИЯ ОРДЫ</H1><BR/>
 <P align="center">Раздел 1</P>
-<IMG src="Interface\PvPRankBadges\PvPRank14.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank14.blp" align="left"/><BR/>
 <P align="right">Верховный Вождь</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank13.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank13.blp" align="left"/><BR/>
 <P align="right">Вождь</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank12.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank12.blp" align="left"/><BR/>
 <P align="right">Генерал</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank11.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank11.blp" align="left"/><BR/>
 <P align="right">Лейтенант-генерал</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank10.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank10.blp" align="left"/><BR/>
 <P align="right">Защитник</P><BR/><BR/>
 </BODY>
 </HTML>' WHERE `entry` = 2662;
@@ -3294,28 +3294,28 @@ UPDATE `locales_page_text` SET `Text_loc8` = '<HTML>
 <BODY>
 <H1 align="center">ОФИЦЕРСКИЕ ЗВАНИЯ ОРДЫ</H1><BR/>
 <P align="center">Раздел 2</P>
-<IMG src="Interface\PvPRankBadges\PvPRank09.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank09.blp" align="left"/><BR/>
 <P align="right">Центурион</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank08.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank08.blp" align="left"/><BR/>
 <P align="right">Легионер</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank07.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank07.blp" align="left"/><BR/>
 <P align="right">Кровавый страж</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank06.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank06.blp" align="left"/><BR/>
 <P align="right">Каменный Страж</P><BR/><BR/>
 </BODY>
 </HTML>' WHERE `entry` = 2663;
 UPDATE `locales_page_text` SET `Text_loc8` = '<HTML>
 <BODY>
 <H1 align="center">РЯДОВЫЕ И СЕРЖАНТСКИЕ ЗВАНИЯ ОРДЫ</H1><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank05.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank05.blp" align="left"/><BR/>
 <P align="right">Высший Сержант</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank04.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank04.blp" align="left"/><BR/>
 <P align="right">Старший Сержант</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank03.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank03.blp" align="left"/><BR/>
 <P align="right">Сержант</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank02.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank02.blp" align="left"/><BR/>
 <P align="right">Рубака</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank01.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank01.blp" align="left"/><BR/>
 <P align="right">Разведчик</P><BR/><BR/>
 </BODY>
 </HTML>' WHERE `entry` = 2664;
@@ -3323,15 +3323,15 @@ UPDATE `locales_page_text` SET `Text_loc8` = '<HTML>
 <BODY>
 <H1 align="center">ОФИЦЕРСКИЕ ЗВАНИЯ АЛЬЯНСА</H1><BR/>
 <P align="center">Раздел 1</P>
-<IMG src="Interface\PvPRankBadges\PvPRank14.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank14.blp" align="left"/><BR/>
 <P align="right">Главнокомандующий</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank13.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank13.blp" align="left"/><BR/>
 <P align="right">Фельдмаршал</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank12.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank12.blp" align="left"/><BR/>
 <P align="right">Маршал</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank11.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank11.blp" align="left"/><BR/>
 <P align="right">Командор</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank10.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank10.blp" align="left"/><BR/>
 <P align="right">Лейтенант-командор</P><BR/><BR/>
 </BODY>
 </HTML>' WHERE `entry` = 2665;
@@ -3421,7 +3421,7 @@ UPDATE `locales_page_text` SET `Text_loc8` = 'Круг большего Един
 UPDATE `locales_page_text` SET `Text_loc8` = 'Колокол, Колесо и Свеча
 
 Освободившись, Д''жииви разместит Колокол, Колесо и Свечу, после чего появится круг. Так начинается ритуал. Нужно сохранять бдительность: упомянутые предметы испускают мощные потоки энергии и могут разрушиться. Если это случится, скорее используй Черный магнит, чтобы восстановить их, прежде чем весь ритуал пойдет насмарку.
-\Если все три предмета разрушатся прежде, чем ты сумеешь их восстановить, ритуал закончится и его надо будет начинать заново.' WHERE `entry` = 2694;
+Если все три предмета разрушатся прежде, чем ты сумеешь их восстановить, ритуал закончится и его надо будет начинать заново.' WHERE `entry` = 2694;
 UPDATE `locales_page_text` SET `Text_loc8` = 'Колокол, Колесо и Свеча не только хранят энергию для ритуала, но и обладают собственными уникальными свойствами.
 
 Колокол Детмуры, испуская звон, дарует чернокнижникам в круге силу и энергию.
@@ -3719,28 +3719,28 @@ UPDATE `locales_page_text` SET `Text_loc8` = '<HTML>
 <BODY>
 <H1 align="center">ОФИЦЕРСКИЕ ЗВАНИЯ ОРДЫ</H1><BR/>
 <P align="center">Раздел 2</P>
-<IMG src="Interface\PvPRankBadges\PvPRank09.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank09.blp" align="left"/><BR/>
 <P align="right">Центурион</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank08.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank08.blp" align="left"/><BR/>
 <P align="right">Легионер</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank07.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank07.blp" align="left"/><BR/>
 <P align="right">Кровавый страж</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank06.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank06.blp" align="left"/><BR/>
 <P align="right">Каменный страж</P><BR/><BR/>
 </BODY>
 </HTML>' WHERE `entry` = 2854;
 UPDATE `locales_page_text` SET `Text_loc8` = '<HTML>
 <BODY>
 <H1 align="center">РЯДОВЫЕ И СЕРЖАНТСКИЕ ЗВАНИЯ ОРДЫ</H1><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank05.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank05.blp" align="left"/><BR/>
 <P align="right">Высший сержант</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank04.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank04.blp" align="left"/><BR/>
 <P align="right">Старший сержант</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank03.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank03.blp" align="left"/><BR/>
 <P align="right">Сержант</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank02.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank02.blp" align="left"/><BR/>
 <P align="right">Рубака</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank01.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank01.blp" align="left"/><BR/>
 <P align="right">Разведчик</P><BR/><BR/>
 </BODY>
 </HTML>' WHERE `entry` = 2855;
@@ -3748,28 +3748,28 @@ UPDATE `locales_page_text` SET `Text_loc8` = '<HTML>
 <BODY>
 <H1 align="center"> ОФИЦЕРСКИЕ ЗВАНИЯ АЛЬЯНСА</H1><BR/>
 <P align="center">Раздел 2</P>
-<IMG src="Interface\PvPRankBadges\PvPRank09.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank09.blp" align="left"/><BR/>
 <P align="right">Рыцарь-защитник</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank08.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank08.blp" align="left"/><BR/>
 <P align="right">Рыцарь-капитан</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank07.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank07.blp" align="left"/><BR/>
 <P align="right">Рыцарь-лейтенант</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank06.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank06.blp" align="left"/><BR/>
 <P align="right">Рыцарь</P><BR/><BR/>
 </BODY>
 </HTML>' WHERE `entry` = 2856;
 UPDATE `locales_page_text` SET `Text_loc8` = '<HTML>
 <BODY>
 <H1 align="center">РЯДОВЫЕ И СЕРЖАНТСКИЕ ЗВАНИЯ АЛЬЯНСА</H1><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank05.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank05.blp" align="left"/><BR/>
 <P align="right">Старший сержант</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank04.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank04.blp" align="left"/><BR/>
 <P align="right">Сержант</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank03.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank03.blp" align="left"/><BR/>
 <P align="right">Младший сержант</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank02.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank02.blp" align="left"/><BR/>
 <P align="right">Капрал</P><BR/><BR/>
-<IMG src="Interface\PvPRankBadges\PvPRank01.blp" align="left"/><BR/>
+<IMG src="InterfacePvPRankBadgesPvPRank01.blp" align="left"/><BR/>
 <P align="right">Рядовой</P><BR/><BR/>
 </BODY>
 </HTML>' WHERE `entry` = 2857;
@@ -5116,4 +5116,4 @@ CREATE TABLE IF NOT EXISTS `rus_udb_rev` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 DELETE FROM `rus_udb_rev` WHERE `name` = 'locales_page_text';
-INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('locales_page_text', '27');
+INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('locales_page_text', '28');
