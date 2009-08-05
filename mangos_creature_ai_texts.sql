@@ -1,6 +1,6 @@
--- Date: 2009-07-01
--- Time: 14:41:16
--- Rev.: 28
+-- Date: 2009-08-05
+-- Time: 12:10:26
+-- Rev.: 31
 
 DROP TABLE IF EXISTS `creature_ai_texts2`;
 CREATE TABLE IF NOT EXISTS `creature_ai_texts2` (
@@ -75,19 +75,19 @@ UPDATE `creature_ai_texts` SET `content_loc8` = 'Аааарррр...!!! Ты п�
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Никто не сможет сломать Железный Щит!' WHERE `entry` = -300007;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Я РАЗМАЖУ ТЕБЯ!' WHERE `entry` = -300006;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Это не имеет никакого значения кто ты такой - ТЫ УМРЕШЬ ПРЯМО СЕЙЧАС!!!' WHERE `entry` = -300005;
-UPDATE `creature_ai_texts` SET `content_loc8` = 'Я размажу тебя! да да да!!!' WHERE `entry` = -300004;
+UPDATE `creature_ai_texts` SET `content_loc8` = 'Я размажу тебя! Да да да!!!' WHERE `entry` = -300004;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'КТО ПОСМЕЛ ПОТРЕВОЖИТЬ МЕНЯ?' WHERE `entry` = -300003;
-UPDATE `creature_ai_texts` SET `content_loc8` = 'Я никогда не думала что ты сможешь найти меня! Ну что, посмотрим на что Вы способны...' WHERE `entry` = -300002;
+UPDATE `creature_ai_texts` SET `content_loc8` = 'Я никогда не думала, что ты сможешь найти меня! Ну что, посмотрим на что Вы способны...' WHERE `entry` = -300002;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Тебе НИКОГДА не победить нас!' WHERE `entry` = -300001;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'СВЯТОЙ СВЕТ СОЖЖЁТ ВАС ВСЕХ!!!' WHERE `entry` = -200014;
-UPDATE `creature_ai_texts` SET `content_loc8` = 'Да да да... лучше для тебя - ПРОВАЛИВАТЬ ОТСЮДА!!!' WHERE `entry` = -200013;
+UPDATE `creature_ai_texts` SET `content_loc8` = 'Да, да, да... лучше для тебя - ПРОВАЛИВАТЬ ОТСЮДА!!!' WHERE `entry` = -200013;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'ЗАЩИЩАЙТЕ КОРОЛЯ!!!' WHERE `entry` = -200012;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Иди ко мне!!! У меня есть то что тебе нужно - НАТОЧЕННЫЙ КЛИНОК!!!' WHERE `entry` = -200011;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'ТЫ ЗДЕСЬ УМРЁШЬ!!!' WHERE `entry` = -200009;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'ДА!!! БОЛЬШЕ КРОВИ!!! Я ХОЧУ БОЛЬШЕ!!!' WHERE `entry` = -200008;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Ты будешь умирать долго...Я ЗАСТАВЛЮ тебя страдать!!!...' WHERE `entry` = -200007;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Тебе никогда не победить нас!!! Охрана, защищайте Лор''темара Терона!!!' WHERE `entry` = -200002;
-UPDATE `creature_ai_texts` SET `content_loc8` = 'Мой коинок порежет тебя НА МЕЛКИЕ КУСОЧКИ!!!' WHERE `entry` = -200001;
+UPDATE `creature_ai_texts` SET `content_loc8` = 'Мой клинок порежет тебя НА МЕЛКИЕ КУСОЧКИ!!!' WHERE `entry` = -200001;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'НАРУШИТЕЛЬ!!! НАРУШИТЕЛЬ!!!' WHERE `entry` = -200000;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Эта свинья разрушила весь мои сад!' WHERE `entry` = -160152;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Где мой ящик c инструментами? Хмм...' WHERE `entry` = -160151;
@@ -147,7 +147,7 @@ UPDATE `creature_ai_texts` SET `content_loc8` = 'Поторопите его! Р
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Полководцы назначили цену за голову Араззиуса! На данный момент это не та цена, за которую стоит становиться врагом номер один для демона' WHERE `entry` = -160097;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Полностью согласен с Вами, командир!' WHERE `entry` = -160096;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Хорошо, вот мой план: Легион уже атаковали с севера. Наша первая группа должна остаться здесь. У нас есть некоторые проблемы с Кровавыми Орками. Другая группа должна атаковать врага. Я знаю, что у нас не хватает людей, но мы должны постараться' WHERE `entry` = -160095;
-UPDATE `creature_ai_texts` SET `content_loc8` = 'Не уверен. Кровавые Орки везде!' WHERE `entry` = -160094;
+UPDATE `creature_ai_texts` SET `content_loc8` = 'Не уверена. Кровавые Орки везде!' WHERE `entry` = -160094;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Разве это место достаточно безопасно?' WHERE `entry` = -160093;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Да, это они.' WHERE `entry` = -160092;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Эти грибы удивительны!' WHERE `entry` = -160091;
@@ -176,7 +176,7 @@ UPDATE `creature_ai_texts` SET `content_loc8` = 'Не сейчас, ни пот�
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Хорошо! Мы будем атаковать завтра.' WHERE `entry` = -160068;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Гаррош, наши силы прибыли, все ждут ваших приказов!' WHERE `entry` = -160067;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Да, папа, я вижу ...' WHERE `entry` = -160066;
-UPDATE `creature_ai_texts` SET `content_loc8` = 'Посмотрите на этих дезертиров, сынок! Они так свиньи - грязные, бесполезные и глупые!' WHERE `entry` = -160065;
+UPDATE `creature_ai_texts` SET `content_loc8` = 'Посмотри на этих дезертиров, сынок! Они как свиньи - грязные, бесполезные и глупые!' WHERE `entry` = -160065;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Давай! Я помогу тебе!' WHERE `entry` = -160064;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Эти жуки достали меня! Я хочу убить их всех' WHERE `entry` = -160063;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Да! Это должно быть сделано, ДОЛЖНО БЫТЬ СДЕЛАНО!!! Я сделал это, наконец!' WHERE `entry` = -160062;
@@ -198,7 +198,7 @@ UPDATE `creature_ai_texts` SET `content_loc8` = 'Ох, пожалуйста, с�
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Да, это очень забавно...' WHERE `entry` = -160046;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Добро пожаловать, путешественник! Здесь вы можете найти еду, выпивку и место для отдыха...' WHERE `entry` = -160045;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Мы должны идти к северным воротам, и быть готовыми, к тому времени когда они вернутся!' WHERE `entry` = -160044;
-UPDATE `creature_ai_texts` SET `content_loc8` = 'Итак, слушайте внимательно, ребята! Мы не позволим врагу уничтожить нас! Эти гиганты не осмеляться нападать на наш лагерь снова!' WHERE `entry` = -160043;
+UPDATE `creature_ai_texts` SET `content_loc8` = 'Итак, слушайте внимательно, ребята! Мы не позволим врагу уничтожить нас! Эти гиганты не осмелятся нападать на наш лагерь снова!' WHERE `entry` = -160043;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Да, но теперь мы должны защитить наш народ!' WHERE `entry` = -160042;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Хмм, это очень странно. Я думал, мы выдвинемся сегодня, разве нет?' WHERE `entry` = -160041;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Духи, поговорите со мной!...' WHERE `entry` = -160040;
@@ -219,7 +219,7 @@ UPDATE `creature_ai_texts` SET `content_loc8` = 'Уфф... наконец... Я 
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Здесь мы можем побыть какое-то время...' WHERE `entry` = -160025;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Ой.. окей.. окей..' WHERE `entry` = -160024;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Тихо... тихо... только не двигайся...' WHERE `entry` = -160023;
-UPDATE `creature_ai_texts` SET `content_loc8` = 'Согласен! Сегодня очень солнечно.' WHERE `entry` = -160022;
+UPDATE `creature_ai_texts` SET `content_loc8` = 'Согласна! Сегодня очень солнечно.' WHERE `entry` = -160022;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Ах .. какой хороший день!' WHERE `entry` = -160021;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Нет! Эта Летающая Машина не такая уж плохая, но я могу построить лучше!' WHERE `entry` = -160020;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Свежая Соленая Оленина, Карибу в Медовом Соусе!' WHERE `entry` = -160019;
@@ -260,7 +260,7 @@ UPDATE `creature_ai_texts` SET `content_loc8` = 'Передохните, пар�
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Прекратите танцевать, Дойо! Мы собираемся надрать за***цы нескольким врагам сегодня, и вы должны держать себя в форме!' WHERE `entry` = -100138;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Танцуем, друзья!' WHERE `entry` = -100137;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Добро пожаловать в наш дом! Вы найдете много полезных вещей здесь.' WHERE `entry` = -100136;
-UPDATE `creature_ai_texts` SET `content_loc8` = 'Мы следим за вашими деньгами внимательно, незнакомцем.' WHERE `entry` = -100135;
+UPDATE `creature_ai_texts` SET `content_loc8` = 'Мы следим за вашими деньгами внимательно, незнакомец.' WHERE `entry` = -100135;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Наша власть невероятна!' WHERE `entry` = -100134;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Я охраняю Оргриммар очень тщательно. Держите свои глаза открытыми, странник!' WHERE `entry` = -100133;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Моя миссия состоит в том, чтобы защитить наш город от врагов!' WHERE `entry` = -100132;
@@ -723,7 +723,7 @@ UPDATE `creature_ai_texts` SET `content_loc8` = 'Иди сюда, $R!!! Аггр
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Из твоей головы выдет отличный троффей, $R.' WHERE `entry` = -1002;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Мои когти порвут на части твое тельце, $R.' WHERE `entry` = -1001;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Ты будешь лёгкой добычей, $C.' WHERE `entry` = -1000;
-UPDATE `creature_ai_texts` SET `content_loc8` = 'Я привык работать для Великого инквизитора Изиллиена! Ваша мысль немного огорчила меня среди бела дня!' WHERE `entry` = -565;
+UPDATE `creature_ai_texts` SET `content_loc8` = 'Я привык работать на Великого Инквизитора Изиллиена! Твое представление о боли, вполне банально для меня.' WHERE `entry` = -565;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Я розскажу вам все! ОСТАНОВИТЕСЬ! ПОЖАЛУЙСТА!' WHERE `entry` = -555;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Приветствую, гражданин.' WHERE `entry` = -552;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'зовет на помощь!' WHERE `entry` = -551;
@@ -900,7 +900,7 @@ UPDATE `creature_ai_texts` SET `content_loc8` = 'в тот момент когд
 UPDATE `creature_ai_texts` SET `content_loc8` = '[Дворвский] Дум мос' WHERE `entry` = -374;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Умри во имя Рагнароса!' WHERE `entry` = -373;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Теперь бухта принадлежит Племени Камнедробов, $N! А сейчас умри!' WHERE `entry` = -372;
-UPDATE `creature_ai_texts` SET `content_loc8` = 'Умри $R! Эти земли принадлежат Племени Камнедробов!' WHERE `entry` = -371;
+UPDATE `creature_ai_texts` SET `content_loc8` = 'Умри, $R! Эти земли принадлежат Племени Камнедробов!' WHERE `entry` = -371;
 UPDATE `creature_ai_texts` SET `content_loc8` = '$C вызывает $N? Ты приготовь хороший завтрак!' WHERE `entry` = -370;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Разбить это!' WHERE `entry` = -369;
 UPDATE `creature_ai_texts` SET `content_loc8` = 'Так $R хорошенько присмотри за едой!' WHERE `entry` = -368;
@@ -1279,4 +1279,4 @@ CREATE TABLE IF NOT EXISTS `rus_udb_rev` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 DELETE FROM `rus_udb_rev` WHERE `name` = 'creature_ai_texts';
-INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('creature_ai_texts', '28');
+INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('creature_ai_texts', '31');

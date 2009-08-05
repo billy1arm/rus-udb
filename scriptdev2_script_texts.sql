@@ -1,6 +1,6 @@
--- Date: 2009-07-01
--- Time: 14:49:17
--- Rev.: 28
+-- Date: 2009-08-05
+-- Time: 12:24:48
+-- Rev.: 31
 
 DROP TABLE IF EXISTS `script_texts2`;
 CREATE TABLE IF NOT EXISTS `script_texts2` (
@@ -190,7 +190,7 @@ UPDATE `script_texts` SET `content_loc8` = 'Я круче всех!' WHERE `entr
 UPDATE `script_texts` SET `content_loc8` = 'У нас вечно хотят что-то отнять, теперь мы вернем себе все. Любой кто встанет у нас на пути, захлебнется в собственной крови! Империя амани возрождается ради мшения! И начнем мы... с вас!' WHERE `entry` = -1568056;
 UPDATE `script_texts` SET `content_loc8` = 'Я не умру... так просто...' WHERE `entry` = -1568055;
 UPDATE `script_texts` SET `content_loc8` = 'Ха.. мне все равно.' WHERE `entry` = -1568054;
-UPDATE `script_texts` SET `content_loc8` = 'Ваша смерть будет горадо страшенн.' WHERE `entry` = -1568053;
+UPDATE `script_texts` SET `content_loc8` = 'Ваша смерть будет гораздо страшнее.' WHERE `entry` = -1568053;
 UPDATE `script_texts` SET `content_loc8` = 'Это ничего не меняет.' WHERE `entry` = -1568052;
 UPDATE `script_texts` SET `content_loc8` = 'Ваши души будут растерзаны!' WHERE `entry` = -1568051;
 UPDATE `script_texts` SET `content_loc8` = 'Тьма идет за вами...' WHERE `entry` = -1568050;
@@ -1557,7 +1557,7 @@ UPDATE `script_texts` SET `content_loc8` = 'приходит в бешенств
 UPDATE `script_texts` SET `content_loc8` = 'приходит в ярость!' WHERE `entry` = -1000003;
 UPDATE `script_texts` SET `content_loc8` = 'приходит в безумство!' WHERE `entry` = -1000002;
 UPDATE `script_texts` SET `content_loc8` = 'приходит в смертельное безумство!' WHERE `entry` = -1000001;
-UPDATE `script_texts` SET `content_loc8` = '<Текст для ScriptDev2 отсутствует!>' WHERE `entry` = -1000000;
+UPDATE `script_texts` SET `content_loc8` = '<ScriptDev2 Text Entry Missing!>' WHERE `entry` = -1000000;
 
 UPDATE `script_texts` SET `content_default` = '' WHERE `content_default` = NULL;
 UPDATE `script_texts` SET `content_loc1` = NULL WHERE `content_loc1` = '';
@@ -1572,4 +1572,4 @@ CREATE TABLE IF NOT EXISTS `rus_udb_rev` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 DELETE FROM `rus_udb_rev` WHERE `name` = 'script_texts';
-INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('script_texts', '28');
+INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('script_texts', '31');
