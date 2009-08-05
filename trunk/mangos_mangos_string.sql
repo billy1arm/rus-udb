@@ -1,6 +1,6 @@
--- Date: 2009-07-01
--- Time: 14:49:11
--- Rev.: 28
+-- Date: 2009-08-05
+-- Time: 12:12:40
+-- Rev.: 31
 
 DROP TABLE IF EXISTS `mangos_string2`;
 CREATE TABLE IF NOT EXISTS `mangos_string2` (
@@ -72,7 +72,7 @@ UPDATE `mangos_string` SET `content_loc8` = '<не существующий пе
 UPDATE `mangos_string` SET `content_loc8` = 'НЕИЗВЕСТНЫЙ' WHERE `entry` = 48;
 UPDATE `mangos_string` SET `content_loc8` = 'Необходимо быть не менее %u уровня, чтобы войти.' WHERE `entry` = 49;
 UPDATE `mangos_string` SET `content_loc8` = 'Необходимо быть не менее %u уровня и иметь предмет %s чтобы войти.' WHERE `entry` = 50;
-UPDATE `mangos_string` SET `content_loc8` = 'Привет! готовы к обучению?' WHERE `entry` = 51;
+UPDATE `mangos_string` SET `content_loc8` = 'Привет! Готовы к обучению?' WHERE `entry` = 51;
 UPDATE `mangos_string` SET `content_loc8` = 'неверное количество (%u) для предмета %u' WHERE `entry` = 52;
 UPDATE `mangos_string` SET `content_loc8` = 'У почты не может быть больше %u ячеек для предметов' WHERE `entry` = 53;
 UPDATE `mangos_string` SET `content_loc8` = 'Новые пароли не соответствуют' WHERE `entry` = 54;
@@ -97,8 +97,8 @@ UPDATE `mangos_string` SET `content_loc8` = 'Вас призывает %s.' WHER
 UPDATE `mangos_string` SET `content_loc8` = 'Вы телепортируйте %s%s к %s.' WHERE `entry` = 110;
 UPDATE `mangos_string` SET `content_loc8` = 'Вас телепортирует %s.' WHERE `entry` = 111;
 UPDATE `mangos_string` SET `content_loc8` = 'Игрока (%s) не существует.' WHERE `entry` = 112;
-UPDATE `mangos_string` SET `content_loc8` = 'Появление в местоположение %s.' WHERE `entry` = 113;
-UPDATE `mangos_string` SET `content_loc8` = '%s появляется в вашем местоположение.' WHERE `entry` = 114;
+UPDATE `mangos_string` SET `content_loc8` = 'Появление в местоположении %s.' WHERE `entry` = 113;
+UPDATE `mangos_string` SET `content_loc8` = '%s появляется около вас.' WHERE `entry` = 114;
 UPDATE `mangos_string` SET `content_loc8` = 'Неверные значения.' WHERE `entry` = 115;
 UPDATE `mangos_string` SET `content_loc8` = 'Персонаж не выбран.' WHERE `entry` = 116;
 UPDATE `mangos_string` SET `content_loc8` = '%s не в группе.' WHERE `entry` = 117;
@@ -119,7 +119,7 @@ UPDATE `mangos_string` SET `content_loc8` = 'Вы установили spellflat
 UPDATE `mangos_string` SET `content_loc8` = '%s установил Ваш spellflatid=%i, знач= %i, mark =%i.' WHERE `entry` = 132;
 UPDATE `mangos_string` SET `content_loc8` = '%s получил сейчас доступ ко всем маршрутным путям (до Выхода).' WHERE `entry` = 133;
 UPDATE `mangos_string` SET `content_loc8` = '%s больше не имеет доступа ко всем маршрутным путям (только посещенные доступны).' WHERE `entry` = 134;
-UPDATE `mangos_string` SET `content_loc8` = '%s дал вам доступ ко все маршрутным путям (до Выхода).' WHERE `entry` = 135;
+UPDATE `mangos_string` SET `content_loc8` = '%s дал вам доступ ко всем маршрутным путям (до Выхода).' WHERE `entry` = 135;
 UPDATE `mangos_string` SET `content_loc8` = '%s убрал доступ ко всем маршрутным путям (только посещенные все еще доступны).' WHERE `entry` = 136;
 UPDATE `mangos_string` SET `content_loc8` = 'Вы установили все скорости на %2.2f от нормальной у %s.' WHERE `entry` = 137;
 UPDATE `mangos_string` SET `content_loc8` = '%s установил все ваши скорости на %2.2f от нормальной.' WHERE `entry` = 138;
@@ -133,7 +133,7 @@ UPDATE `mangos_string` SET `content_loc8` = 'Вы установили скор�
 UPDATE `mangos_string` SET `content_loc8` = '%s установил вашу скорость полета на %2.2f от нормальной.' WHERE `entry` = 146;
 UPDATE `mangos_string` SET `content_loc8` = 'Вы установили размер на %2.2f у %s.' WHERE `entry` = 147;
 UPDATE `mangos_string` SET `content_loc8` = '%s установил ваш размер на %2.2f.' WHERE `entry` = 148;
-UPDATE `mangos_string` SET `content_loc8` = 'Нету такого ездового животного.' WHERE `entry` = 149;
+UPDATE `mangos_string` SET `content_loc8` = 'Такое ездовое животное отсутствует.' WHERE `entry` = 149;
 UPDATE `mangos_string` SET `content_loc8` = 'Вы отдали своего коня %s.' WHERE `entry` = 150;
 UPDATE `mangos_string` SET `content_loc8` = '%s отдал вам своего коня' WHERE `entry` = 151;
 UPDATE `mangos_string` SET `content_loc8` = 'ПОЛЬЗОВАТЕЛЬ1: %i, ДОБАВИТЬ: %i, РАЗНИЦА: %i' WHERE `entry` = 152;
@@ -145,12 +145,11 @@ UPDATE `mangos_string` SET `content_loc8` = 'Вы дали %i меди %s.' WHER
 UPDATE `mangos_string` SET `content_loc8` = '%s дал Вам %i меди.' WHERE `entry` = 158;
 UPDATE `mangos_string` SET `content_loc8` = 'Вы слышите звук %u.' WHERE `entry` = 159;
 UPDATE `mangos_string` SET `content_loc8` = 'ПОЛЬЗОВАТЕЛЬ2: %i, ДОБАВИТЬ: %i, РЕЗУЛЬТАТ: %i' WHERE `entry` = 160;
-UPDATE `mangos_string` SET `content_loc8` = 'Таблица локация для телепортации пуста!' WHERE `entry` = 163;
+UPDATE `mangos_string` SET `content_loc8` = 'Таблица локаций для телепортации пуста.' WHERE `entry` = 163;
 UPDATE `mangos_string` SET `content_loc8` = 'Локация для телепортации не найдена!' WHERE `entry` = 164;
-UPDATE `mangos_string` SET `content_loc8` = 'Требуеться параметр поиска.' WHERE `entry` = 165;
+UPDATE `mangos_string` SET `content_loc8` = 'Требуется параметр поиска.' WHERE `entry` = 165;
 UPDATE `mangos_string` SET `content_loc8` = 'Нет подходящих Вашему запросу локаций для телепортации.' WHERE `entry` = 166;
-UPDATE `mangos_string` SET `content_loc8` = 'Найденые локации:
-%s ' WHERE `entry` = 168;
+UPDATE `mangos_string` SET `content_loc8` = 'Найденные локации: %s' WHERE `entry` = 168;
 UPDATE `mangos_string` SET `content_loc8` = 'Письмо отправлено к %s' WHERE `entry` = 169;
 UPDATE `mangos_string` SET `content_loc8` = 'Вы пытаетесь прослушать звук %u но такого не существует.' WHERE `entry` = 170;
 UPDATE `mangos_string` SET `content_loc8` = 'команда консоли сервера' WHERE `entry` = 172;
@@ -159,7 +158,7 @@ UPDATE `mangos_string` SET `content_loc8` = 'Слишком длинное им�
 UPDATE `mangos_string` SET `content_loc8` = 'Ошибка, имя может содержать только знаки алфавита.' WHERE `entry` = 203;
 UPDATE `mangos_string` SET `content_loc8` = 'Слишком длинное подимя из %i знаков.' WHERE `entry` = 204;
 UPDATE `mangos_string` SET `content_loc8` = 'Пока не реализовано' WHERE `entry` = 205;
-UPDATE `mangos_string` SET `content_loc8` = 'Предмет ''%i'' ''%s'' добавлен в список с максколичеством ''%i'' и инкрвременем ''%i'' и допценой ''%i''' WHERE `entry` = 206;
+UPDATE `mangos_string` SET `content_loc8` = 'Предмет ''%i'' ''%s'' добавлен в список с макс. количеством ''%i'' и инкр. временем ''%i'' и доп. ценой ''%i''' WHERE `entry` = 206;
 UPDATE `mangos_string` SET `content_loc8` = 'Предмет ''%i'' не найден в базе.' WHERE `entry` = 207;
 UPDATE `mangos_string` SET `content_loc8` = 'Предмет ''%i'' ''%s'' удален из списка торговца' WHERE `entry` = 208;
 UPDATE `mangos_string` SET `content_loc8` = 'Предмет ''%i'' не найден в списке торговца.' WHERE `entry` = 209;
@@ -175,23 +174,23 @@ UPDATE `mangos_string` SET `content_loc8` = 'Сброс заклинаний д�
 UPDATE `mangos_string` SET `content_loc8` = 'Сброс талантов для всех игроков при входе. Настоятельно рекомендуем перезайти!' WHERE `entry` = 219;
 UPDATE `mangos_string` SET `content_loc8` = 'Существо (GUID: %u) Не найдено точек пути.' WHERE `entry` = 220;
 UPDATE `mangos_string` SET `content_loc8` = 'Существо (GUID: %u) Последняя точка пути не найдена.' WHERE `entry` = 221;
-UPDATE `mangos_string` SET `content_loc8` = 'Существо (GUID: %u) Не найдено точек пути - использовано ''wpguid''. Сейчас пробую найти ее по ее позицие...' WHERE `entry` = 222;
+UPDATE `mangos_string` SET `content_loc8` = 'Существо (GUID: %u) Не найдено точек пути - использовано ''wpguid''. Поиск по его позиции...' WHERE `entry` = 222;
 UPDATE `mangos_string` SET `content_loc8` = 'Существо (GUID: %u) Не найдено точек пути - Это проблема базы MaNGOS (одиночный float).' WHERE `entry` = 223;
-UPDATE `mangos_string` SET `content_loc8` = 'Выбронное существо проигнорировано -  использован предоставленный GUID' WHERE `entry` = 224;
+UPDATE `mangos_string` SET `content_loc8` = 'Выбранное существо проигнорировано -  использован предоставленный GUID' WHERE `entry` = 224;
 UPDATE `mangos_string` SET `content_loc8` = 'Существо (GUID: %u) не найдено' WHERE `entry` = 225;
 UPDATE `mangos_string` SET `content_loc8` = 'Вы должны выбрать визуальную точку пути.' WHERE `entry` = 226;
 UPDATE `mangos_string` SET `content_loc8` = 'Не найдено точек пути' WHERE `entry` = 227;
 UPDATE `mangos_string` SET `content_loc8` = 'Невозможно создать визуальную точку пути с ИН сущесвта: %d' WHERE `entry` = 228;
 UPDATE `mangos_string` SET `content_loc8` = 'Все визуальные точки пути убраны' WHERE `entry` = 229;
-UPDATE `mangos_string` SET `content_loc8` = 'Невозможно создать точкупути-существо с ИН: %d' WHERE `entry` = 230;
+UPDATE `mangos_string` SET `content_loc8` = 'Невозможно создать точку пути - существо с id: %d' WHERE `entry` = 230;
 UPDATE `mangos_string` SET `content_loc8` = 'Не предоставлено GUID.' WHERE `entry` = 231;
 UPDATE `mangos_string` SET `content_loc8` = 'Не предоставлен номер точки пути.' WHERE `entry` = 232;
-UPDATE `mangos_string` SET `content_loc8` = 'Требуеться аргумент для ''%s''.' WHERE `entry` = 233;
+UPDATE `mangos_string` SET `content_loc8` = 'Требуется аргумент для ''%s''.' WHERE `entry` = 233;
 UPDATE `mangos_string` SET `content_loc8` = 'Точка пути %i добавлена к GUID: %d' WHERE `entry` = 234;
 UPDATE `mangos_string` SET `content_loc8` = 'Точка пути %d добавлена.' WHERE `entry` = 235;
 UPDATE `mangos_string` SET `content_loc8` = 'Точка пути изменена.' WHERE `entry` = 236;
 UPDATE `mangos_string` SET `content_loc8` = 'Точка пути %s модифицирована.' WHERE `entry` = 237;
-UPDATE `mangos_string` SET `content_loc8` = 'Експорт ТП успешно завершен.' WHERE `entry` = 238;
+UPDATE `mangos_string` SET `content_loc8` = 'Экспорт ТП успешно завершен.' WHERE `entry` = 238;
 UPDATE `mangos_string` SET `content_loc8` = 'Не найдено точек пути.' WHERE `entry` = 239;
 UPDATE `mangos_string` SET `content_loc8` = 'Файл импортирован.' WHERE `entry` = 240;
 UPDATE `mangos_string` SET `content_loc8` = 'Точка пути убрана.' WHERE `entry` = 241;
@@ -202,19 +201,19 @@ UPDATE `mangos_string` SET `content_loc8` = 'Они исчезнут после 
 UPDATE `mangos_string` SET `content_loc8` = 'Точка пути %d: Информация для существа: %s, GUID: %d' WHERE `entry` = 246;
 UPDATE `mangos_string` SET `content_loc8` = 'Время ожидания: %d' WHERE `entry` = 247;
 UPDATE `mangos_string` SET `content_loc8` = 'Модель %d: %d' WHERE `entry` = 248;
-UPDATE `mangos_string` SET `content_loc8` = 'Емоция: %d' WHERE `entry` = 249;
+UPDATE `mangos_string` SET `content_loc8` = 'Эмоция: %d' WHERE `entry` = 249;
 UPDATE `mangos_string` SET `content_loc8` = 'Заклинание: %d' WHERE `entry` = 250;
 UPDATE `mangos_string` SET `content_loc8` = 'Текст %d: %s' WHERE `entry` = 251;
 UPDATE `mangos_string` SET `content_loc8` = 'Скрипт ИИ: %s' WHERE `entry` = 252;
-UPDATE `mangos_string` SET `content_loc8` = 'Принудительно переименовать игрока %s осуществится при следующем входе.' WHERE `entry` = 253;
-UPDATE `mangos_string` SET `content_loc8` = 'Принудительно переименовать игрока %s (GUID #%u) осуществится при следующем входе.' WHERE `entry` = 254;
+UPDATE `mangos_string` SET `content_loc8` = 'Игрок %s будет принудительно переименован при следующем входе.' WHERE `entry` = 253;
+UPDATE `mangos_string` SET `content_loc8` = 'Игрок %s (GUID #%u) будет принудительно переименован при следующем входе.' WHERE `entry` = 254;
 UPDATE `mangos_string` SET `content_loc8` = 'Точка пути-существо (GUID: %u) не найдено' WHERE `entry` = 255;
 UPDATE `mangos_string` SET `content_loc8` = 'Не удается найти существо...' WHERE `entry` = 256;
 UPDATE `mangos_string` SET `content_loc8` = 'Тип движения существа выставлен на ''%s'', точки передвижения удалены (любые).' WHERE `entry` = 257;
 UPDATE `mangos_string` SET `content_loc8` = 'Тип движения существа выставлен на ''%s'', точки движения не были удалены.' WHERE `entry` = 258;
-UPDATE `mangos_string` SET `content_loc8` = 'Не правильное значение, используйте on или off' WHERE `entry` = 259;
+UPDATE `mangos_string` SET `content_loc8` = 'Неверное значение, используйте on или off' WHERE `entry` = 259;
 UPDATE `mangos_string` SET `content_loc8` = 'Значение сохранено.' WHERE `entry` = 260;
-UPDATE `mangos_string` SET `content_loc8` = 'Значение сохранено, вы должны перезайти или очистить кеш игры.' WHERE `entry` = 261;
+UPDATE `mangos_string` SET `content_loc8` = 'Значение сохранено, вы должны перезайти или очистить кэш игры.' WHERE `entry` = 261;
 UPDATE `mangos_string` SET `content_loc8` = 'ИД арены %u не найден!' WHERE `entry` = 262;
 UPDATE `mangos_string` SET `content_loc8` = 'Карта или координаты некорректны (X: %f Y: %f MapId: %u)' WHERE `entry` = 263;
 UPDATE `mangos_string` SET `content_loc8` = 'Координаты территории неверны (X: %f Y: %f AreaId: %u)' WHERE `entry` = 264;
@@ -222,18 +221,18 @@ UPDATE `mangos_string` SET `content_loc8` = 'Территория %u (%s) - ча
 UPDATE `mangos_string` SET `content_loc8` = 'Ничего не найдено!' WHERE `entry` = 266;
 UPDATE `mangos_string` SET `content_loc8` = 'Объект не найден!' WHERE `entry` = 267;
 UPDATE `mangos_string` SET `content_loc8` = 'Существо не найдено!' WHERE `entry` = 268;
-UPDATE `mangos_string` SET `content_loc8` = 'Внимание: Существо найдено не один раз - вы будуте перемещены к первому найденному в базе.' WHERE `entry` = 269;
+UPDATE `mangos_string` SET `content_loc8` = 'Внимание: Существо найдено не один раз - вы будете перемещены к первому найденному в базе.' WHERE `entry` = 269;
 UPDATE `mangos_string` SET `content_loc8` = 'Существо удалено.' WHERE `entry` = 270;
 UPDATE `mangos_string` SET `content_loc8` = 'Существо перемещено.' WHERE `entry` = 271;
-UPDATE `mangos_string` SET `content_loc8` = 'Существо (ГАЙД:%u) должно быть на той же карте, что и игрок!' WHERE `entry` = 272;
-UPDATE `mangos_string` SET `content_loc8` = 'ГО (GUID: %u) не найден' WHERE `entry` = 273;
-UPDATE `mangos_string` SET `content_loc8` = 'Игровой объект (ГАЙД: %u) имеет ссылки на не найдённое существо %u в листе игровых объектови не может быть удалён.' WHERE `entry` = 274;
-UPDATE `mangos_string` SET `content_loc8` = 'ГО (GUID: %u) удален' WHERE `entry` = 275;
-UPDATE `mangos_string` SET `content_loc8` = 'Игровой объект |cffffffff|Hgameobject:%d|h[%s]|h|r (ГАЙД: %u) сдвинут' WHERE `entry` = 276;
-UPDATE `mangos_string` SET `content_loc8` = 'Игровой объект |cffffffff|Hgameobject:%d|h[%s]|h|r (ГАЙД: %u) перемещён' WHERE `entry` = 277;
+UPDATE `mangos_string` SET `content_loc8` = 'Существо (GUID:%u) должно быть на той же карте, что и игрок!' WHERE `entry` = 272;
+UPDATE `mangos_string` SET `content_loc8` = 'Игровой объект (GUID: %u) не найден' WHERE `entry` = 273;
+UPDATE `mangos_string` SET `content_loc8` = 'Игровой объект (GUID: %u) имеет ссылки на не найдённое существо %u в листе игровых объектов и не может быть удалён.' WHERE `entry` = 274;
+UPDATE `mangos_string` SET `content_loc8` = 'Игровой объект (GUID: %u) удален' WHERE `entry` = 275;
+UPDATE `mangos_string` SET `content_loc8` = 'Игровой объект |cffffffff|Hgameobject:%d|h[%s]|h|r (GUID: %u) сдвинут' WHERE `entry` = 276;
+UPDATE `mangos_string` SET `content_loc8` = 'Игровой объект |cffffffff|Hgameobject:%d|h[%s]|h|r (GUID: %u) перемещён' WHERE `entry` = 277;
 UPDATE `mangos_string` SET `content_loc8` = 'Вы должны выбрать продавца' WHERE `entry` = 278;
 UPDATE `mangos_string` SET `content_loc8` = 'Вы должны написать ID для предмета' WHERE `entry` = 279;
-UPDATE `mangos_string` SET `content_loc8` = 'Торговец содержит больше предметов, чем 128(максимальное)' WHERE `entry` = 280;
+UPDATE `mangos_string` SET `content_loc8` = 'Торговец имеет слишком много предметов (макс. 128)' WHERE `entry` = 280;
 UPDATE `mangos_string` SET `content_loc8` = 'Вы не можете кикнуть себя, используйте ''конец сеанса''' WHERE `entry` = 281;
 UPDATE `mangos_string` SET `content_loc8` = 'Игрок %s исключен.' WHERE `entry` = 282;
 UPDATE `mangos_string` SET `content_loc8` = 'Приём сообщений: %s' WHERE `entry` = 284;
@@ -243,11 +242,11 @@ UPDATE `mangos_string` SET `content_loc8` = 'Существо (ГАЙД: %u) н�
 UPDATE `mangos_string` SET `content_loc8` = 'Все билеты удалены.' WHERE `entry` = 294;
 UPDATE `mangos_string` SET `content_loc8` = 'Билет удален.' WHERE `entry` = 296;
 UPDATE `mangos_string` SET `content_loc8` = 'Значение чести %s сменено на %u!' WHERE `entry` = 299;
-UPDATE `mangos_string` SET `content_loc8` = 'Ваш чат отключен на %u минут.' WHERE `entry` = 300;
-UPDATE `mangos_string` SET `content_loc8` = 'Вы отключили чат %s на %u минут.' WHERE `entry` = 301;
-UPDATE `mangos_string` SET `content_loc8` = 'Чат игрока уже разбанен.' WHERE `entry` = 302;
-UPDATE `mangos_string` SET `content_loc8` = 'Ваш чат теперь разбанен.' WHERE `entry` = 303;
-UPDATE `mangos_string` SET `content_loc8` = 'Вы разбанили %s в чате.' WHERE `entry` = 304;
+UPDATE `mangos_string` SET `content_loc8` = 'Ваш чат заблокирован на %u минут.' WHERE `entry` = 300;
+UPDATE `mangos_string` SET `content_loc8` = 'Вы заблокировали чат %s на %u минут.' WHERE `entry` = 301;
+UPDATE `mangos_string` SET `content_loc8` = 'Чат игрока уже разблокирован.' WHERE `entry` = 302;
+UPDATE `mangos_string` SET `content_loc8` = 'Ваш чат теперь разблокирован.' WHERE `entry` = 303;
+UPDATE `mangos_string` SET `content_loc8` = 'Вы разблокировали чат %s.' WHERE `entry` = 304;
 UPDATE `mangos_string` SET `content_loc8` = 'Фракция %s (%u) Репутация с f %s изменена на %5d!' WHERE `entry` = 305;
 UPDATE `mangos_string` SET `content_loc8` = 'Очки арены игрока %s изменены на %u!' WHERE `entry` = 306;
 UPDATE `mangos_string` SET `content_loc8` = 'Фракция не найдена!' WHERE `entry` = 307;
@@ -272,8 +271,8 @@ UPDATE `mangos_string` SET `content_loc8` = 'Персонажей на акка�
 UPDATE `mangos_string` SET `content_loc8` = '  %s (GUID %u)' WHERE `entry` = 329;
 UPDATE `mangos_string` SET `content_loc8` = 'Игрок не найден!' WHERE `entry` = 330;
 UPDATE `mangos_string` SET `content_loc8` = 'Максимальная цена предмета %u не существует' WHERE `entry` = 331;
-UPDATE `mangos_string` SET `content_loc8` = 'ГМ мод: включен' WHERE `entry` = 332;
-UPDATE `mangos_string` SET `content_loc8` = 'ГМ мод: выключен' WHERE `entry` = 333;
+UPDATE `mangos_string` SET `content_loc8` = 'Режим ГМ включен' WHERE `entry` = 332;
+UPDATE `mangos_string` SET `content_loc8` = 'Режим ГМ выключен' WHERE `entry` = 333;
 UPDATE `mangos_string` SET `content_loc8` = 'ГМ тэг для чата включен' WHERE `entry` = 334;
 UPDATE `mangos_string` SET `content_loc8` = 'ГМ тэг для чата выключен' WHERE `entry` = 335;
 UPDATE `mangos_string` SET `content_loc8` = 'Вы починили все предметы %s .' WHERE `entry` = 336;
@@ -297,7 +296,7 @@ UPDATE `mangos_string` SET `content_loc8` = '%s %s не найден' WHERE `ent
 UPDATE `mangos_string` SET `content_loc8` = '%s разбанен.' WHERE `entry` = 411;
 UPDATE `mangos_string` SET `content_loc8` = 'Нет такой учетной записи.' WHERE `entry` = 413;
 UPDATE `mangos_string` SET `content_loc8` = 'Нет такого персонажа.' WHERE `entry` = 414;
-UPDATE `mangos_string` SET `content_loc8` = 'Такого IP нету в банлисте.' WHERE `entry` = 415;
+UPDATE `mangos_string` SET `content_loc8` = 'Такого IP нет в банлисте.' WHERE `entry` = 415;
 UPDATE `mangos_string` SET `content_loc8` = 'Аккаунт %s не может быть забанен' WHERE `entry` = 416;
 UPDATE `mangos_string` SET `content_loc8` = 'История банов для аккаунта %s:' WHERE `entry` = 417;
 UPDATE `mangos_string` SET `content_loc8` = 'Дата бана: %s Время бана: %s Текущее положение: %s  Причина: %s ГМ: %s' WHERE `entry` = 418;
@@ -311,7 +310,7 @@ UPDATE `mangos_string` SET `content_loc8` = 'IP: %s
 Осталось: %s
 Причина: %s
 Установлена: %s' WHERE `entry` = 423;
-UPDATE `mangos_string` SET `content_loc8` = 'Не найдено такого забаненого IP.' WHERE `entry` = 424;
+UPDATE `mangos_string` SET `content_loc8` = 'Не найден такой забаненный IP.' WHERE `entry` = 424;
 UPDATE `mangos_string` SET `content_loc8` = 'Нет подходящей учетной записи.' WHERE `entry` = 425;
 UPDATE `mangos_string` SET `content_loc8` = 'Нет забаненого аккаунта, на котором есть такой персонаж.' WHERE `entry` = 426;
 UPDATE `mangos_string` SET `content_loc8` = 'Следующие IP совпадают с вашим образцом:' WHERE `entry` = 427;
@@ -354,10 +353,10 @@ UPDATE `mangos_string` SET `content_loc8` = 'Локация для телепо�
 UPDATE `mangos_string` SET `content_loc8` = 'Выделенная цель имеет %d ауры:' WHERE `entry` = 467;
 UPDATE `mangos_string` SET `content_loc8` = 'ID: %d Эффект: %d Тип: %d расстояние: %d Максимальное расстояние: %d Название: %s%s%s Кастер: %s %u' WHERE `entry` = 468;
 UPDATE `mangos_string` SET `content_loc8` = 'Выделенная цель имеет %d ауры типов %d:' WHERE `entry` = 469;
-UPDATE `mangos_string` SET `content_loc8` = 'ин: %d eff: %d имя: %s%s%s заклинатель: %s %u' WHERE `entry` = 470;
+UPDATE `mangos_string` SET `content_loc8` = 'id: %d eff: %d имя: %s%s%s заклинатель: %s %u' WHERE `entry` = 470;
 UPDATE `mangos_string` SET `content_loc8` = 'Задание %u не найдено.' WHERE `entry` = 471;
-UPDATE `mangos_string` SET `content_loc8` = 'Квест %u начинается с помощью предмета. Для правельной работы, пожалуйста, положите предмет в инвентарь и начните квест (предмет : .additem %u)' WHERE `entry` = 472;
-UPDATE `mangos_string` SET `content_loc8` = 'Заданияе удалено.' WHERE `entry` = 473;
+UPDATE `mangos_string` SET `content_loc8` = 'Квест %u начинается с помощью предмета. Для правильной работы, пожалуйста, положите предмет в инвентарь и начните квест (предмет : .additem %u)' WHERE `entry` = 472;
+UPDATE `mangos_string` SET `content_loc8` = 'Задание удалено.' WHERE `entry` = 473;
 UPDATE `mangos_string` SET `content_loc8` = ' [вознаграждённый]' WHERE `entry` = 474;
 UPDATE `mangos_string` SET `content_loc8` = ' [выполнено]' WHERE `entry` = 475;
 UPDATE `mangos_string` SET `content_loc8` = ' [активный]' WHERE `entry` = 476;
@@ -379,20 +378,11 @@ UPDATE `mangos_string` SET `content_loc8` = '%d - |cffffffff|Hitemset:%d|h[%s %s
 UPDATE `mangos_string` SET `content_loc8` = '|cffffffff|Htele:%s|h[%s]|h|r ' WHERE `entry` = 519;
 UPDATE `mangos_string` SET `content_loc8` = '%d - |cffffffff|Hspell:%d|h[%s]|h|r ' WHERE `entry` = 520;
 UPDATE `mangos_string` SET `content_loc8` = '%d - |cffffffff|Hskill:%d|h[%s %s]|h|r %s %s' WHERE `entry` = 521;
-UPDATE `mangos_string` SET `content_loc8` = 'Игровой обьект (GUID: %u) не найден' WHERE `entry` = 522;
-UPDATE `mangos_string` SET `content_loc8` = '>> Иговой обьект %s (GUID: %u) у %f %f %f. Ориентация %f.' WHERE `entry` = 523;
-UPDATE `mangos_string` SET `content_loc8` = 'Выбранный объект:
-|cffffffff|Hitemset:%d|h[%s]|h|r
-Гайд: %u ИД: %u
-X: %f Y: %f Z: %f МапИД: %u
-Ориентация: %f' WHERE `entry` = 524;
+UPDATE `mangos_string` SET `content_loc8` = 'Игровой объект (GUID: %u) не найден' WHERE `entry` = 522;
+UPDATE `mangos_string` SET `content_loc8` = '>> Игровой объект %s (GUID: %u) у %f %f %f. Ориентация %f.' WHERE `entry` = 523;
+UPDATE `mangos_string` SET `content_loc8` = 'Выбранный объект: |cffffffff|Hitemset:%d|h[%s]|h|r GUID: %u ID: %u X: %f Y: %f Z: %f MapId: %u Ориентация: %f' WHERE `entry` = 524;
 UPDATE `mangos_string` SET `content_loc8` = '>> Добавлен ГО ''%i'' (%s) (GUID: %i) добавлен в ''%f %f %f''.' WHERE `entry` = 525;
-UPDATE `mangos_string` SET `content_loc8` = 'Игрок выбрал НПС
-ГАЙД: %u.
-Фракция: %u.
-нпсФлаги: %u.
-Ентри: %u.
-ПоказываемыйИД: %u (Род: %u).' WHERE `entry` = 539;
+UPDATE `mangos_string` SET `content_loc8` = 'Игрок выбрал NPC GUID: %u. Фракция: %u. npcFlags: %u. Entry: %u. DisplayId: %u (Native: %u).' WHERE `entry` = 539;
 UPDATE `mangos_string` SET `content_loc8` = 'Уровень: %u.' WHERE `entry` = 540;
 UPDATE `mangos_string` SET `content_loc8` = 'Здоровье (базовое): %u. (максимум): %u. (текущее): %u.' WHERE `entry` = 541;
 UPDATE `mangos_string` SET `content_loc8` = 'Флаг цели: %u. Динамический флаг: %u.фракция: %u.' WHERE `entry` = 542;
@@ -401,14 +391,14 @@ UPDATE `mangos_string` SET `content_loc8` = 'Позиция: %f %f %f.' WHERE `e
 UPDATE `mangos_string` SET `content_loc8` = '*** Это продавец!' WHERE `entry` = 545;
 UPDATE `mangos_string` SET `content_loc8` = '*** Это тренер!' WHERE `entry` = 546;
 UPDATE `mangos_string` SET `content_loc8` = 'ИН инстанса: %u' WHERE `entry` = 547;
-UPDATE `mangos_string` SET `content_loc8` = 'Игрок%s %s (ГАЙД: %u) Аккаунт: %s (id: %u) Уровень доступа: %u Последний IP: %s Последний вход: %s Задержка: %ums' WHERE `entry` = 548;
-UPDATE `mangos_string` SET `content_loc8` = 'Сыгранное время: %s Уровевнь: %u Количество денег: %ug%us' WHERE `entry` = 549;
+UPDATE `mangos_string` SET `content_loc8` = 'Игрок%s %s (GUID: %u) Аккаунт: %s (id: %u) Уровень доступа: %u Последний IP: %s Последний вход: %s Задержка: %ums' WHERE `entry` = 548;
+UPDATE `mangos_string` SET `content_loc8` = 'Сыгранное время: %s Уровень: %u Количество денег: %ug%us' WHERE `entry` = 549;
 UPDATE `mangos_string` SET `content_loc8` = 'Команда .pinfo не поддерживает подкоманду ''rep'' для игроков не в сети.' WHERE `entry` = 550;
-UPDATE `mangos_string` SET `content_loc8` = '%s открыл все территориии.' WHERE `entry` = 551;
+UPDATE `mangos_string` SET `content_loc8` = '%s открыл все территории.' WHERE `entry` = 551;
 UPDATE `mangos_string` SET `content_loc8` = '%s открыл все территории тебе.' WHERE `entry` = 553;
 UPDATE `mangos_string` SET `content_loc8` = '%s убрал все открытые территории у тебя.' WHERE `entry` = 554;
-UPDATE `mangos_string` SET `content_loc8` = 'Лавитация включена' WHERE `entry` = 555;
-UPDATE `mangos_string` SET `content_loc8` = 'Лавитация выключена' WHERE `entry` = 556;
+UPDATE `mangos_string` SET `content_loc8` = 'Левитация включена' WHERE `entry` = 555;
+UPDATE `mangos_string` SET `content_loc8` = 'Левитация выключена' WHERE `entry` = 556;
 UPDATE `mangos_string` SET `content_loc8` = '%s повысил вас в уровне до (%i)' WHERE `entry` = 557;
 UPDATE `mangos_string` SET `content_loc8` = '%s понизил вас в уровне до (%i)' WHERE `entry` = 558;
 UPDATE `mangos_string` SET `content_loc8` = '%s сбросил ваш уровень.' WHERE `entry` = 559;
@@ -419,15 +409,13 @@ UPDATE `mangos_string` SET `content_loc8` = 'Теперь вы невидимы.
 UPDATE `mangos_string` SET `content_loc8` = 'Теперь вы видимы.' WHERE `entry` = 578;
 UPDATE `mangos_string` SET `content_loc8` = 'Игрок %s выучил все стандартные заклинания для расы/класса и получил заклинания, дающиеся за выполнение квестов.' WHERE `entry` = 580;
 UPDATE `mangos_string` SET `content_loc8` = 'Поиск ближайших игровых объектов (расстояние %f): %u ' WHERE `entry` = 581;
-UPDATE `mangos_string` SET `content_loc8` = 'Время респауна: Полное:%s Остаток:%s' WHERE `entry` = 582;
+UPDATE `mangos_string` SET `content_loc8` = 'Время перерождения: Полное:%s Остаток:%s' WHERE `entry` = 582;
 UPDATE `mangos_string` SET `content_loc8` = '%d - |cffffffff|Hgameevent:%d|h[%s]|h|r%s' WHERE `entry` = 583;
 UPDATE `mangos_string` SET `content_loc8` = 'Событие не найдено!' WHERE `entry` = 584;
 UPDATE `mangos_string` SET `content_loc8` = 'События не существует!' WHERE `entry` = 585;
-UPDATE `mangos_string` SET `content_loc8` = 'Ивент %u: %s%s
-Начало: %s Конец: %s Время до повтора: %s Длина: %s
-Следующий раз будет в: %s' WHERE `entry` = 586;
-UPDATE `mangos_string` SET `content_loc8` = 'Ивент %u уже активен!' WHERE `entry` = 587;
-UPDATE `mangos_string` SET `content_loc8` = 'Ивент %u ещё не активен!' WHERE `entry` = 588;
+UPDATE `mangos_string` SET `content_loc8` = 'Событие %u: %s%s Начало: %s Конец: %s Время до повтора: %s Длина: %s Следующий раз будет в: %s' WHERE `entry` = 586;
+UPDATE `mangos_string` SET `content_loc8` = 'Событие %u уже активно!' WHERE `entry` = 587;
+UPDATE `mangos_string` SET `content_loc8` = 'Событие %u ещё не активно!' WHERE `entry` = 588;
 UPDATE `mangos_string` SET `content_loc8` = 'Вы выучили все умения в профессии: %s' WHERE `entry` = 592;
 UPDATE `mangos_string` SET `content_loc8` = 'Текущие забаненные аккаунты:' WHERE `entry` = 593;
 UPDATE `mangos_string` SET `content_loc8` = '|    Аккаунт    |   Дата бана    |   Дата разбана  |  Кем забанен    |   Причина  |' WHERE `entry` = 594;
@@ -492,16 +480,16 @@ UPDATE `mangos_string` SET `content_loc8` = 'Альянс захватил фл�
 UPDATE `mangos_string` SET `content_loc8` = 'Орда захватила флаг!' WHERE `entry` = 685;
 UPDATE `mangos_string` SET `content_loc8` = 'Флаг уронили!' WHERE `entry` = 686;
 UPDATE `mangos_string` SET `content_loc8` = 'Флаг возвращен на базу.' WHERE `entry` = 687;
-UPDATE `mangos_string` SET `content_loc8` = 'Вы должны иметь уровевнь %u,чтобы создать команду арены' WHERE `entry` = 700;
-UPDATE `mangos_string` SET `content_loc8` = '1 минута до того, как бой на арене начнётся!' WHERE `entry` = 701;
-UPDATE `mangos_string` SET `content_loc8` = '30 секунд до того, как бой на арене начнётся!' WHERE `entry` = 702;
-UPDATE `mangos_string` SET `content_loc8` = '15 секунд до того, как бой на арене начнётся!' WHERE `entry` = 703;
+UPDATE `mangos_string` SET `content_loc8` = 'Вы должны иметь уровень %u,чтобы создать команду арены' WHERE `entry` = 700;
+UPDATE `mangos_string` SET `content_loc8` = '1 минута до начала боя на арене!' WHERE `entry` = 701;
+UPDATE `mangos_string` SET `content_loc8` = '30 секунд до начала боя на арене!' WHERE `entry` = 702;
+UPDATE `mangos_string` SET `content_loc8` = '15 секунд до начала боя на арене!' WHERE `entry` = 703;
 UPDATE `mangos_string` SET `content_loc8` = 'Бой на арене начинается!' WHERE `entry` = 704;
 UPDATE `mangos_string` SET `content_loc8` = 'Вы должны подождать %s , чтобы начать говорить снова.' WHERE `entry` = 705;
 UPDATE `mangos_string` SET `content_loc8` = 'Вы не можете этого сделать.' WHERE `entry` = 707;
 UPDATE `mangos_string` SET `content_loc8` = '%s отошел: %s' WHERE `entry` = 708;
 UPDATE `mangos_string` SET `content_loc8` = 'Не беспокоить' WHERE `entry` = 709;
-UPDATE `mangos_string` SET `content_loc8` = 'Ваша группа содержит игроков, не состоящих в ващей арена команде. Перегруппируйтесь и попробуйте снова.' WHERE `entry` = 710;
+UPDATE `mangos_string` SET `content_loc8` = 'Ваша группа содержит игроков, не состоящих в вашей команде арены. Перегруппируйтесь и попробуйте снова.' WHERE `entry` = 710;
 UPDATE `mangos_string` SET `content_loc8` = '|cffff0000[Анонс БГ]:|r %s -- [%u-%u] A: %u/%u, H: %u/%u|r' WHERE `entry` = 712;
 UPDATE `mangos_string` SET `content_loc8` = 'Вы должны быть %u уровня, чтобы присоединиться к арена команде!' WHERE `entry` = 713;
 UPDATE `mangos_string` SET `content_loc8` = 'У вас недостаточно высокий уровень для этого поля боя' WHERE `entry` = 715;
@@ -533,7 +521,7 @@ UPDATE `mangos_string` SET `content_loc8` = 'Напишите имя персо�
 UPDATE `mangos_string` SET `content_loc8` = 'Игрок %s не найден или его нет в игре' WHERE `entry` = 808;
 UPDATE `mangos_string` SET `content_loc8` = 'Аккаунт персонажа %s не найдён' WHERE `entry` = 809;
 UPDATE `mangos_string` SET `content_loc8` = '|Hplayer:$N|h[$N]|h получил(а) достижение $a!' WHERE `entry` = 810;
-UPDATE `mangos_string` SET `content_loc8` = 'Оффицер' WHERE `entry` = 812;
+UPDATE `mangos_string` SET `content_loc8` = 'Офицер' WHERE `entry` = 812;
 UPDATE `mangos_string` SET `content_loc8` = 'Ветеран' WHERE `entry` = 813;
 UPDATE `mangos_string` SET `content_loc8` = 'Аккаунт: %s удален' WHERE `entry` = 1001;
 UPDATE `mangos_string` SET `content_loc8` = 'Аккаунт %s не может быть удалён (возможно формат sql файла был обновлён)' WHERE `entry` = 1002;
@@ -543,7 +531,7 @@ UPDATE `mangos_string` SET `content_loc8` = 'Имя аккаунта не мож
 UPDATE `mangos_string` SET `content_loc8` = 'Аккаунт с таким именем уже существует!' WHERE `entry` = 1006;
 UPDATE `mangos_string` SET `content_loc8` = 'Аккаунт %s не может быть удалён (возможно формат sql файла был обновлён)' WHERE `entry` = 1007;
 UPDATE `mangos_string` SET `content_loc8` = 'Аккаунт %s не создан (неизвестная ошибка)' WHERE `entry` = 1008;
-UPDATE `mangos_string` SET `content_loc8` = 'Игрок %s (ГАЙД: %u) Аккаунт %s (ID: %u) удалён.' WHERE `entry` = 1009;
+UPDATE `mangos_string` SET `content_loc8` = 'Игрок %s (GUID: %u) Аккаунт %s (ID: %u) удалён.' WHERE `entry` = 1009;
 UPDATE `mangos_string` SET `content_loc8` = '|    Аккаунт    |       Персонаж      |       IP        | ГМ | Версия аддона |' WHERE `entry` = 1010;
 UPDATE `mangos_string` SET `content_loc8` = '|<Error>        | %20s |<Error>          |<Er>| <Error>   |' WHERE `entry` = 1011;
 UPDATE `mangos_string` SET `content_loc8` = '===========================================================================' WHERE `entry` = 1012;
@@ -565,8 +553,8 @@ UPDATE `mangos_string` SET `content_loc8` = '%d - %s X:%f Y:%f Z:%f MapId:%d' WH
 UPDATE `mangos_string` SET `content_loc8` = 'Ошибка при открытии файла: %s' WHERE `entry` = 1112;
 UPDATE `mangos_string` SET `content_loc8` = 'Аккаунт %s (%u) имеет максимальное количество персонажей (лимит клиента)' WHERE `entry` = 1113;
 UPDATE `mangos_string` SET `content_loc8` = 'Неправильное имя персонажа!' WHERE `entry` = 1115;
-UPDATE `mangos_string` SET `content_loc8` = 'Неправильный ГАЙД персонажа!' WHERE `entry` = 1116;
-UPDATE `mangos_string` SET `content_loc8` = 'ГАЙД %u персонажа используется!' WHERE `entry` = 1117;
+UPDATE `mangos_string` SET `content_loc8` = 'Неправильный GUID персонажа!' WHERE `entry` = 1116;
+UPDATE `mangos_string` SET `content_loc8` = 'GUID %u персонажа используется!' WHERE `entry` = 1117;
 UPDATE `mangos_string` SET `content_loc8` = '%d - guild: %s (guid: %u) %s' WHERE `entry` = 1118;
 UPDATE `mangos_string` SET `content_loc8` = 'Вы должны использовать мужской или женский пол.' WHERE `entry` = 1119;
 UPDATE `mangos_string` SET `content_loc8` = 'Вы сменили пол с %s на %s.' WHERE `entry` = 1120;
@@ -588,4 +576,4 @@ CREATE TABLE IF NOT EXISTS `rus_udb_rev` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 DELETE FROM `rus_udb_rev` WHERE `name` = 'mangos_string';
-INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('mangos_string', '28');
+INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('mangos_string', '31');
