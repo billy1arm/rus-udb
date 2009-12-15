@@ -1,6 +1,6 @@
--- Date: 2009-08-05
--- Time: 12:12:26
--- Rev.: 31
+-- Date: 2009-12-15
+-- Time: 23:40:00
+-- Rev.: 32
 
 DROP TABLE IF EXISTS `locales_points_of_interest`;
 CREATE TABLE IF NOT EXISTS `locales_points_of_interest` (
