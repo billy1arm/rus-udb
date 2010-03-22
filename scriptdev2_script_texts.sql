@@ -1,6 +1,6 @@
--- Date: 2009-12-15
--- Time: 23:40:00
--- Rev.: 32
+-- Date: 2010-03-22
+-- Time: 11:30:00
+-- Rev.: 33
 
 DROP TABLE IF EXISTS `script_texts2`;
 CREATE TABLE IF NOT EXISTS `script_texts2` (
@@ -1572,4 +1572,4 @@ CREATE TABLE IF NOT EXISTS `rus_udb_rev` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 DELETE FROM `rus_udb_rev` WHERE `name` = 'script_texts';
-INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('script_texts', '32');
+INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('script_texts', '33');

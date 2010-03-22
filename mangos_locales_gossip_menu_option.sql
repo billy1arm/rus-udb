@@ -1,6 +1,6 @@
--- Date: 2009-12-15
--- Time: 23:40:00
--- Rev.: 32
+-- Date: 2010-03-22
+-- Time: 11:30:00
+-- Rev.: 33
 
 DROP TABLE IF EXISTS `locales_gossip_menu_option`;
 CREATE TABLE IF NOT EXISTS `locales_gossip_menu_option` (
@@ -40,6 +40,5 @@ CREATE TABLE IF NOT EXISTS `rus_udb_rev` (
   PRIMARY KEY (`name`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
-DELETE FROM `rus_udb_rev` WHERE `name` = 'locales_npc_option';
 DELETE FROM `rus_udb_rev` WHERE `name` = 'locales_gossip_menu_option';
-INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('locales_gossip_menu_option', '32');
+INSERT INTO `rus_udb_rev` (`name`, `value`) VALUES ('locales_gossip_menu_option', '33');
